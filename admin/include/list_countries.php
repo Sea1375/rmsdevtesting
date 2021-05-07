@@ -2,6 +2,10 @@
 /* Developed by Kernel Team.
    http://kernel-team.com
 */
+$list_countries['name'][2270]="United States";
+$list_countries['code'][2270]="us";
+$list_countries['name'][380]="Canada";
+$list_countries['code'][380]="ca";
 $list_countries['name'][10]="Afghanistan";
 $list_countries['code'][10]="af";
 $list_countries['name'][15]="Åland Islands";
@@ -76,8 +80,7 @@ $list_countries['name'][360]="Cambodia";
 $list_countries['code'][360]="kh";
 $list_countries['name'][370]="Cameroon";
 $list_countries['code'][370]="cm";
-$list_countries['name'][380]="Canada";
-$list_countries['code'][380]="ca";
+
 $list_countries['name'][390]="Cape Verde";
 $list_countries['code'][390]="cv";
 $list_countries['name'][400]="Cayman Islands";
@@ -460,8 +463,7 @@ $list_countries['name'][2250]="United Kingdom";
 $list_countries['code'][2250]="gb";
 $list_countries['name'][2260]="United States Minor Outlying Islands";
 $list_countries['code'][2260]="um";
-$list_countries['name'][2270]="United States";
-$list_countries['code'][2270]="us";
+
 $list_countries['name'][2280]="Uruguay";
 $list_countries['code'][2280]="uy";
 $list_countries['name'][2290]="Uzbekistan";
