@@ -1,0 +1,4 @@
+
+[2021-05-05 13:13:02] INFO  Starting task 58
+[2021-05-05 13:13:02] INFO  Video removal task is started for video 24 [PH-P]
+[2021-05-05 13:13:02] INFO  Video removal task is completed for video 24 [PH-FE]

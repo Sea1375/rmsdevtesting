@@ -1,0 +1,592 @@
+<theme>
+	<name>KVS Paysite</name>
+	<version>1.5</version>
+	<header>include_header_general.tpl</header>
+	<footer>include_footer_general.tpl</footer>
+	<forum>kvs-paysite-theme</forum>
+	<developer>http://adult-html.com</developer>
+	<sections>
+		<section>
+			<title>
+				<english>Display options</english>
+				<russian>Опции отображения</russian>
+			</title>
+			<fields>
+				<field id="project_name" type="text">
+					<value type="langfile"/>
+					<title>
+						<english>Site name</english>
+						<russian>Название сайта</russian>
+					</title>
+					<hint>
+						<english>site name to be used in some texts on your site (start with capital letter)</english>
+						<russian>название сайта, которое будет использоваться в различных текстовках на сайте (желательно с большой буквы)</russian>
+					</hint>
+				</field>
+				<field id="logo_mark" type="text">
+					<value type="langfile"/>
+					<title>
+						<english>Logo text 1</english>
+						<russian>Текст лого 1</russian>
+					</title>
+					<hint>
+						<english>text in site logo</english>
+						<russian>текст в логотипе</russian>
+					</hint>
+				</field>
+				<field id="logo_text" type="text">
+					<value type="langfile"/>
+					<title>
+						<english>Logo text 2</english>
+						<russian>Текст лого 2</russian>
+					</title>
+					<hint>
+						<english>text in site logo</english>
+						<russian>текст в логотипе</russian>
+					</hint>
+				</field>
+				<field id="theme.style" type="select">
+					<value type="langfile"/>
+					<title>
+						<english>CSS skin</english>
+						<russian>CSS скин</russian>
+					</title>
+					<options>
+						<option id="white">
+							<title>
+								<english>White</english>
+								<russian>Светлый</russian>
+							</title>
+						</option>
+						<option id="dark">
+							<title>
+								<english>Dark</english>
+								<russian>Темный</russian>
+							</title>
+						</option>
+					</options>
+				</field>
+				<field type="group">
+					<title>
+						<english>Site sections</english>
+						<russian>Секции сайта</russian>
+					</title>
+					<fields>
+						<field id="enable_header_network" type="checkbox">
+							<value type="langfile"/>
+							<title>
+								<english>enable header sites (Our Network)</english>
+								<russian>включить список сайтов в шапке (Our Network)</russian>
+							</title>
+						</field>
+						<field id="enable_albums" type="checkbox" package="4">
+							<value type="langfile"/>
+							<title>
+								<english>enable albums</english>
+								<russian>включить альбомы</russian>
+							</title>
+						</field>
+						<field id="enable_models" type="checkbox" package="2">
+							<value type="langfile"/>
+							<title>
+								<english>enable models</english>
+								<russian>включить модели</russian>
+							</title>
+						</field>
+						<field id="enable_categories" type="checkbox">
+							<value type="langfile"/>
+							<title>
+								<english>enable categories</english>
+								<russian>включить категории</russian>
+							</title>
+						</field>
+						<field id="enable_tags" type="checkbox">
+							<value type="langfile"/>
+							<title>
+								<english>enable tags</english>
+								<russian>включить тэги</russian>
+							</title>
+						</field>
+						<field id="enable_static_terms" type="checkbox">
+							<value type="langfile"/>
+							<title>
+								<english>enable terms page</english>
+								<russian>включить страницу правил (по-английски)</russian>
+							</title>
+						</field>
+						<field id="enable_static_dmca" type="checkbox">
+							<value type="langfile"/>
+							<title>
+								<english>enable DMCA page</english>
+								<russian>включить страницу DMCA (по-английски)</russian>
+							</title>
+						</field>
+						<field id="enable_static_2257" type="checkbox">
+							<value type="langfile"/>
+							<title>
+								<english>enable 2257 page</english>
+								<russian>включить страницу 2257 (по-английски)</russian>
+							</title>
+						</field>
+						<field id="enable_static_privacy" type="checkbox">
+							<value type="langfile"/>
+							<title>
+								<english>enable privacy policy page</english>
+								<russian>включить страницу политики конфиденциальности (по-английски)</russian>
+							</title>
+						</field>
+					</fields>
+				</field>
+				<field id="global.date_format" type="text">
+					<value type="langfile"/>
+					<title>
+						<english>Date format</english>
+						<russian>Формат даты</russian>
+					</title>
+					<hint>
+						<english>[kt|b]%text[/kt|b] - how long (2 days ago), [kt|b]%y[/kt|b] - two digit year (08), [kt|b]%Y[/kt|b] - four digit year (2008), [kt|b]%m[/kt|b] - month number (01-12), [kt|b]%b[/kt|b] - short localized month name (Jan), [kt|b]%B[/kt|b] - full localized month name (January), [kt|b]%d[/kt|b] - day of month (01-31), [kt|b]%e[/kt|b] - day of month (1-31)</english>
+						<russian>[kt|b]%text[/kt|b] - как давно (2 дня назад), [kt|b]%y[/kt|b] - 2-х символьный год (08), [kt|b]%Y[/kt|b] - 4-х символьный год (2008), [kt|b]%m[/kt|b] - номер месяца (01-12), [kt|b]%b[/kt|b] - краткое название месяца (Янв), [kt|b]%B[/kt|b] - полное название месяца (Январь), [kt|b]%d[/kt|b] - день месяца (01-31), [kt|b]%e[/kt|b] - день месяца (1-31)</russian>
+					</hint>
+				</field>
+			</fields>
+		</section>
+		<section>
+			<title>
+				<english>Index page options</english>
+				<russian>Опции страницы индекса</russian>
+			</title>
+			<fields>
+				<field id="index.enable_footer_text" type="checkbox">
+					<value type="langfile"/>
+					<title>
+						<english>Footer text</english>
+						<russian>Текст в футере</russian>
+					</title>
+					<hint>
+						<english>you can modify text itself in Texts section</english>
+						<russian>вы можете изменить сам текст в разделе Текстовки</russian>
+					</hint>
+				</field>
+				<field id="index.enable_video_gallery" type="checkbox">
+					<value type="langfile"/>
+					<title>
+						<english>Video gallery</english>
+						<russian>Галерея с видео</russian>
+					</title>
+					<hint>
+						<english>enables video gallery on index page for all users except premium, you should select video formats using separate options below</english>
+						<russian>включает галерею видео на индексе для всех, кроме премиум пользователей; вы должны выбрать форматы видео используя отдельные опции ниже</russian>
+					</hint>
+				</field>
+				<field id="index.gallery_format_standard" type="select">
+					<value type="langfile"/>
+					<title>
+						<english>Video gallery format (standard)</english>
+						<russian>Формат для видео галереи (стандартный)</russian>
+					</title>
+					<hint>
+						<english>select format for standard videos displayed in video gallery (typically demo trailer for attraction)</english>
+						<russian>выберите формат для стандартных видео в галерее видео (как правило это демо трейлер для завлечения)</russian>
+					</hint>
+					<options source="formats_videos">
+						<option id=""/>
+					</options>
+				</field>
+				<field id="index.gallery_format_premium" type="select">
+					<value type="langfile"/>
+					<title>
+						<english>Video gallery format (premium)</english>
+						<russian>Формат для видео галереи (премиум)</russian>
+					</title>
+					<hint>
+						<english>select format for premium videos displayed in video gallery (typically demo trailer for attraction)</english>
+						<russian>выберите формат для премиум видео в галерее видео (как правило это демо трейлер для завлечения)</russian>
+					</hint>
+					<options source="formats_videos">
+						<option id=""/>
+					</options>
+				</field>
+				<field type="block">
+					<title>
+						<english>Video gallery advanced options</english>
+						<russian>Расширенные опции видео галереи</russian>
+					</title>
+					<hint>
+						<english>here you can change the number of videos in gallery ([kt|b]items_per_page[/kt|b]), selection criteria ([kt|b]sort_by[/kt|b]) and add filtering if needed</english>
+						<russian>здесь вы можете изменить кол-во видео в галерее ([kt|b]items_per_page[/kt|b]), критерий выборки ([kt|b]sort_by[/kt|b]), а также включить фильтрацию при необходимости</russian>
+					</hint>
+					<blocks>
+						<block id="index||list_videos||gallery"/>
+					</blocks>
+				</field>
+			</fields>
+		</section>
+		<section>
+			<title>
+				<english>Memberzone options</english>
+				<russian>Опции мемберзоны</russian>
+			</title>
+			<fields>
+				<field type="block" package="2">
+					<value type="htaccess"/>
+					<title>
+						<english>Login options</english>
+						<russian>Опции логина</russian>
+					</title>
+					<hint>
+						<english>login block parameters allow you to configure bruteforce protection and user session duration, enable protection from using the same account by multiple users</english>
+						<russian>параметры блока логина позволяют настроить защиту от перебора пароля, длительность запоминания пользователя, включить защиту от входа нескольких разных пользователей в один профиль</russian>
+					</hint>
+					<blocks>
+						<block id="$global||logon||logon_form"/>
+					</blocks>
+				</field>
+				<field type="block" package="2">
+					<value type="htaccess"/>
+					<title>
+						<english>Signup options</english>
+						<russian>Опции регистрации</russian>
+					</title>
+					<hint>
+						<english>
+							Signup block parameters allow you to configure payment access.
+						</english>
+						<russian>
+							Параметры блока регистрации позволяют настроить выбор платного доступа при регистрации.
+						</russian>
+					</hint>
+					<blocks>
+						<block id="$global||signup||signup_form_premium"/>
+					</blocks>
+				</field>
+				<field id="signup.generated_credentials" type="checkbox">
+					<value type="langfile"/>
+					<title>
+						<english>Autogenerate credentials</english>
+						<russian>Автогенерация логинов</russian>
+					</title>
+					<hint>
+						<english>simplifies signup page to just package selection; users will not be required to enter login / password, they will be pre-generated automatically</english>
+						<russian>упрощает страницу регистрации до только выбора пакета доступа; пользователям не нужно будет придумывать логин / пароль, они будут генерироваться автоматически</russian>
+					</hint>
+				</field>
+				<field id="features_access.rate" type="select">
+					<value type="langfile"/>
+					<title>
+						<english>Rating available to</english>
+						<russian>Рейтинг доступен для</russian>
+					</title>
+					<options>
+						<option id="all">
+							<title>
+								<english>All</english>
+								<russian>Всех</russian>
+							</title>
+						</option>
+						<option id="members">
+							<title>
+								<english>Members only (free / trial / premium)</english>
+								<russian>Только для зарег. пользователей (триалы и премиум)</russian>
+							</title>
+						</option>
+						<option id="premium">
+							<title>
+								<english>Premium members only</english>
+								<russian>Только для премиум пользователей</russian>
+							</title>
+						</option>
+					</options>
+					<hint>
+						<english>select which users can rate videos / albums / models</english>
+						<russian>укажите, какие пользователи могут ставить рейтинг видео / альбомам / моделям</russian>
+					</hint>
+				</field>
+				<field id="features_access.comment" type="select">
+					<value type="langfile"/>
+					<title>
+						<english>Commenting available to</english>
+						<russian>Комментирование доступно для</russian>
+					</title>
+					<options>
+						<option id="all">
+							<title>
+								<english>All</english>
+								<russian>Всех</russian>
+							</title>
+						</option>
+						<option id="members">
+							<title>
+								<english>Members only (free / trial / premium)</english>
+								<russian>Только для зарег. пользователей (триалы и премиум)</russian>
+							</title>
+						</option>
+						<option id="premium">
+							<title>
+								<english>Premium members only</english>
+								<russian>Только для премиум пользователей</russian>
+							</title>
+						</option>
+					</options>
+					<hint>
+						<english>select which users can comment videos / albums / models</english>
+						<russian>укажите, какие пользователи могут комментировать видео / альбомы / моделей</russian>
+					</hint>
+				</field>
+				<field id="features_access.download" type="select">
+					<value type="langfile"/>
+					<title>
+						<english>Download available to</english>
+						<russian>Скачивание доступно для</russian>
+					</title>
+					<options>
+						<option id="all">
+							<title>
+								<english>All</english>
+								<russian>Всех</russian>
+							</title>
+						</option>
+						<option id="members">
+							<title>
+								<english>Members only (free / trial / premium)</english>
+								<russian>Только для зарег. пользователей (триалы и премиум)</russian>
+							</title>
+						</option>
+						<option id="premium">
+							<title>
+								<english>Premium members only</english>
+								<russian>Только для премиум пользователей</russian>
+							</title>
+						</option>
+					</options>
+					<hint>
+						<english>select which users can download videos / albums (download will only be possible for those videos / albums they have access to, e.g. those they can view online)</english>
+						<russian>укажите, какие пользователи могут скачивать видео / альбомы (скачивание будет доступно только для тех видео / альбомов, к которым у них есть доступ, то есть которые они могут смотреть на сайте)</russian>
+					</hint>
+				</field>
+				<field id="features_access.favourite" type="select">
+					<value type="langfile"/>
+					<title>
+						<english>Favourites available to</english>
+						<russian>Закладки доступны для</russian>
+					</title>
+					<options>
+						<option id="members">
+							<title>
+								<english>Members only (free / trial / premium)</english>
+								<russian>Только для зарег. пользователей (триалы и премиум)</russian>
+							</title>
+						</option>
+						<option id="premium">
+							<title>
+								<english>Premium members only</english>
+								<russian>Только для премиум пользователей</russian>
+							</title>
+						</option>
+					</options>
+					<hint>
+						<english>select which users can add videos / albums / models to their memberzone favourites</english>
+						<russian>укажите, какие пользователи могут добавлять видео / альбомы / моделей в их закладки мемберзоны</russian>
+					</hint>
+				</field>
+			</fields>
+		</section>
+		<section>
+			<title>
+				<english>Videos options</english>
+				<russian>Опции видео</russian>
+			</title>
+			<fields>
+				<field id="videos.thumb_size" type="select" required="true">
+					<value type="langfile"/>
+					<title>
+						<english>Videos thumbs format</english>
+						<russian>Формат тумб видео</russian>
+					</title>
+					<hint>
+						<english>for thumbs in videos list and video details page</english>
+						<russian>для тумб на списке видео и странице просмотра видео</russian>
+					</hint>
+					<options source="formats_screenshots_overview"/>
+				</field>
+				<field id="videos.preview_video_format_standard" type="select">
+					<value type="langfile"/>
+					<title>
+						<english>Video preview format (standard)</english>
+						<russian>Формат видео превью (стандартный)</russian>
+					</title>
+					<hint>
+						<english>for thumbs in videos list you can enable mouse over video previews, but you should first create mp4 video format in standard group (see forum for more info)</english>
+						<russian>для тумб на списке видео можно включить видео превью при наведении мыши, но сначала необходимо создать mp4 формат видео в группе стандартных форматов (смотрите на форуме как это сделать)</russian>
+					</hint>
+					<options source="formats_videos">
+						<option id=""/>
+					</options>
+				</field>
+				<field id="videos.preview_video_format_premium" type="select">
+					<value type="langfile"/>
+					<title>
+						<english>Video preview format (premium)</english>
+						<russian>Формат видео превью (премиум)</russian>
+					</title>
+					<hint>
+						<english>for thumbs in videos list you can enable mouse over video previews, but you should first create mp4 video format in premium group (see forum for more info)</english>
+						<russian>для тумб на списке видео можно включить видео превью при наведении мыши, но сначала необходимо создать mp4 формат видео в группе премиум форматов (смотрите на форуме как это сделать)</russian>
+					</hint>
+					<options source="formats_videos">
+						<option id=""/>
+					</options>
+				</field>
+				<field id="enable_thumb_scrolling" type="checkbox">
+					<value type="langfile"/>
+					<title>
+						<english>Video thumbs scrolling</english>
+						<russian>Прокрутка тумб видео</russian>
+					</title>
+					<hint>
+						<english>enables video thumbs scrolling on mouse over</english>
+						<russian>включает прокрутку тумб видео при наведении мыши</russian>
+					</hint>
+				</field>
+				<field id="videos.truncate_title_to" type="text">
+					<value type="langfile"/>
+					<title>
+						<english>Truncate video title to</english>
+						<russian>Обрезать название видео до</russian>
+					</title>
+					<hint>
+						<english>maximum number of characters for video title displayed in list; leave empty to disable title truncation</english>
+						<russian>максимальное число символов для отображения названия видео на списке; оставьте пустым, чтобы выключить обрезание названия</russian>
+					</hint>
+				</field>
+				<field id="videos.show_screenshots" type="checkbox">
+					<value type="langfile"/>
+					<title>
+						<english>Show screenshots list</english>
+						<russian>Показывать список скриншотов</russian>
+					</title>
+					<hint>
+						<english>enables display of screenshots section on video details page</english>
+						<russian>включает отображение секции со списком скриншотов на странице видео</russian>
+					</hint>
+				</field>
+			</fields>
+		</section>
+		<section>
+			<title>
+				<english>Video sitemap options</english>
+				<russian>Опции sitemap видео</russian>
+			</title>
+			<fields>
+				<field id="videos.sitemap_format_standard" type="select">
+					<value type="langfile"/>
+					<title>
+						<english>Expose video file (standard)</english>
+						<russian>Выдавать ссылку на файл (стандартный)</russian>
+					</title>
+					<hint>
+						<english>if you want your videos to be searchable in Google videos, your sitemap should render working links to video file of any format, select which files should be accessible to Google for standard videos</english>
+						<russian>если вы хотите, чтобы ваши видео появлялись в поиске Google по видео, то sitemap должен выдавать ссылки на видеофайлы какого-либо формата, выберите файлы какого формата будут доступны для Google для стандартных видео</russian>
+					</hint>
+					<options source="formats_videos">
+						<option id=""/>
+					</options>
+				</field>
+				<field id="videos.sitemap_format_premium" type="select">
+					<value type="langfile"/>
+					<title>
+						<english>Expose video file (premium)</english>
+						<russian>Выдавать ссылку на файл (премиум)</russian>
+					</title>
+					<hint>
+						<english>if you want your videos to be searchable in Google videos, your sitemap should render working links to video file of any format, select which files should be accessible to Google for premium videos</english>
+						<russian>если вы хотите, чтобы ваши видео появлялись в поиске Google по видео, то sitemap должен выдавать ссылки на видеофайлы какого-либо формата, выберите файлы какого формата будут доступны для Google для премиум видео</russian>
+					</hint>
+					<options source="formats_videos">
+						<option id=""/>
+					</options>
+				</field>
+			</fields>
+		</section>
+		<section>
+			<title>
+				<english>Albums options</english>
+				<russian>Опции альбомов</russian>
+			</title>
+			<fields>
+				<field id="albums.thumb_size" type="select" required="true" package="4">
+					<value type="langfile"/>
+					<title>
+						<english>Albums thumbs format 1</english>
+						<russian>Формат тумб альбомов 1</russian>
+					</title>
+					<hint>
+						<english>for thumbs in albums list</english>
+						<russian>для тумб на списке альбомов</russian>
+					</hint>
+					<options source="formats_albums_preview"/>
+				</field>
+				<field id="albums.image_small_size" type="select" required="true" package="4">
+					<value type="langfile"/>
+					<title>
+						<english>Albums thumbs format 2</english>
+						<russian>Формат тумб альбомов 2</russian>
+					</title>
+					<hint>
+						<english>for thumbs in album details page</english>
+						<russian>для тумб на странице просмотра альбома</russian>
+					</hint>
+					<options source="formats_albums_main"/>
+				</field>
+				<field id="albums.image_big_size" type="select" required="true" package="4">
+					<value type="langfile"/>
+					<title>
+						<english>Albums images format</english>
+						<russian>Формат изображений альбомов</russian>
+					</title>
+					<hint>
+						<english>for big images in album details page</english>
+						<russian>для больших фотографий на странице просмотра альбома</russian>
+					</hint>
+					<options source="formats_albums_main">
+						<option id="source">
+							<title>
+								<english>Source images</english>
+								<russian>Исходные фотографии</russian>
+							</title>
+						</option>
+					</options>
+				</field>
+				<field id="albums.truncate_title_to" type="text" package="4">
+					<value type="langfile"/>
+					<title>
+						<english>Truncate album title to</english>
+						<russian>Обрезать название альбома до</russian>
+					</title>
+					<hint>
+						<english>maximum number of characters for album title displayed in list; leave empty to disable title truncation</english>
+						<russian>максимальное число символов для отображения названия альбома на списке; оставьте пустым, чтобы выключить обрезание названия</russian>
+					</hint>
+				</field>
+			</fields>
+		</section>
+		<section>
+			<title>
+				<english>Playlists options</english>
+				<russian>Опции плэйлистов</russian>
+			</title>
+			<fields>
+				<field id="playlists.truncate_title_to" type="text" package="2">
+					<value type="langfile"/>
+					<title>
+						<english>Truncate playlist title to</english>
+						<russian>Обрезать название плэйлиста до</russian>
+					</title>
+					<hint>
+						<english>maximum number of characters for playlist title displayed in list; leave empty to disable title truncation</english>
+						<russian>максимальное число символов для отображения названия плэйлиста на списке; оставьте пустым, чтобы выключить обрезание названия</russian>
+					</hint>
+				</field>
+			</fields>
+		</section>
+	</sections>
+</theme>

@@ -1,0 +1,9 @@
+[2021-05-06 09:11:01] INFO  Postponed tasks processor started
+[2021-05-06 09:11:01] INFO  Active video formats: 6
+[2021-05-06 09:11:01] INFO  Active screenshot formats: 2
+[2021-05-06 09:11:01] INFO  Active album formats: 2
+
+
+[2021-05-06 09:11:02] INFO  Postponed tasks: 0
+
+[2021-05-06 09:11:02] INFO  Postponed tasks processor finished

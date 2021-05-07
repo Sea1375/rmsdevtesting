@@ -1,0 +1,65 @@
+<?php
+
+$update_info_lang["notification"] = "
+	Update procedure has 3 major steps: automatic database update, manual FTP files transfer and validation. When
+	transferring files please make sure that you use user who has all necessary permissions to overwrite KVS system
+	files (normally the same user that was used for installation and owns all KVS system files).
+	[kt|br][kt|br]
+
+	[kt|b]Important info![/kt|b] Update steps can take some time and your admin panel session may be invalidated. If
+	you see error message dialog after trying to continue to the next step, refresh the page by pressing F5 and
+	continue update procedure from the last step. You may need to login to admin panel again, but you should be
+	redirected back to update plugin.
+";
+
+if (isset($config))
+{
+	require_once "$config[project_path]/admin/include/functions_admin.php";
+	$vast_profiles = get_vast_profiles();
+	foreach ($vast_profiles as $vast_profile)
+	{
+		if (@count($vast_profile['providers']) > 0)
+		{
+			foreach ($vast_profile['providers'] as $vast_ad)
+			{
+				if (!isset($vast_ad['exclude_countries']) && $vast_ad['countries'] != '')
+				{
+					$update_info_lang["notification"] .= "
+						[kt|br][kt|br]
+	
+						[kt|b]Important info 5.2.0![/kt|b] You have country filtering enabled in some VAST profiles. In 
+						5.2.0 we changed the logic how VAST country filtering works. After the update you should go through 
+						your VAST profiles and update them accordingly to make sure they are working in the exact same way.
+						You can find more info about these changes in what's new list.
+					";
+					break 2;
+				}
+			}
+		}
+	}
+}
+
+$update_info_lang["step1"] = "
+	[kt|p]The database was automatically updated. You can see update log below. You should not have any errors in this
+	log if you are applying this update for the first time.[/kt|p]
+";
+
+$update_info_lang["step2"] = "
+	[kt|p]Copy all files from archive into the project installation root folder (except _INSTALL folder). This
+	operation will overwrite all files changed with the new version (or create new files).[/kt|p]
+	[kt|p][kt|b]Warning![/kt|b] Before copying your files make sure that your FTP client is [kt|b]NOT[/kt|b] configured
+	to make folders sync. Folders sync will remove many files on your FTP because they do not exist in update archive.
+	FTP client should transfer files from archive on top of the files that are already on server and replace them.
+	[kt|p]
+";
+
+$update_info_lang["step3"] = "
+	[kt|p]The update was completed.[/kt|p]
+
+	[kt|p]Run audit plugin in admin panel with all options except video and album content checks. You should not get
+	any errors (you can get some warnings though).[/kt|p]
+
+	[kt|p]Read documentation to see whats new.[/kt|p]
+";
+
+$update_info_lang["error_php_version"] = "PHP 7.1 or above is required for this KVS update";

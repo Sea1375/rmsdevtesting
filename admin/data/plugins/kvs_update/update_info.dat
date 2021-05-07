@@ -1,0 +1,265 @@
+<?php
+
+function update_info_get_update_versions()
+{
+	return explode(',', '5.0.0,5.0.1,5.1.0,5.1.1,5.2.0');
+}
+
+function update_info_get_required_domain()
+{
+	return 'rmsdevtesting.com';
+}
+
+function update_info_get_required_multidb_prefix()
+{
+	return 'ktvs_';
+}
+
+function update_info_get_required_package()
+{
+	return '4';
+}
+
+function update_info_is_source_code_available()
+{
+	return '1';
+}
+
+function update_info_validate_requirements()
+{
+	global $update_info_lang;
+
+	require_once __DIR__ . '/english.dat';
+	if (is_file(__DIR__ . '/' . $_SESSION['userdata']['lang'] . '.dat'))
+	{
+		require_once __DIR__ . '/' . $_SESSION['userdata']['lang'] . '.dat';
+	}
+	if (version_compare(PHP_VERSION, '7.1.0') < 0)
+	{
+		return $update_info_lang["error_php_version"] ?? "PHP version 7.1+";
+	}
+	return null;
+}
+
+function update_info_get_steps_count()
+{
+	return 3;
+}
+
+function update_info_should_skip_step($step)
+{
+	return false;
+}
+
+function update_info_validate_step($step)
+{
+	global $config;
+
+	$versions = update_info_get_update_versions();
+	$update_version = end($versions);
+
+	if ($step == 1)
+	{
+		$db_version = mr2array_single(sql_pr("SELECT value FROM $config[tables_prefix]options WHERE variable='SYSTEM_VERSION'"));
+		$db_version = $db_version['value'];
+		return ($db_version == $update_version);
+	}
+
+	if ($step == 2)
+	{
+		if ($config['project_version'] != $update_version)
+		{
+			return false;
+		}
+
+		// clean error log files
+		@unlink("$config[project_path]/admin/logs/log_mysql_errors.txt");
+		@unlink("$config[project_path]/admin/logs/log_php_errors.txt");
+		@unlink("$config[project_path]/admin/logs/log_curl_errors.txt");
+
+		// delete compiled admin panel templates
+		$compiled_templates = get_contents_from_dir("$config[project_path]/admin/smarty/template-c", 1);
+		foreach ($compiled_templates as $compiled_template)
+		{
+			@unlink("$config[project_path]/admin/smarty/template-c/$compiled_template");
+		}
+
+		// update countries
+		$plugin_path = "$config[project_path]/admin/data/plugins/kvs_update";
+		$zip = new PclZip("$plugin_path/update.zip");
+		$data = $zip->listContent();
+		foreach ($data as $v)
+		{
+			if ($v['filename'] == '_INSTALL/META-INF/countries.csv')
+			{
+				@unlink("$config[project_path]/admin/data/system/countries.csv");
+				$content = $zip->extract(PCLZIP_OPT_BY_NAME, $v['filename'], PCLZIP_OPT_EXTRACT_AS_STRING);
+				$fstream = $content[0]['content'];
+				$fp = fopen("$config[project_path]/admin/data/system/countries.csv", "w+");
+				fwrite($fp, $fstream);
+				fclose($fp);
+				break;
+			}
+		}
+		if (is_file("$config[project_path]/admin/data/system/countries.csv"))
+		{
+			$countries = file_get_contents("$config[project_path]/admin/data/system/countries.csv");
+			$countries = explode("\n", $countries);
+			foreach ($countries as $country)
+			{
+				$country = trim($country);
+				if ($country == '')
+				{
+					continue;
+				}
+				$country = explode(';', $country);
+				foreach ($country as $k => $v)
+				{
+					$country[$k] = trim($v, '"');
+				}
+				if (sql_update("UPDATE $config[tables_prefix]list_countries SET title=?, continent_code=? WHERE country_id=? AND language_code=?", trim($country[3]), trim($country[5]), intval($country[0]), trim($country[2])) == 0)
+				{
+					sql_insert("INSERT INTO $config[tables_prefix]list_countries SET country_id=?, country_code=?, language_code=?, title=?, is_system=?, continent_code=?, added_date=?", intval($country[0]), trim($country[1]), trim($country[2]), trim($country[3]), intval($country[4]), trim($country[5]), date("Y-m-d H:i:s"));
+				}
+			}
+		}
+
+		// update conversion servers API
+		if ($config['is_clone_db'] != 'true')
+		{
+			$latest_api_version = mr2string(sql_pr("SELECT value FROM $config[tables_prefix]options WHERE variable='SYSTEM_CONVERSION_API_VERSION'"));
+			if ($latest_api_version != '')
+			{
+				require_once "$config[project_path]/admin/include/functions_servers.php";
+				$servers = mr2array(sql_pr("SELECT * FROM $config[tables_prefix]admin_conversion_servers WHERE status_id=1"));
+				foreach ($servers as $server)
+				{
+					if ($server['api_version'] != $latest_api_version)
+					{
+						if (is_writable("$config[temporary_path]"))
+						{
+							$rnd = mt_rand(1000000, 9999999);
+							mkdir("$config[temporary_path]/$rnd", 0777);
+							chmod("$config[temporary_path]/$rnd", 0777);
+
+							$new_filename = '';
+							if (get_file('remote_cron.php', '/', "$config[temporary_path]/$rnd", $server))
+							{
+								$new_filename = "remote_cron_" . date("YmdHis") . ".php";
+								rename("$config[temporary_path]/$rnd/remote_cron.php", "$config[temporary_path]/$rnd/$new_filename");
+							}
+							if (!$new_filename || put_file($new_filename, "$config[temporary_path]/$rnd", '/', $server))
+							{
+								delete_file('remote_cron.php', '/', $server);
+								if (put_file('remote_cron.php', "$config[project_path]/admin/tools", '/', $server))
+								{
+									sql_update("UPDATE $config[tables_prefix]admin_conversion_servers SET api_version=? WHERE server_id=?", $latest_api_version, $server['server_id']);
+								}
+							}
+							@unlink("$config[temporary_path]/$rnd/$new_filename");
+							@rmdir("$config[temporary_path]/$rnd");
+						}
+					}
+				}
+			}
+		}
+
+		// advertising concept update
+		require_once "$config[project_path]/admin/include/functions_admin.php";
+		$spots = get_site_spots();
+		foreach ($spots as $spot)
+		{
+			if (@count($spot['ads']) > 0)
+			{
+				$need_resave = false;
+				foreach ($spot['ads'] as $advertisement_id => $ad)
+				{
+					if ($ad['v5.2'] != 1)
+					{
+						if (@count($ad['devices']) == 3)
+						{
+							$spot['ads'][$advertisement_id]['devices'] = [];
+							$need_resave = true;
+						}
+						if (@count($ad['browsers']) == 6)
+						{
+							$spot['ads'][$advertisement_id]['browsers'] = [];
+							$need_resave = true;
+						}
+						if (@count($ad['users']) == 4)
+						{
+							$spot['ads'][$advertisement_id]['users'] = [];
+							$need_resave = true;
+						}
+					}
+					if ($need_resave)
+					{
+						$spot['ads'][$advertisement_id]['v5.2'] = 1;
+					}
+				}
+				if ($need_resave)
+				{
+					file_put_contents("$config[project_path]/admin/data/advertisements/spot_$spot[external_id].dat", serialize($spot), LOCK_EX);
+				}
+			}
+		}
+
+		// update exporting feeds
+		$exporting_feeds = mr2array(sql_pr("select * from $config[tables_prefix]videos_feeds_export"));
+		foreach ($exporting_feeds as $exporting_feed)
+		{
+			$feed_options = @unserialize($exporting_feed['options'], ['allowed_classes' => false]);
+			if (is_array($feed_options) && (!isset($feed_options['enable_content_sources'], $feed_options['enable_dvds'])))
+			{
+				if (!isset($feed_options['enable_content_sources']))
+				{
+					$feed_options['enable_content_sources'] = 1;
+				}
+				if (!isset($feed_options['enable_dvds']))
+				{
+					$feed_options['enable_dvds'] = 1;
+				}
+				sql_update("update $config[tables_prefix]videos_feeds_export set options=? where feed_id=?", serialize($feed_options), $exporting_feed['feed_id']);
+			}
+		}
+
+		// checking for broken news
+		$news = @unserialize(file_get_contents("$config[project_path]/admin/data/plugins/kvs_news/data.dat"), ['allowed_classes' => false]);
+		if (!is_array($news['news']))
+		{
+			@unlink("$config[project_path]/admin/data/plugins/kvs_news/data.dat");
+		}
+
+		//update player VAST key if needed
+		if (!is_file("$config[project_path]/admin/data/player/vast/key.dat"))
+		{
+			$player_data = @unserialize(file_get_contents("$config[project_path]/admin/data/player/config.dat"), ['allowed_classes' => false]);
+			if ($player_data['pre_roll_vast_key'])
+			{
+				$new_vast_key_data = ['domain' => $config['project_licence_domain'], 'primary_vast_key' => $player_data['pre_roll_vast_key']];
+				mkdir_recursive("$config[project_path]/admin/data/player/vast");
+				file_put_contents("$config[project_path]/admin/data/player/vast/key.dat", serialize($new_vast_key_data), LOCK_EX);
+			}
+		}
+
+		// update version of KVS update
+		if ($config['is_clone_db'] != 'true')
+		{
+			if (sql_update("UPDATE $config[tables_prefix]options SET value='$update_version' WHERE variable='UPDATE_VERSION'") == 0)
+			{
+				sql_insert("INSERT INTO $config[tables_prefix]options SET variable='UPDATE_VERSION', value='$update_version'");
+			}
+		}
+
+		if ($config['project_version'] == $update_version)
+		{
+			$project_url = urlencode($config['project_url']);
+			$project_version = urlencode($config['project_version']);
+			get_page('', "https://www.kernel-scripts.com/get_version/?url=$project_url&version=$project_version", '', '', 1, 0, 5, '');
+		}
+
+		return ($config['project_version'] == $update_version);
+	}
+
+	return true;
+}

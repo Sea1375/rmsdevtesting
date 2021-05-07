@@ -1,0 +1,21 @@
+[2021-05-05 13:13:02] INFO  Tasks processor started
+[2021-05-05 13:13:02] INFO  Memory limit: 1024M
+[2021-05-05 13:13:02] INFO  Conversion servers: 1
+[2021-05-05 13:13:02] INFO  Active video formats: 6
+[2021-05-05 13:13:02] INFO  Active screenshot formats: 2
+[2021-05-05 13:13:02] INFO  Active album formats: 2
+[2021-05-05 13:13:02] INFO  Active plugins for new objects: none
+[2021-05-05 13:13:02] INFO  Latest conversion API version: 5.2.0
+
+
+[2021-05-05 13:13:02] INFO  Delete tasks (top priority): 1
+
+[2021-05-05 13:13:02] INFO  Starting task 58
+[2021-05-05 13:13:02] INFO  Video removal task is started for video 24 [PH-P]
+[2021-05-05 13:13:02] INFO  Video removal task is completed for video 24 [PH-FE]
+
+[2021-05-05 13:13:02] INFO  Tasks in process: 0
+
+[2021-05-05 13:13:02] INFO  New tasks: 0
+
+[2021-05-05 13:13:02] INFO  Tasks processor finished

@@ -1,0 +1,9 @@
+[2021-05-06 08:36:04] DEBUG Plugin grabbers is not scheduled on cron
+[2021-05-06 08:36:04] DEBUG Plugin template_cache_cleanup will be executed in 57179 seconds
+[2021-05-06 08:36:04] DEBUG Plugin backup will be executed in 57179 seconds
+[2021-05-06 08:36:04] DEBUG Plugin avatars_generation is not scheduled on cron
+[2021-05-06 08:36:04] DEBUG Plugin kvs_news will be executed now
+[2021-05-06 08:36:04] INFO  Plugins processor started
+[2021-05-06 08:36:04] INFO  Memory limit: 1024M
+[2021-05-06 08:36:04] INFO  Starting kvs_news plugin
+[2021-05-06 08:36:05] INFO  Plugins processor finished

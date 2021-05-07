@@ -1,0 +1,2 @@
+[2020-02-27 15:51:05] Upload folders validation started
+[2020-02-27 15:51:05] Upload folders validation finished

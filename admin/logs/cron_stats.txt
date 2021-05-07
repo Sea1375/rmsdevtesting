@@ -1,0 +1,21 @@
+[2021-05-06 09:10:02] INFO  Stats processor started
+[2021-05-06 09:10:02] INFO  Memory limit: 1024M
+[2021-05-06 09:10:02] INFO  Processed incoming stats: 1
+[2021-05-06 09:10:02] INFO  Processed embed code stats: 0
+[2021-05-06 09:10:02] INFO  Processed content source out stats: 0
+[2021-05-06 09:10:02] INFO  Processed advertising out stats: 0
+[2021-05-06 09:10:02] INFO  Processed player stats: 0
+[2021-05-06 09:10:02] INFO  Processed video stats: 0
+[2021-05-06 09:10:02] INFO  Processed video file stats: 0
+[2021-05-06 09:10:02] INFO  Processed album stats: 0
+[2021-05-06 09:10:02] INFO  Processed album files stats:0
+[2021-05-06 09:10:02] INFO  Processed post stats: 0
+[2021-05-06 09:10:02] INFO  Processed content source stats: 0
+[2021-05-06 09:10:02] INFO  Processed model stats: 0
+[2021-05-06 09:10:02] INFO  Processed DVD / channel stats: 0
+[2021-05-06 09:10:02] INFO  Processed profile stats: 0
+[2021-05-06 09:10:02] INFO  Processed playlist stats: 0
+[2021-05-06 09:10:02] INFO  Processed search stats: 0
+[2021-05-06 09:10:02] INFO  Processed IP protection stats:0
+[2021-05-06 09:10:02] INFO  Processed overload stats:0
+[2021-05-06 09:10:02] INFO  Stats processor finished

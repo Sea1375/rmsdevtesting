@@ -1,0 +1,12 @@
+[2021-05-06 08:56:01] INFO  Rotator processor started
+[2021-05-06 08:56:01] INFO  Processed 0 clicks
+[2021-05-06 08:56:01] INFO  Processed 0 views
+[2021-05-06 08:56:01] INFO  Updated click distribution matrices
+[2021-05-06 08:56:01] INFO  Updated videos
+[2021-05-06 08:56:01] INFO  Updated video screenshots
+
+[2021-05-06 08:56:01] INFO  Top 10 videos by CTR:
+25         0.00     tttttt
+26         0.00     Brooklyn 99 Best Moments
+27         0.00     Amazing Earth Scenery
+

@@ -1,0 +1,30 @@
+[2021-05-06 00:29:03] Backup is kept as monthly backup: backup-auto-dwpsc-2020-06-01-150204-0aa04bcc.tar.gz
+[2021-05-06 00:29:03] Backup is kept as monthly backup: backup-auto-dwpsc-2020-07-01-010405-ab04dffe.tar.gz
+[2021-05-06 00:29:03] Backup is kept as monthly backup: backup-auto-dwpsc-2020-08-01-114804-1cd78df4.tar.gz
+[2021-05-06 00:29:03] Backup is kept as monthly backup: backup-auto-dwpsc-2020-09-01-222204-18cabd3d.tar.gz
+[2021-05-06 00:29:03] Backup is kept as monthly backup: backup-auto-dwpsc-2020-10-01-081905-430cbffc.tar.gz
+[2021-05-06 00:29:03] Backup is kept as monthly backup: backup-auto-dwpsc-2020-11-01-175605-4ce0fa8d.tar.gz
+[2021-05-06 00:29:03] Backup is kept as monthly backup: backup-auto-dwpsc-2020-12-01-035006-daea7ed3.tar.gz
+[2021-05-06 00:29:03] Backup is kept as monthly backup: backup-auto-dwpsc-2021-01-01-142404-dca10eca.tar.gz
+[2021-05-06 00:29:03] Backup is kept as monthly backup: backup-auto-dwpsc-2021-02-01-161404-a6c2c2bb.tar.gz
+[2021-05-06 00:29:03] Backup is kept as monthly backup: backup-auto-dwpsc-2021-03-01-012506-d8376cb8.tar.gz
+[2021-05-06 00:29:03] Backup is kept as monthly backup: backup-auto-dwpsc-2021-04-01-125006-6dcea7bb.tar.gz
+[2021-05-06 00:29:03] Backup is deleted: backup-auto-dwpsc-2021-04-05-141704-a1667a68.tar.gz
+[2021-05-06 00:29:03] Backup is kept as weekly backup: backup-auto-dwpsc-2021-04-12-163304-efcbfc6f.tar.gz
+[2021-05-06 00:29:03] Backup is kept as weekly backup: backup-auto-dwpsc-2021-04-19-185505-b8c7c7f2.tar.gz
+[2021-05-06 00:29:03] Backup is kept as weekly backup: backup-auto-dwpsc-2021-04-26-212506-6fb3de7c.tar.gz
+[2021-05-06 00:29:03] Backup is deleted: backup-auto-dwpsc-2021-04-28-220805-adaeefd1.tar.gz
+[2021-05-06 00:29:03] Backup is kept as daily backup: backup-auto-dwpsc-2021-04-29-222805-0a9fd372.tar.gz
+[2021-05-06 00:29:03] Backup is kept as daily backup: backup-auto-dwpsc-2021-04-30-224804-a3fdadbc.tar.gz
+[2021-05-06 00:29:03] Backup is kept as monthly backup: backup-auto-dwpsc-2021-05-01-230805-4e9cb66b.tar.gz
+[2021-05-06 00:29:03] Backup is kept as daily backup: backup-auto-dwpsc-2021-05-02-232705-198176bf.tar.gz
+[2021-05-06 00:29:03] Backup is kept as weekly backup: backup-auto-dwpsc-2021-05-03-235006-aefccefc.tar.gz
+[2021-05-06 00:29:03] Backup is kept as daily backup: backup-auto-dwpsc-2021-05-05-000805-80aafb8f.tar.gz
+[2021-05-06 00:29:03] Using mysqldump command: /usr/bin/mysqldump
+[2021-05-06 00:29:03] MySQL backup done
+[2021-05-06 00:29:04] Website backup done
+[2021-05-06 00:29:04] Player backup done
+[2021-05-06 00:29:04] System files backup done
+[2021-05-06 00:29:04] Content backup done
+[2021-05-06 00:29:05] Backup finished
+[2021-05-06 00:29:05] Finished in 2 seconds

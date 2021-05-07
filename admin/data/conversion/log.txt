@@ -1,0 +1,9 @@
+[2021-05-06 09:05:13] INFO  Conversion processor started (v 5.2.0)
+
+[2021-05-06 09:05:13] INFO  ffmpeg = /usr/bin/ffmpeg
+[2021-05-06 09:05:13] INFO  imagemagick = /usr/bin/convert
+[2021-05-06 09:05:13] INFO  timeoffset = 0
+
+[2021-05-06 09:05:13] INFO  memory = 1024M
+[2021-05-06 09:05:13] INFO  screenshot_options = -vframes 1 -f mjpeg -qscale 1
+[2021-05-06 09:05:13] INFO  Conversion processor finished

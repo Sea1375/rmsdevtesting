@@ -1,0 +1,38 @@
+[2021-03-01 03:00:12]: Audit started
+[2021-03-01 03:00:12]: Memory limit: 1024M
+
+[2021-03-01 03:00:12]: Installation check started
+[2021-03-01 03:00:16]: Installation check finished in 4s using 3 Mb of memory (1%)
+
+[2021-03-01 03:00:16]: Database check started
+[2021-03-01 03:00:16]: Database check finished in 0s using 0 B of memory (47%)
+
+[2021-03-01 03:00:16]: Formats check started
+[2021-03-01 03:00:16]: Video format "MP4 480p" check started
+[2021-03-01 03:00:20]: Video format "MP4 720p" check started
+[2021-03-01 03:00:23]: Video format "MP4 30s" check started
+[2021-03-01 03:00:27]: Video format "Trailer MP4" check started
+[2021-03-01 03:00:30]: Video format "MP4 1080p" check started
+[2021-03-01 03:00:34]: Video format "MP4 2160p" check started
+[2021-03-01 03:00:37]: Video screenshot grabbing check started
+[2021-03-01 03:00:37]: Screenshot format "288x230" check started
+[2021-03-01 03:00:38]: Screenshot format "180x100" check started
+[2021-03-01 03:00:38]: Album format "Small image" check started
+[2021-03-01 03:00:38]: Album format "Preview image" check started
+[2021-03-01 03:00:38]: Formats check finished in 22s using 0 B of memory (60%)
+
+[2021-03-01 03:00:38]: Servers check started
+[2021-03-01 03:00:38]: Storage server "Local Videos" check started
+[2021-03-01 03:00:38]: Storage server "Local Albums" check started
+[2021-03-01 03:00:38]: Conversion server "Local" check started
+[2021-03-01 03:00:38]: Servers check finished in 0s using 0 B of memory (62%)
+
+[2021-03-01 03:00:38]: Website UI check started
+[2021-03-01 03:00:39]: Blocks check started
+[2021-03-01 03:00:45]: Pages check started
+[2021-03-01 03:00:45]: Global blocks check started
+[2021-03-01 03:00:45]: Page components check started
+[2021-03-01 03:00:45]: Advertising check started
+[2021-03-01 03:00:45]: Website UI check finished in 7s using 7 Mb of memory (99%)
+
+[2021-03-01 03:00:45]: Audit finished in 33s using 10 Mb of memory (100%)

@@ -1,0 +1,17 @@
+[2021-05-06 00:29:03] Started
+[2021-05-06 00:29:03] Max cache time detected: 86400
+[2021-05-06 00:29:03] Removed 0 files in cache folder
+[2021-05-06 00:29:03] Removed 0 files in storage folder
+[2021-05-06 00:29:03] Removed 0 files in videos_info folder
+[2021-05-06 00:29:03] Removed 0 files in albums_info folder
+[2021-05-06 00:29:03] Removed 0 files in comments_info folder
+[2021-05-06 00:29:03] Removed 0 files in cs_info folder
+[2021-05-06 00:29:03] Removed 0 files in dvds_info folder
+[2021-05-06 00:29:03] Removed 0 files in feeds_info folder
+[2021-05-06 00:29:03] Removed 0 files in models_info folder
+[2021-05-06 00:29:03] Removed 0 files in posts_info folder
+[2021-05-06 00:29:03] Removed 0 files in playlists_info folder
+[2021-05-06 00:29:03] Removed 0 files in random_video folder
+[2021-05-06 00:29:03] Removed 0 files in random_album folder
+[2021-05-06 00:29:03] Removed 0 files in rotator folder
+[2021-05-06 00:29:03] Finished in 0 seconds

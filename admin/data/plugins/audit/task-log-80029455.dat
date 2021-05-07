@@ -1,0 +1,41 @@
+[2021-03-01 03:01:09]: Audit started
+[2021-03-01 03:01:09]: Memory limit: 1024M
+
+[2021-03-01 03:01:09]: Installation check started
+[2021-03-01 03:01:11]: Installation check finished in 2s using 3 Mb of memory (1%)
+
+[2021-03-01 03:01:11]: Database check started
+[2021-03-01 03:01:12]: Database check finished in 1s using 0 B of memory (45%)
+
+[2021-03-01 03:01:12]: Formats check started
+[2021-03-01 03:01:12]: Video format "MP4 480p" check started
+[2021-03-01 03:01:15]: Video format "MP4 720p" check started
+[2021-03-01 03:01:19]: Video format "MP4 30s" check started
+[2021-03-01 03:01:22]: Video format "Trailer MP4" check started
+[2021-03-01 03:01:26]: Video format "MP4 1080p" check started
+[2021-03-01 03:01:29]: Video format "MP4 2160p" check started
+[2021-03-01 03:01:33]: Video screenshot grabbing check started
+[2021-03-01 03:01:33]: Screenshot format "288x230" check started
+[2021-03-01 03:01:33]: Screenshot format "180x100" check started
+[2021-03-01 03:01:33]: Album format "Small image" check started
+[2021-03-01 03:01:33]: Album format "Preview image" check started
+[2021-03-01 03:01:33]: Formats check finished in 21s using 0 B of memory (58%)
+
+[2021-03-01 03:01:33]: Servers check started
+[2021-03-01 03:01:33]: Storage server "Local Videos" check started
+[2021-03-01 03:01:34]: Storage server "Local Albums" check started
+[2021-03-01 03:01:34]: Conversion server "Local" check started
+[2021-03-01 03:01:34]: Servers check finished in 1s using 0 B of memory (59%)
+
+[2021-03-01 03:01:34]: Website UI check started
+[2021-03-01 03:01:34]: Blocks check started
+[2021-03-01 03:01:40]: Pages check started
+[2021-03-01 03:01:40]: Global blocks check started
+[2021-03-01 03:01:40]: Page components check started
+[2021-03-01 03:01:40]: Advertising check started
+[2021-03-01 03:01:40]: Website UI check finished in 6s using 7 Mb of memory (95%)
+
+[2021-03-01 03:01:40]: Security check started
+[2021-03-01 03:01:42]: Security check finished in 2s using 15 Kb of memory (100%)
+
+[2021-03-01 03:01:42]: Audit finished in 33s using 10 Mb of memory (100%)

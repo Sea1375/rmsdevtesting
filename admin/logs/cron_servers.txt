@@ -1,0 +1,7 @@
+[2021-05-06 09:10:02] INFO  Servers processor started
+[2021-05-06 09:10:02] INFO  Latest conversion API version: 5.2.0
+[2021-05-06 09:10:03] INFO  Server IP detected: 184.175.85.4
+[2021-05-06 09:10:04] INFO  Storage server "Local Videos" check finished: no issues
+[2021-05-06 09:10:04] INFO  Storage server "Local Albums" check finished: no issues
+[2021-05-06 09:10:04] INFO  Conversion server "Local" check finished: no issues
+[2021-05-06 09:10:04] INFO  Servers processor finished
