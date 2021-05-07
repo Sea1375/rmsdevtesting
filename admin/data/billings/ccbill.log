@@ -18213,3 +18213,7 @@
 {"mode":"async","function":"get_block","block_id":"logon_logon_form","global":"true"}
 {"mode":"async","function":"get_block","block_id":"logon_logon_form","global":"true"}
 {"mode":"async","function":"get_block","block_id":"signup_signup_form_premium","global":"true"}
+[]
+{"mode":"async","action":"js_stats","rand":"1620423521747"}
+{"mode":"async","function":"get_block","block_id":"logon_logon_form","global":"true"}
+{"mode":"async","function":"get_block","block_id":"signup_signup_form_premium","global":"true"}
