@@ -2528,7 +2528,8 @@ a:focus {
 .thumb .thumb-spot__rating {
     width: 32px;
     height: 32px;
-    font-size: 11px;
+    font-size: 13px;
+    font-weight: bold;
     line-height: 2;
     margin: 0 0 0 8px;
 }
