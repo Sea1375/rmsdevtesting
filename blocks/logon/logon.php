@@ -448,6 +448,7 @@ function logonShow($block_config,$object_id)
 						$redirect_to=str_replace("%USER_ID%",$_SESSION['user_id'],str_replace('%3D', '=', str_replace('%26', '&', $block_config['redirect_to'])));
 					}
 					async_return_request_status(null,$redirect_to,$user_data);
+					var_dump($redirect_to); die;
 				} elseif ($_SESSION['private_page_referer']<>'')
 				{
 					$referer=$_SESSION['private_page_referer'];

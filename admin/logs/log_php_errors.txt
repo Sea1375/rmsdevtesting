@@ -333,3 +333,10 @@ Stack trace:
 #0 F:\xampp7_4\htdocs\index.php(1): require_once()
 #1 {main}
   thrown in F:\xampp7_4\htdocs\admin\include\process_page.php on line 39
+[08-May-2021 01:37:18 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function logonGetHash() in F:\xampp7_4\htdocs\admin\include\process_page.php:1438
+Stack trace:
+#0 F:\xampp7_4\htdocs\admin\include\process_page.php(1383): insert_getBlock(Array)
+#1 F:\xampp7_4\htdocs\admin\include\process_page.php(314): insert_getGlobal(Array)
+#2 F:\xampp7_4\htdocs\index.php(1): require_once('F:\\xampp7_4\\htd...')
+#3 {main}
+  thrown in F:\xampp7_4\htdocs\admin\include\process_page.php on line 1438

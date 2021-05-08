@@ -15013,3 +15013,321 @@
 [2021-05-08 01:18:13] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
  select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
 
+[2021-05-08 01:29:12] [126] F:\xampp7_4\htdocs\index.php LINE 1 :: Index for table '.\m3wvnpzzgrn\ktvs_users.MYI' is corrupt; try to repair it
+ update ktvs_users set tokens_available=tokens_available+0, logins_count=logins_count+1, last_login_date='2021-05-08 01:29:12', last_online_date='2021-05-08 01:29:12', avg_sess_duration=0, avg_sess_duration_count=0  where user_id='55'
+
+[2021-05-08 01:29:12] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 01:29:12] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 01:29:12] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 01:31:48] [126] F:\xampp7_4\htdocs\index.php LINE 1 :: Index for table '.\m3wvnpzzgrn\ktvs_users.MYI' is corrupt; try to repair it
+ update ktvs_users set tokens_available=tokens_available+0, logins_count=logins_count+1, last_login_date='2021-05-08 01:31:48', last_online_date='2021-05-08 01:31:48', avg_sess_duration=0, avg_sess_duration_count=0  where user_id='55'
+
+[2021-05-08 01:31:48] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 01:31:48] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 01:31:48] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 01:32:13] [126] F:\xampp7_4\htdocs\index.php LINE 1 :: Index for table '.\m3wvnpzzgrn\ktvs_users.MYI' is corrupt; try to repair it
+ update ktvs_users set tokens_available=tokens_available+0, logins_count=logins_count+1, last_login_date='2021-05-08 01:32:13', last_online_date='2021-05-08 01:32:13', avg_sess_duration=0, avg_sess_duration_count=0  where user_id='55'
+
+[2021-05-08 01:32:13] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 01:32:13] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 01:32:13] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 01:32:40] [126] F:\xampp7_4\htdocs\index.php LINE 1 :: Index for table '.\m3wvnpzzgrn\ktvs_users.MYI' is corrupt; try to repair it
+ update ktvs_users set tokens_available=tokens_available+0, logins_count=logins_count+1, last_login_date='2021-05-08 01:32:40', last_online_date='2021-05-08 01:32:40', avg_sess_duration=0, avg_sess_duration_count=0  where user_id='55'
+
+[2021-05-08 01:32:40] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 01:32:40] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 01:32:40] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 01:34:22] [126] F:\xampp7_4\htdocs\index.php LINE 1 :: Index for table '.\m3wvnpzzgrn\ktvs_users.MYI' is corrupt; try to repair it
+ update ktvs_users set tokens_available=tokens_available+0, logins_count=logins_count+1, last_login_date='2021-05-08 01:34:22', last_online_date='2021-05-08 01:34:22', avg_sess_duration=0, avg_sess_duration_count=0  where user_id='55'
+
+[2021-05-08 01:34:22] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 01:34:22] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 01:34:22] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 01:44:42] [126] F:\xampp7_4\htdocs\index.php LINE 1 :: Index for table '.\m3wvnpzzgrn\ktvs_users.MYI' is corrupt; try to repair it
+ update ktvs_users set tokens_available=tokens_available+0, logins_count=logins_count+1, last_login_date='2021-05-08 01:44:42', last_online_date='2021-05-08 01:44:42', avg_sess_duration=0, avg_sess_duration_count=0  where user_id='55'
+
+[2021-05-08 01:44:42] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 01:44:42] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 01:44:42] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 01:45:15] [126] F:\xampp7_4\htdocs\index.php LINE 1 :: Index for table '.\m3wvnpzzgrn\ktvs_users.MYI' is corrupt; try to repair it
+ update ktvs_users set tokens_available=tokens_available+0, logins_count=logins_count+1, last_login_date='2021-05-08 01:45:15', last_online_date='2021-05-08 01:45:15', avg_sess_duration=0, avg_sess_duration_count=0  where user_id='55'
+
+[2021-05-08 01:45:15] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 01:45:15] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 01:45:15] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 01:47:25] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 01:47:25] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 01:47:25] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 01:47:46] [126] F:\xampp7_4\htdocs\index.php LINE 1 :: Index for table '.\m3wvnpzzgrn\ktvs_users.MYI' is corrupt; try to repair it
+ update ktvs_users set tokens_available=tokens_available+0, logins_count=logins_count+1, last_login_date='2021-05-08 01:47:46', last_online_date='2021-05-08 01:47:46', avg_sess_duration=0, avg_sess_duration_count=0  where user_id='55'
+
+[2021-05-08 01:47:46] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 01:47:46] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 01:47:46] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 01:49:59] [126] F:\xampp7_4\htdocs\index.php LINE 1 :: Index for table '.\m3wvnpzzgrn\ktvs_users.MYI' is corrupt; try to repair it
+ update ktvs_users set tokens_available=tokens_available+0, logins_count=logins_count+1, last_login_date='2021-05-08 01:49:59', last_online_date='2021-05-08 01:49:59', avg_sess_duration=0, avg_sess_duration_count=0  where user_id='55'
+
+[2021-05-08 01:49:59] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 01:49:59] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 01:49:59] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 01:52:23] [126] F:\xampp7_4\htdocs\index.php LINE 1 :: Index for table '.\m3wvnpzzgrn\ktvs_users.MYI' is corrupt; try to repair it
+ update ktvs_users set tokens_available=tokens_available+0, logins_count=logins_count+1, last_login_date='2021-05-08 01:52:23', last_online_date='2021-05-08 01:52:23', avg_sess_duration=0, avg_sess_duration_count=0  where user_id='55'
+
+[2021-05-08 01:52:23] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 01:52:23] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 01:52:23] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 01:53:21] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 01:53:21] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 01:53:21] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 01:53:55] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 01:53:55] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 01:53:55] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 01:54:15] [126] F:\xampp7_4\htdocs\index.php LINE 1 :: Index for table '.\m3wvnpzzgrn\ktvs_users.MYI' is corrupt; try to repair it
+ update ktvs_users set tokens_available=tokens_available+0, logins_count=logins_count+1, last_login_date='2021-05-08 01:54:15', last_online_date='2021-05-08 01:54:15', avg_sess_duration=0, avg_sess_duration_count=0  where user_id='55'
+
+[2021-05-08 01:54:16] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 01:54:16] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 01:54:16] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 01:55:13] [126] F:\xampp7_4\htdocs\index.php LINE 1 :: Index for table '.\m3wvnpzzgrn\ktvs_users.MYI' is corrupt; try to repair it
+ update ktvs_users set tokens_available=tokens_available+0, logins_count=logins_count+1, last_login_date='2021-05-08 01:55:13', last_online_date='2021-05-08 01:55:13', avg_sess_duration=0, avg_sess_duration_count=0  where user_id='55'
+
+[2021-05-08 01:55:13] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 01:55:13] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 01:55:13] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 01:56:14] [126] F:\xampp7_4\htdocs\index.php LINE 1 :: Index for table '.\m3wvnpzzgrn\ktvs_users.MYI' is corrupt; try to repair it
+ update ktvs_users set tokens_available=tokens_available+0, logins_count=logins_count+1, last_login_date='2021-05-08 01:56:14', last_online_date='2021-05-08 01:56:14', avg_sess_duration=0, avg_sess_duration_count=0  where user_id='55'
+
+[2021-05-08 01:56:41] [126] F:\xampp7_4\htdocs\index.php LINE 1 :: Index for table '.\m3wvnpzzgrn\ktvs_users.MYI' is corrupt; try to repair it
+ update ktvs_users set tokens_available=tokens_available+0, logins_count=logins_count+1, last_login_date='2021-05-08 01:56:41', last_online_date='2021-05-08 01:56:41', avg_sess_duration=0, avg_sess_duration_count=0  where user_id='55'
+
+[2021-05-08 01:56:41] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 01:56:41] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 01:56:41] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 01:57:11] [126] F:\xampp7_4\htdocs\index.php LINE 1 :: Index for table '.\m3wvnpzzgrn\ktvs_users.MYI' is corrupt; try to repair it
+ update ktvs_users set tokens_available=tokens_available+0, logins_count=logins_count+1, last_login_date='2021-05-08 01:57:11', last_online_date='2021-05-08 01:57:11', avg_sess_duration=0, avg_sess_duration_count=0  where user_id='55'
+
+[2021-05-08 02:03:15] [126] F:\xampp7_4\htdocs\index.php LINE 1 :: Index for table '.\m3wvnpzzgrn\ktvs_users.MYI' is corrupt; try to repair it
+ update ktvs_users set tokens_available=tokens_available+0, logins_count=logins_count+1, last_login_date='2021-05-08 02:03:15', last_online_date='2021-05-08 02:03:15', avg_sess_duration=0, avg_sess_duration_count=0  where user_id='55'
+
+[2021-05-08 02:04:58] [1064] F:\xampp7_4\htdocs\view_video.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 02:06:18] [126] F:\xampp7_4\htdocs\index.php LINE 1 :: Index for table '.\m3wvnpzzgrn\ktvs_users.MYI' is corrupt; try to repair it
+ update ktvs_users set tokens_available=tokens_available+0, logins_count=logins_count+1, last_login_date='2021-05-08 02:06:18', last_online_date='2021-05-08 02:06:18', avg_sess_duration=0, avg_sess_duration_count=0  where user_id='55'
+
+[2021-05-08 02:08:34] [126] F:\xampp7_4\htdocs\index.php LINE 1 :: Index for table '.\m3wvnpzzgrn\ktvs_users.MYI' is corrupt; try to repair it
+ update ktvs_users set tokens_available=tokens_available+0, logins_count=logins_count+1, last_login_date='2021-05-08 02:08:34', last_online_date='2021-05-08 02:08:34', avg_sess_duration=0, avg_sess_duration_count=0  where user_id='55'
+
+[2021-05-08 02:11:29] [126] F:\xampp7_4\htdocs\index.php LINE 1 :: Index for table '.\m3wvnpzzgrn\ktvs_users.MYI' is corrupt; try to repair it
+ update ktvs_users set tokens_available=tokens_available+0, logins_count=logins_count+1, last_login_date='2021-05-08 02:11:29', last_online_date='2021-05-08 02:11:29', avg_sess_duration=0, avg_sess_duration_count=0  where user_id='55'
+
+[2021-05-08 02:14:34] [1064] F:\xampp7_4\htdocs\view_video.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 02:16:34] [1064] F:\xampp7_4\htdocs\view_video.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 02:16:39] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 02:16:39] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 02:16:39] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 02:16:40] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 02:16:40] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 02:16:40] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 02:16:50] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 02:16:50] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 02:16:50] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 02:16:50] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 02:16:50] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 02:16:50] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 02:19:05] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 02:19:05] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 02:19:05] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 02:19:05] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 02:19:05] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 02:19:05] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 02:19:14] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 02:19:14] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 02:19:14] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 02:19:14] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 02:19:14] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 02:19:14] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 02:22:34] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 02:22:34] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 02:22:34] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 02:22:34] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 02:22:34] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 02:22:34] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 02:22:44] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 02:22:44] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 02:22:44] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 02:22:44] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 02:22:44] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 02:22:44] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
