@@ -122,7 +122,9 @@
 											{{$item.user_rating}}
 										{{/if}}
 									</span></div>
-									<div class="thumb-spot__rating rotated"><span>{{$item.rating|string_format:"%.1f"}}</span></div>
+									<div class="thumb-spot__rating rotated">
+										<span>{{$item.rating|string_format:"%.1f"}}</span>
+									</div>
 									<div class="thumb-spot__text">
 										<h5 class="thumb-spot__title">
 											{{if $lang.videos.truncate_title_to>0}}
