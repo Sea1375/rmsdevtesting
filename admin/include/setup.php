@@ -5,7 +5,7 @@
 include_once 'version.php';
 umask(0);
 error_reporting(E_ERROR | E_PARSE | E_COMPILE_ERROR);
-ini_set("session.cookie_domain",".".str_replace('www.','',$_SERVER['HTTP_HOST']));
+//ini_set("session.cookie_domain",".".str_replace('www.','',$_SERVER['HTTP_HOST']));
 
 if (isset($_SERVER['HTTP_X_FORWARDED_FOR']))
 {

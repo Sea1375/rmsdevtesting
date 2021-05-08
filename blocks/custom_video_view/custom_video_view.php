@@ -872,10 +872,10 @@ function custom_video_viewAsync($block_config)
 			$rating=intval($_REQUEST['vote']);
 			if ($rating>10){$rating=10;}
 			if ($rating<0){$rating=0;}
-			if (mr2number(sql_pr("select count(*) from $config[tables_prefix]rating_history where video_id=? and ip=?",$video_id,ip2int($_SERVER['REMOTE_ADDR'])))>0)
-			{
-				async_return_request_status(array(array('error_code'=>'ip_already_voted','error_field_code'=>'error_1','block'=>'video_view')));
-			} else {
+			// if (mr2number(sql_pr("select count(*) from $config[tables_prefix]rating_history where video_id=? and ip=?",$video_id,ip2int($_SERVER['REMOTE_ADDR'])))>0)
+			// {
+			// 	async_return_request_status(array(array('error_code'=>'ip_already_voted','error_field_code'=>'error_1','block'=>'video_view')));
+			// } else {
 				$now_date=date("Y-m-d");
 				sql_pr("insert into $config[tables_prefix]rating_history set video_id=?, ip=?, added_date=?",$video_id,ip2int($_SERVER['REMOTE_ADDR']),date("Y-m-d H:i:s"));
 				sql_pr("insert into $config[tables_prefix]user_rating_history set object_id=?, rating=$rating, user_id=?, type=1, added_date=?",$video_id,intval($_SESSION['user_id']),date("Y-m-d H:i:s"));
@@ -899,7 +899,7 @@ function custom_video_viewAsync($block_config)
 				$result_data['rating']=floatval($result_data['rating']);
 				$result_data['rating_amount']=intval($result_data['rating_amount']);
 				async_return_request_status(null,null,$result_data);
-			}
+			// }
 		} else {
 			async_return_request_status(array(array('error_code'=>'invalid_params','block'=>'video_view')));
 		}

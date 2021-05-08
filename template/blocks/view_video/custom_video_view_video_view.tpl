@@ -97,7 +97,7 @@
 				<ul class="media-data__list">
 					{{if $data.user.dvds_count > 0}}
 						<li>
-							<a href="{{$lang.urls.videos_by_channel|replace:"%DIR%":$data.user.dvds.dir}}" class="media-data__list-value username">{{$data.username}}</a>
+							<a href="{{$lang.urls.videos|replace:"%DIR%":$data.user.dvds.dir}}" class="media-data__list-value username">{{$data.username}}</a>
 						</li>
 						<li>
 							{{if $lang.enable_subscriptions=='true' && $lang.enable_memberzone=='true'}}
