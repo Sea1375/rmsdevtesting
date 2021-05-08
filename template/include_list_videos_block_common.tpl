@@ -165,8 +165,15 @@
 								<div class="thumb-spot">
 									{{assign var="video_rating" value="`$item.rating/5*100`"}}
 									{{if $video_rating>100}}{{assign var="video_rating" value="100"}}{{/if}}
+									<div class="thumb-spot__rating rotated red"><span>
+										{{if $item.user_rating!='N/A'}}
+											{{$item.user_rating|string_format:"%.1f"}}
+										{{else}}
+											{{$item.user_rating}}
+										{{/if}}
+									</span></div>
 									<div class="thumb-spot__rating rotated"><span>{{$item.user_rating}}</span></div>
-									<div class="thumb-spot__rating rotated red"><span>{{$item.rating|string_format:"%.1f"}}</span></div>
+
 									<div class="thumb-spot__text">
 										<h5 class="thumb-spot__title">
 											{{if $lang.videos.truncate_title_to>0}}

@@ -1,1 +1,1 @@
-a:5:{s:17:"cached_avg_time_s";d:0.004152980217566858318900546720442434889264404773712158203125;s:21:"cached_requests_count";i:65;s:19:"uncached_avg_time_s";d:0.034066703112810119147280119022980215959250926971435546875;s:23:"uncached_requests_count";i:3033;s:10:"max_memory";i:1920608;}
+a:5:{s:17:"cached_avg_time_s";i:0;s:21:"cached_requests_count";i:1;s:19:"uncached_avg_time_s";d:0.02194046974182129;s:23:"uncached_requests_count";i:2;s:10:"max_memory";i:2271160;}

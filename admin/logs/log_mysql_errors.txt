@@ -14296,3 +14296,711 @@
 [2021-05-07 17:38:41] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
  select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
 
+[2021-05-07 18:07:34] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-07 18:07:34] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-07 18:07:34] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-07 18:07:34] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-07 18:07:34] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-07 18:07:34] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-07 18:09:28] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-07 18:09:28] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-07 18:09:28] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-07 18:09:28] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-07 18:09:28] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-07 18:09:28] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-07 18:10:22] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-07 18:10:22] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-07 18:10:22] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-07 18:10:22] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-07 18:10:22] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-07 18:10:22] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:02:23] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:02:23] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:02:23] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:02:23] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:02:23] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:02:23] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:03:37] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:03:37] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:03:37] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:03:37] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:03:37] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:03:37] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:04:00] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:04:00] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:04:00] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:04:00] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:04:00] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:04:00] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:04:17] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:04:17] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:04:17] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:04:17] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:04:17] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:04:17] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:05:04] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:05:04] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:05:04] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:05:04] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:05:04] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:05:04] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:05:20] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:05:20] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:05:20] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:18:41] [126] F:\xampp7_4\htdocs\index.php LINE 1 :: Index for table '.\m3wvnpzzgrn\ktvs_users.MYI' is corrupt; try to repair it
+ update ktvs_users set tokens_available=tokens_available+0, logins_count=logins_count+1, last_login_date='2021-05-08 00:18:41', last_online_date='2021-05-08 00:18:41', avg_sess_duration=0, avg_sess_duration_count=0  where user_id='55'
+
+[2021-05-08 00:29:23] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:29:23] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:29:23] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:29:27] [1064] F:\xampp7_4\htdocs\view_video.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:29:32] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:29:32] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:29:32] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:29:33] [1064] F:\xampp7_4\htdocs\view_video.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:29:35] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:29:35] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:29:35] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:29:36] [1064] F:\xampp7_4\htdocs\view_video.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:29:36] [1064] F:\xampp7_4\htdocs\view_video.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:30:11] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:30:11] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:30:11] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:30:18] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:30:18] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:30:18] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:30:18] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:30:18] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:30:18] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:30:21] [1064] F:\xampp7_4\htdocs\view_video.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:37:08] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:37:08] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:37:08] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:41:14] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:41:14] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:41:14] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:41:21] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:41:21] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:41:21] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:42:55] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:42:55] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:42:55] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:43:04] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:43:04] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:43:04] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:48:28] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:48:28] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:48:28] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:48:58] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:48:58] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:48:58] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:49:03] [1064] F:\xampp7_4\htdocs\view_video.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:49:36] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:49:36] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:49:36] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:49:41] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:49:41] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:49:41] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:49:41] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:49:41] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:49:41] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:50:15] [1064] F:\xampp7_4\htdocs\view_video.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:50:15] [1064] F:\xampp7_4\htdocs\view_video.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:50:21] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:50:21] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:50:21] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:50:21] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:50:21] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:50:21] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:50:24] [1064] F:\xampp7_4\htdocs\view_video.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:50:28] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:50:28] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:50:28] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:50:28] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:50:28] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:50:28] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:50:31] [1064] F:\xampp7_4\htdocs\view_video.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:50:34] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:50:34] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:50:34] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:50:34] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:50:34] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:50:34] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:50:46] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:50:46] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:50:46] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:50:46] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:50:46] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:50:46] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:50:55] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:50:55] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:50:55] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:50:55] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:50:55] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:50:55] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:50:57] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:50:57] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:50:57] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:50:57] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:50:57] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:50:57] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:50:58] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:50:58] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:50:58] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:50:58] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:50:58] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:50:58] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:50:59] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:50:59] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:50:59] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:50:59] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:50:59] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:50:59] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:50:59] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:50:59] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:50:59] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:50:59] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:50:59] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:50:59] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:51:00] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:51:00] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:51:00] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:51:00] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:51:00] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:51:00] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:51:08] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:51:08] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:51:08] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:51:08] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:51:08] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:51:08] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:51:09] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:51:09] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:51:09] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:51:09] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:51:09] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:51:09] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:51:10] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:51:10] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:51:10] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:51:13] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:51:13] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:51:13] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:51:14] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:51:14] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:51:14] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:51:15] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:51:15] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:51:15] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:51:28] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:51:28] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:51:28] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:51:33] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:51:33] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:51:33] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:51:33] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:51:33] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:51:33] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:52:14] [1064] F:\xampp7_4\htdocs\view_video.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:52:16] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:52:16] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:52:16] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:52:16] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:52:16] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:52:16] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:53:09] [1064] F:\xampp7_4\htdocs\view_video.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:53:13] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:53:13] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:53:13] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:53:13] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:53:13] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:53:13] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:53:15] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:53:15] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:53:15] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:54:30] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:54:30] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:54:30] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:55:24] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:55:24] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:55:24] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:55:26] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:55:26] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:55:26] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:55:26] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:55:26] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:55:26] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:55:33] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27'
+
+[2021-05-08 00:55:33] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
+[2021-05-08 00:55:33] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25'
+
+[2021-05-08 00:55:35] [1064] F:\xampp7_4\htdocs\view_video.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26'' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26'
+
