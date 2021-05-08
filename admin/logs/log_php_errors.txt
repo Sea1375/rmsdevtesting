@@ -340,3 +340,39 @@ Stack trace:
 #2 F:\xampp7_4\htdocs\index.php(1): require_once('F:\\xampp7_4\\htd...')
 #3 {main}
   thrown in F:\xampp7_4\htdocs\admin\include\process_page.php on line 1438
+[08-May-2021 04:09:57 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function custom_video_viewGetHash() in F:\xampp7_4\htdocs\admin\include\process_page.php:1438
+Stack trace:
+#0 F:\xampp7_4\htdocs\admin\smarty\internals\core.run_insert_handler.php(51): insert_getBlock(Array, Object(mysmarty_site))
+#1 F:\xampp7_4\htdocs\admin\smarty\template-c-site\%%6D^6D1^6D168B67%%view_video.tpl.php(11): smarty_core_run_insert_handler(Array, Object(mysmarty_site))
+#2 F:\xampp7_4\htdocs\admin\smarty\Smarty.class.php(1271): include('F:\\xampp7_4\\htd...')
+#3 F:\xampp7_4\htdocs\admin\include\process_page.php(1323): Smarty->fetch('view_video.tpl')
+#4 F:\xampp7_4\htdocs\view_video.php(1): require_once('F:\\xampp7_4\\htd...')
+#5 {main}
+  thrown in F:\xampp7_4\htdocs\admin\include\process_page.php on line 1438
+[08-May-2021 04:10:51 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function video_commentsGetHash() in F:\xampp7_4\htdocs\admin\include\process_page.php:1438
+Stack trace:
+#0 F:\xampp7_4\htdocs\admin\smarty\internals\core.run_insert_handler.php(51): insert_getBlock(Array, Object(mysmarty_site))
+#1 F:\xampp7_4\htdocs\admin\smarty\template-c-site\%%6D^6D1^6D168B67%%view_video.tpl.php(35): smarty_core_run_insert_handler(Array, Object(mysmarty_site))
+#2 F:\xampp7_4\htdocs\admin\smarty\Smarty.class.php(1271): include('F:\\xampp7_4\\htd...')
+#3 F:\xampp7_4\htdocs\admin\include\process_page.php(1323): Smarty->fetch('view_video.tpl')
+#4 F:\xampp7_4\htdocs\view_video.php(1): require_once('F:\\xampp7_4\\htd...')
+#5 {main}
+  thrown in F:\xampp7_4\htdocs\admin\include\process_page.php on line 1438
+[08-May-2021 04:11:12 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function custom_video_viewGetHash() in F:\xampp7_4\htdocs\admin\include\process_page.php:1438
+Stack trace:
+#0 F:\xampp7_4\htdocs\admin\smarty\internals\core.run_insert_handler.php(51): insert_getBlock(Array, Object(mysmarty_site))
+#1 F:\xampp7_4\htdocs\admin\smarty\template-c-site\%%6D^6D1^6D168B67%%view_video.tpl.php(11): smarty_core_run_insert_handler(Array, Object(mysmarty_site))
+#2 F:\xampp7_4\htdocs\admin\smarty\Smarty.class.php(1271): include('F:\\xampp7_4\\htd...')
+#3 F:\xampp7_4\htdocs\admin\include\process_page.php(1323): Smarty->fetch('view_video.tpl')
+#4 F:\xampp7_4\htdocs\view_video.php(1): require_once('F:\\xampp7_4\\htd...')
+#5 {main}
+  thrown in F:\xampp7_4\htdocs\admin\include\process_page.php on line 1438
+[08-May-2021 04:11:33 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function custom_video_viewGetHash() in F:\xampp7_4\htdocs\admin\include\process_page.php:1438
+Stack trace:
+#0 F:\xampp7_4\htdocs\admin\smarty\internals\core.run_insert_handler.php(51): insert_getBlock(Array, Object(mysmarty_site))
+#1 F:\xampp7_4\htdocs\admin\smarty\template-c-site\%%6D^6D1^6D168B67%%view_video.tpl.php(11): smarty_core_run_insert_handler(Array, Object(mysmarty_site))
+#2 F:\xampp7_4\htdocs\admin\smarty\Smarty.class.php(1271): include('F:\\xampp7_4\\htd...')
+#3 F:\xampp7_4\htdocs\admin\include\process_page.php(1323): Smarty->fetch('view_video.tpl')
+#4 F:\xampp7_4\htdocs\view_video.php(1): require_once('F:\\xampp7_4\\htd...')
+#5 {main}
+  thrown in F:\xampp7_4\htdocs\admin\include\process_page.php on line 1438

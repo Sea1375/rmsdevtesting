@@ -124,6 +124,9 @@
 					{{else}}
 						<li>
 							<span class="media-data__list-value username">{{$data.username}}</span>
+							{{if $data.user.country_code}}
+								<span class="country"><img src="/static/images/flags/{{$data.user.country_code|upper}}.png"/></span>
+							{{/if}}
 						</li>
 
 					{{/if}}

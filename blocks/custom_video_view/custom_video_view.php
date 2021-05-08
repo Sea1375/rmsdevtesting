@@ -64,6 +64,8 @@ function custom_video_viewShow($block_config,$object_id)
 	}
 
 	$data['user']=mr2array_single(sql_pr("select * from $config[tables_prefix]users where user_id=?",$data['user_id']));
+	$country_code = mr2array_single(sql_pr("select country_code from $config[tables_prefix]list_countries where country_id=?",$data['user']['country_id']));
+	$data['user']['country_code'] = $country_code['country_code'];
 	if ($data['user']['avatar']!='')
 	{
 		$data['user']['avatar_url']=$config['content_url_avatars']."/".$data['user']['avatar'];
