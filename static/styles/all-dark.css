@@ -2528,7 +2528,7 @@ a:focus {
 .thumb .thumb-spot__rating {
     width: 32px;
     height: 32px;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: bold;
     line-height: 2;
     margin: 0 0 0 8px;
@@ -9043,7 +9043,7 @@ html {
 }
 
 .thumb .thumb-spot__rating span {
-    line-height: 3;
+    line-height: 35px;
 }
 
 .main-menu__item>a {

@@ -88,8 +88,10 @@ function custom_video_viewShow($block_config,$object_id)
 	
     }
 	if ($_SESSION['user_id']>0){
-		$result_rating=sql_pr("select rating from $config[tables_prefix]user_rating_history where user_id=$_SESSION[user_id] and type=1 and object_id=?",$data['video_id']);
-		if (mr2rows($result_rating)==0) {
+		$result_rating=sql_pr("select rating from $config[tables_prefix]user_rating_history where user_id=$_SESSION[user_id] and type=1 and object_id=?  ORDER BY added_date DESC LIMIT 1",$data['video_id']);
+		$result_rating_count = mr2rows($result_rating);
+		// var_dump($result_rating_count);
+		if ($result_rating_count==0) {
 			$data['user_rating']="N/A";
 		} else {
 			$data['user_rating']=mr2number($result_rating); 

@@ -376,3 +376,12 @@ Stack trace:
 #4 F:\xampp7_4\htdocs\view_video.php(1): require_once('F:\\xampp7_4\\htd...')
 #5 {main}
   thrown in F:\xampp7_4\htdocs\admin\include\process_page.php on line 1438
+[08-May-2021 18:07:42 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function custom_list_videosGetHash() in F:\xampp7_4\htdocs\admin\include\process_page.php:1438
+Stack trace:
+#0 F:\xampp7_4\htdocs\admin\smarty\internals\core.run_insert_handler.php(51): insert_getBlock(Array, Object(mysmarty_site))
+#1 F:\xampp7_4\htdocs\admin\smarty\template-c-site\%%BC^BC5^BC5CCD64%%videos_list.tpl.php(6): smarty_core_run_insert_handler(Array, Object(mysmarty_site))
+#2 F:\xampp7_4\htdocs\admin\smarty\Smarty.class.php(1271): include('F:\\xampp7_4\\htd...')
+#3 F:\xampp7_4\htdocs\admin\include\process_page.php(1323): Smarty->fetch('videos_list.tpl')
+#4 F:\xampp7_4\htdocs\videos_list.php(1): require_once('F:\\xampp7_4\\htd...')
+#5 {main}
+  thrown in F:\xampp7_4\htdocs\admin\include\process_page.php on line 1438
