@@ -435,6 +435,12 @@ section {
     }
 }
 
+@media (min-width: 850px) {
+    .info-bar.columns .column:first-child {
+        min-width: 750px;
+    }
+}
+
 .info-bar.columns .column {
     display: flex;
     flex-direction: column;
@@ -641,4 +647,38 @@ section {
 
 .btn__vote.btn__like {
     top: initial;
+}
+
+.range-inner {
+    flex-grow: 1;
+    padding: 7px 15px;
+    border: 2px solid gray;
+}
+
+.rating-item {
+    color: rgb(159, 159, 159);
+    border: 0.1875em solid rgb(159, 159, 159);
+    width: 37px;
+    height: 37px;
+    display: inline-block;
+    line-height: 30px;
+    font-size: 20px;
+    text-align: center;
+    margin: 4px 0px 4px 10px;
+    cursor: pointer;
+}
+
+.rating-item:hover {
+    background-color: rgb(159, 159, 159);
+    color: white;
+}
+
+.rating-item.active {
+    background-color: rgb(26, 179, 148);
+    color: rgb(255, 255, 255);
+    border-color: rgb(26, 179, 148);
+}
+
+.range-inner .tooltip {
+    top: 0%;
 }

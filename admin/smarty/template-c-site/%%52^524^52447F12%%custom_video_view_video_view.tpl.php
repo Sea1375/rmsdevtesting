@@ -1,7 +1,7 @@
-<?php /* Smarty version 2.6.31, created on 2021-05-10 22:54:56
+<?php /* Smarty version 2.6.31, created on 2021-05-12 03:02:19
          compiled from blocks/view_video/custom_video_view_video_view.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('modifier', 'escape_ss', 'blocks/view_video/custom_video_view_video_view.tpl', 2, false),array('modifier', 'replace', 'blocks/view_video/custom_video_view_video_view.tpl', 11, false),array('modifier', 'traffic_format', 'blocks/view_video/custom_video_view_video_view.tpl', 107, false),array('modifier', 'upper', 'blocks/view_video/custom_video_view_video_view.tpl', 128, false),array('modifier', 'number_format', 'blocks/view_video/custom_video_view_video_view.tpl', 139, false),array('modifier', 'date_format', 'blocks/view_video/custom_video_view_video_view.tpl', 143, false),array('modifier', 'country', 'blocks/view_video/custom_video_view_video_view.tpl', 148, false),array('modifier', 'string_format', 'blocks/view_video/custom_video_view_video_view.tpl', 222, false),array('modifier', 'default', 'blocks/view_video/custom_video_view_video_view.tpl', 380, false),array('modifier', 'geomsize', 'blocks/view_video/custom_video_view_video_view.tpl', 392, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('modifier', 'escape_ss', 'blocks/view_video/custom_video_view_video_view.tpl', 2, false),array('modifier', 'replace', 'blocks/view_video/custom_video_view_video_view.tpl', 11, false),array('modifier', 'traffic_format', 'blocks/view_video/custom_video_view_video_view.tpl', 107, false),array('modifier', 'upper', 'blocks/view_video/custom_video_view_video_view.tpl', 128, false),array('modifier', 'number_format', 'blocks/view_video/custom_video_view_video_view.tpl', 139, false),array('modifier', 'date_format', 'blocks/view_video/custom_video_view_video_view.tpl', 143, false),array('modifier', 'country', 'blocks/view_video/custom_video_view_video_view.tpl', 148, false),array('modifier', 'string_format', 'blocks/view_video/custom_video_view_video_view.tpl', 234, false),array('modifier', 'default', 'blocks/view_video/custom_video_view_video_view.tpl', 392, false),array('modifier', 'geomsize', 'blocks/view_video/custom_video_view_video_view.tpl', 404, false),)), $this); ?>
 <div class="container">
 	<h1 class="title"><?php echo ((is_array($_tmp=$this->_tpl_vars['data']['title'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); ?>
 </h1>
@@ -217,9 +217,18 @@ unset($_smarty_tpl_vars);
 			</div>
 			<div class="vote-block info-bar__cell" data-action="rating">
 				<div class="range-wrapper">
-					<div class="range-shadow">
-						<div class="range-holder">
-							<input type="text" class="js-range-slider" name="my_range" value="" />
+					<div class="range-inner">
+												<div>
+							<i class="rating-item active" data-vote="1">1</i>
+							<i class="rating-item" data-vote="2">2</i>
+							<i class="rating-item" data-vote="3">3</i>
+							<i class="rating-item" data-vote="4">4</i>
+							<i class="rating-item" data-vote="5">5</i>
+							<i class="rating-item" data-vote="6">6</i>
+							<i class="rating-item" data-vote="7">7</i>
+							<i class="rating-item" data-vote="8">8</i>
+							<i class="rating-item" data-vote="9">9</i>
+							<i class="rating-item" data-vote="10">10</i>
 						</div>
 						<span class="tooltip hidden" data-show="success"><?php echo ((is_array($_tmp=$this->_tpl_vars['lang']['videos']['video_details_rating_message_success'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); ?>
 </span>

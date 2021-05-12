@@ -30,6 +30,14 @@ $(document).ready(function() {
 
     });
 
+    $('.range-wrapper .rating-item').click((e) => {
+        let _this = $(e.currentTarget);
+        _this.parent().find('.active').removeClass('active');
+        _this.addClass('active');
+        let vote = _this.data('vote');
+        $('.range-wrapper .btn__like').attr('data-vote', vote);
+    })
+
     $(".js-guest").on("click", function() {
         var date = new Date(new Date().getTime() + 365 * 24 * 60 * 60 * 1000);
         document.cookie =

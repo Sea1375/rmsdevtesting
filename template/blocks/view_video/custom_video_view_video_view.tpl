@@ -152,9 +152,21 @@
 			</div>
 			<div class="vote-block info-bar__cell" data-action="rating">
 				<div class="range-wrapper">
-					<div class="range-shadow">
-						<div class="range-holder">
+					<div class="range-inner">
+						{{* <div class="range-holder">
 							<input type="text" class="js-range-slider" name="my_range" value="" />
+						</div> *}}
+						<div>
+							<i class="rating-item active" data-vote="1">1</i>
+							<i class="rating-item" data-vote="2">2</i>
+							<i class="rating-item" data-vote="3">3</i>
+							<i class="rating-item" data-vote="4">4</i>
+							<i class="rating-item" data-vote="5">5</i>
+							<i class="rating-item" data-vote="6">6</i>
+							<i class="rating-item" data-vote="7">7</i>
+							<i class="rating-item" data-vote="8">8</i>
+							<i class="rating-item" data-vote="9">9</i>
+							<i class="rating-item" data-vote="10">10</i>
 						</div>
 						<span class="tooltip hidden" data-show="success">{{$lang.videos.video_details_rating_message_success}}</span>
 						<span class="tooltip hidden" data-show="error">{{$lang.videos.video_details_rating_message_error}}</span> 

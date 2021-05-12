@@ -2750,7 +2750,7 @@ function custom_list_videosShow($block_config,$object_id)
 			$data[$k]['screen_url']=$screen_url_base.'/'.get_dir_by_id($data[$k]['video_id']).'/'.$data[$k]['video_id'];
 
 
-			$result_rating=sql_pr("select rating from $config[tables_prefix]user_rating_history where user_id=$_SESSION[user_id] and type=1 and object_id=?",$data[$k]['video_id']);
+			$result_rating=sql_pr("select rating from $config[tables_prefix]user_rating_history where user_id=$_SESSION[user_id] and type=1 and object_id=? ORDER BY added_date DESC LIMIT 1",$data[$k]['video_id']);
 			if (mr2rows($result_rating)==0) {
 				$data[$k]['user_rating']="N/A";
 			} else {
