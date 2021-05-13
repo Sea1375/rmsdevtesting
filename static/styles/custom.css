@@ -650,35 +650,100 @@ section {
 }
 
 .range-inner {
-    flex-grow: 1;
+    /* flex-grow: 1;
     padding: 7px 15px;
-    border: 2px solid gray;
+    border: 2px solid gray; */
+    position: relative;
+    /* border: 2px solid black;
+    border-radius: 20px; */
+    padding: 8px 10px 8px 30px;
 }
 
 .rating-item {
-    color: rgb(159, 159, 159);
-    border: 0.1875em solid rgb(159, 159, 159);
     width: 37px;
-    height: 37px;
     display: inline-block;
-    line-height: 30px;
-    font-size: 20px;
+    /* line-height: 30px; */
     text-align: center;
     margin: 4px 0px 4px 10px;
     cursor: pointer;
 }
 
-.rating-item:hover {
-    background-color: rgb(159, 159, 159);
-    color: white;
+.rating-item:hover {}
+
+.rating-item.active {}
+
+.rating-item .rating-text {
+    font-size: 17px;
+    font-weight: bold;
 }
 
-.rating-item.active {
-    background-color: rgb(26, 179, 148);
-    color: rgb(255, 255, 255);
-    border-color: rgb(26, 179, 148);
+.rating-item .circle {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    padding: 7px;
+    background-color: black;
+    border-radius: 100%;
+    position: relative;
+}
+
+.rating-item .circle .circle-inner {
+    display: inline-block;
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    font-size: 14px;
+}
+
+.rating-item.active .circle .circle-inner {
+    background-color: #f86900;
+}
+
+.range-inner .bottom-bar {
+    position: absolute;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #000;
+    width: 91%;
+    bottom: 21px;
+    left: 16px;
+    z-index: 0;
 }
 
 .range-inner .tooltip {
     top: 0%;
+}
+
+.range-wrapper-inner {
+    display: flex;
+    border: 2px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.range-wrapper-inner .btn__vote {
+    margin-right: 0;
+    line-height: 60px;
+    margin: 0;
+    margin-left: -0px;
+}
+
+@media (max-width: 850px) {
+    .range-inner .bottom-bar {
+        display: none;
+    }
+    .range-wrapper-inner {
+        display: block;
+    }
+    .range-wrapper-inner .btn__vote {
+        width: 70%;
+        margin-left: auto!important;
+        display: block;
+        height: 50px;
+        line-height: 50px;
+        line-height: 30px!important;
+        margin-bottom: 10px;
+        margin-right: auto!important;
+    }
 }

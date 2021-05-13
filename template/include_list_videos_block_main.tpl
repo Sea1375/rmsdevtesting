@@ -116,18 +116,18 @@
 									{{assign var="video_rating" value="`$item.rating/5*100`"}}
 									{{if $video_rating>100}}{{assign var="video_rating" value="100"}}{{/if}}
 									<div class="thumb-spot__rating rotated red"><span>
-										{{if $item.rating!='N/A'}}
-											{{$item.rating|string_format:"%.1f"}}
-										{{else}}
+										{{if $item.rating =='N/A' || $item.rating == '10'}}
 											{{$item.rating}}
+										{{else}}
+											{{$item.rating|string_format:"%.1f"}}
 										{{/if}}
 									</span></div>
 									<div class="thumb-spot__rating rotated">
 										<span>
-											{{if $item.user_rating!='N/A'}}
-												{{$item.user_rating|string_format:"%.1f"}}
-											{{else}}
+											{{if $item.user_rating =='N/A' || $item.user_rating == '10'}}
 												{{$item.user_rating}}
+											{{else}}
+												{{$item.user_rating|string_format:"%.1f"}}
 											{{/if}}
 										</span>
 									</div>

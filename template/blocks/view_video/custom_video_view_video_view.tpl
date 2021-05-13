@@ -152,22 +152,77 @@
 			</div>
 			<div class="vote-block info-bar__cell" data-action="rating">
 				<div class="range-wrapper">
+					<div class="range-wrapper-inner">
 					<div class="range-inner">
 						{{* <div class="range-holder">
 							<input type="text" class="js-range-slider" name="my_range" value="" />
 						</div> *}}
-						<div>
-							<i class="rating-item active" data-vote="1">1</i>
-							<i class="rating-item" data-vote="2">2</i>
-							<i class="rating-item" data-vote="3">3</i>
-							<i class="rating-item" data-vote="4">4</i>
-							<i class="rating-item" data-vote="5">5</i>
-							<i class="rating-item" data-vote="6">6</i>
-							<i class="rating-item" data-vote="7">7</i>
-							<i class="rating-item" data-vote="8">8</i>
-							<i class="rating-item" data-vote="9">9</i>
-							<i class="rating-item" data-vote="10">10</i>
-						</div>
+
+						<span class="bottom-bar"></span>
+						
+						<span class="rating-item active" data-vote="1">
+							<span class="rating-text">1</span>
+							<i class="circle">
+								<i class="circle-inner"></i>
+							</i>
+						</span>
+						<span class="rating-item" data-vote="2">
+							<span class="rating-text">2</span>
+							<i class="circle">
+								<i class="circle-inner"></i>
+							</i>
+						</span>
+						<span class="rating-item" data-vote="3">
+							<span class="rating-text">3</span>
+							<i class="circle">
+								<i class="circle-inner"></i>
+							</i>
+						</span>
+						<span class="rating-item" data-vote="4">
+							<span class="rating-text">4</span>
+							<i class="circle">
+								<i class="circle-inner"></i>
+							</i>
+						</span>
+						<span class="rating-item" data-vote="5">
+							<span class="rating-text">5</span>
+							<i class="circle">
+								<i class="circle-inner"></i>
+							</i>
+						</span>
+						<span class="rating-item" data-vote="6">
+							<span class="rating-text">6</span>
+							<i class="circle">
+								<i class="circle-inner"></i>
+							</i>
+						</span>
+						<span class="rating-item" data-vote="7">
+							<span class="rating-text">7</span>
+							<i class="circle">
+								<i class="circle-inner"></i>
+							</i>
+						</span>
+						<span class="rating-item" data-vote="8">
+							<span class="rating-text">8</span>
+							<i class="circle">
+								<i class="circle-inner"></i>
+							</i>
+						</span>
+						<span class="rating-item" data-vote="9">
+							<span class="rating-text">9</span>
+							<i class="circle">
+								<i class="circle-inner"></i>
+							</i>
+						</span>
+						<span class="rating-item" data-vote="10">
+							<span class="rating-text">10</span>
+							<i class="circle">
+								<i class="circle-inner"></i>
+							</i>
+						</span>
+
+						
+					
 						<span class="tooltip hidden" data-show="success">{{$lang.videos.video_details_rating_message_success}}</span>
 						<span class="tooltip hidden" data-show="error">{{$lang.videos.video_details_rating_message_error}}</span> 
 					</div>
@@ -184,6 +239,7 @@
 							Rate
 						</a>
 					{{/if}}
+					</div>
 
 				</div>
 
@@ -230,10 +286,10 @@
           <div class="item">
             <span class="text">U-Rating</span>
             <div class="u_rate 1">
-				{{if $data.user_rating!='N/A'}}
-					{{$data.user_rating|string_format:"%.1f"}}
-				{{else}}
+				{{if $data.user_rating =='N/A' || $data.user_rating == '10'}}
 					{{$data.user_rating}}
+				{{else}}
+					{{$data.user_rating|string_format:"%.1f"}}
 				{{/if}}
 			</div>
           </div>
