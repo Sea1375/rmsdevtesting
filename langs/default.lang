@@ -310,7 +310,7 @@ videos.list_title_by_model = %1% - Videos - %2%
 videos.list_title_by_search = %1% - Videos - %2%
 
 videos.list_sorting.post_date = Latest
-videos.list_sorting.rating = Top Rated
+videos.list_sorting.rating = Global Rating
 videos.list_sorting.rating_today = Top Rated Today
 videos.list_sorting.rating_week = Top Rated This Week
 videos.list_sorting.rating_month = Top Rated This Month
@@ -1056,7 +1056,7 @@ videos.thumb_size = 288x230
 videos.truncate_title_to = 55
 videos.show_screenshots = true
 
-videos.sortings = array(post_date, video_viewed, rating, duration, most_favourited)
+videos.sortings = array(post_date, video_viewed, rating, duration, most_favourited, your_rating)
 videos.sortings_top_rated = array(rating, rating_month, rating_week, rating_today)
 videos.sortings_most_popular = array(video_viewed, video_viewed_month, video_viewed_week, video_viewed_today)
 videos.predefined_favourites = array(0, 1)
@@ -1137,3 +1137,7 @@ edit_video.btn_upload = Upload
 edit_video.btn_edit = Save
 edit_video.success_message_upload = Thank you! Video has been created successfully. It will take some time for it to be processed.
 edit_video.success_message_edit = Video data has been modified.
+
+
+videos.list_sorting.your_rating = Your Rating
+

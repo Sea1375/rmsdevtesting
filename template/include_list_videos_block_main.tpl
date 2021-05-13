@@ -61,7 +61,11 @@
 												</div>
 											</div>
 										{{else}}
-											<a href="{{$base_url}}?by={{$item}}" class="btn">{{$lang.videos.list_sorting[$item]}}</a>
+											{{if $item=='your_rating' && $smarty.session.user_id>0}}
+												<a href="{{$base_url}}?by={{$item}}" class="btn js-filters">{{$lang.videos.list_sorting[$item]}}</a>
+											{{elseif $item != 'your_rating'}}
+												<a href="{{$base_url}}?by={{$item}}" class="btn js-filters">{{$lang.videos.list_sorting[$item]}}</a>
+											{{/if}}
 										{{/if}}
 									{{/if}}
 								{{/if}}
@@ -69,6 +73,7 @@
 						</div>
 					{{/if}}
 				{{elseif $mode_favourites=='1'}}
+					
 					<div class="buttons pull-right">
 						{{foreach item="item" from=$lang.videos.predefined_favourites}}
 							{{if $fav_type!=$item}}
@@ -115,21 +120,31 @@
 								<div class="thumb-spot">
 									{{assign var="video_rating" value="`$item.rating/5*100`"}}
 									{{if $video_rating>100}}{{assign var="video_rating" value="100"}}{{/if}}
-									<div class="thumb-spot__rating rotated red"><span>
-										{{if $item.rating =='N/A' || $item.rating == '10'}}
-											{{$item.rating}}
-										{{else}}
-											{{$item.rating|string_format:"%.1f"}}
-										{{/if}}
-									</span></div>
-									<div class="thumb-spot__rating rotated">
-										<span>
-											{{if $item.user_rating =='N/A' || $item.user_rating == '10'}}
-												{{$item.user_rating}}
-											{{else}}
-												{{$item.user_rating|string_format:"%.1f"}}
-											{{/if}}
-										</span>
+									<div class="thumb-spot__rating__wrapper">
+										<div class="thumb-spot__rating rotated red">
+											<span>
+												{{if $item.rating =='N/A' || $item.rating == '10'}}
+													{{$item.rating}}
+												{{else}}
+													{{$item.rating|string_format:"%.1f"}}
+												{{/if}}
+											</span>
+											
+										</div>
+										<image src="/static/images/user-group.png">
+									</div>
+									<div class="thumb-spot__rating__wrapper">
+										<div class="thumb-spot__rating rotated">
+											<span>
+												{{if $item.user_rating =='N/A' || $item.user_rating == '10'}}
+													{{$item.user_rating}}
+												{{else}}
+													{{$item.user_rating|string_format:"%.1f"}}
+												{{/if}}
+											</span>
+											
+										</div>
+										<image src="/static/images/single-user.png">
 									</div>
 									<div class="thumb-spot__text">
 										<h5 class="thumb-spot__title">

@@ -11,7 +11,7 @@
 	{{assign var="page_title" value=$lang.html.videos_by_category_title|replace_tokens:$storage.custom_list_videos_common_videos_list.category_info|replace:"%sort_by%":$lang.videos.list_sorting[$storage.custom_list_videos_common_videos_list.sort_by]}}
 	{{assign var="page_description" value=$lang.html.videos_by_category_description|replace_tokens:$storage.custom_list_videos_common_videos_list.category_info}}
 	{{assign var="page_keywords" value=$lang.html.videos_by_category_keywords|replace_tokens:$storage.custom_list_videos_common_videos_list.category_info}}
-	{{assign var="page_rss" value=$lang.urls.rss_videos_by_category|replace:"%DIR%":$storage.custom_list_videos_common_videos_list.category_info.dir|replace:"%ID%":$storage.custom_list_videos_common_videos_list.category_info.category_id}}
+	{{assign var="page_rss" value=$laang.urls.rss_videos_by_category|replace:"%DIR%":$storage.custom_list_videos_common_videos_list.category_info.dir|replace:"%ID%":$storage.custom_list_videos_common_videos_list.category_info.category_id}}
 	{{assign var="page_canonical" value=$lang.urls.videos_by_category|replace:"%DIR%":$storage.custom_list_videos_common_videos_list.category_info.dir|replace:"%ID%":$storage.custom_list_videos_common_videos_list.category_info.category_id}}
 
 {{elseif $storage.custom_list_videos_common_videos_list.list_type=='models'}}

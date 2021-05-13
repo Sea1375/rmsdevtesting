@@ -16477,3 +16477,666 @@
 [2021-05-12 20:10:26] [126] F:\xampp7_4\htdocs\view_video.php LINE 1 :: Index for table '.\m3wvnpzzgrn\ktvs_videos.MYI' is corrupt; try to repair it
  update ktvs_videos set rating_amount=(case when rating=0 then 1 else rating_amount+1 end), rating=rating+3 where video_id=27
 
+[2021-05-13 02:10:52] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 02:10:52] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 02:10:52] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 02:10:52] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 02:10:52] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 02:10:52] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 02:11:00] [126] F:\xampp7_4\htdocs\index.php LINE 1 :: Index for table '.\m3wvnpzzgrn\ktvs_users.MYI' is corrupt; try to repair it
+ update ktvs_users set tokens_available=tokens_available+0, logins_count=logins_count+1, last_login_date='2021-05-13 02:11:00', last_online_date='2021-05-13 02:11:00', avg_sess_duration=0, avg_sess_duration_count=0  where user_id='55'
+
+[2021-05-13 02:11:11] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 02:11:11] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 02:11:11] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 02:11:11] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 02:11:11] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 02:11:11] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 02:21:45] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 02:21:45] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 02:21:45] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 02:21:45] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 02:21:45] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 02:21:45] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 02:42:32] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 02:42:32] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 02:42:32] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 02:42:44] [126] F:\xampp7_4\htdocs\index.php LINE 1 :: Index for table '.\m3wvnpzzgrn\ktvs_users.MYI' is corrupt; try to repair it
+ update ktvs_users set tokens_available=tokens_available+0, logins_count=logins_count+1, last_login_date='2021-05-13 02:42:44', last_online_date='2021-05-13 02:42:44', avg_sess_duration=0, avg_sess_duration_count=0  where user_id='55'
+
+[2021-05-13 03:52:40] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:52:40] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:52:40] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:52:40] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:52:40] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:52:40] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:52:42] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:52:42] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:52:42] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:52:48] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:52:48] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:52:48] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:52:49] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:52:49] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:52:49] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:53:06] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:53:06] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:53:06] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:53:08] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:53:08] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:53:08] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:53:12] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:53:12] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:53:12] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:53:13] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:53:13] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:53:13] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:55:48] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:55:48] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:55:48] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:55:52] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:55:52] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:55:52] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:56:58] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:56:58] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:56:58] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:57:00] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:57:00] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:57:00] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:57:06] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:57:06] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:57:06] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:57:08] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:57:08] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:57:08] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:57:16] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:57:16] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:57:16] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:57:18] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:57:18] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:57:18] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:57:20] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:57:20] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:57:20] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:57:23] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:57:23] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:57:23] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:57:24] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:57:24] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:57:24] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:59:19] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:59:19] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:59:19] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:59:21] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:59:21] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 03:59:21] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 04:01:06] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 04:01:06] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 04:01:06] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 04:01:15] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 04:01:15] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 04:01:15] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 04:01:20] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 04:01:20] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 04:01:20] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 04:01:23] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 04:01:23] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 04:01:23] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 04:01:26] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 04:01:26] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 04:01:26] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 04:01:28] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 04:01:28] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 04:01:28] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 04:05:19] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 04:05:19] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 04:05:19] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 04:06:53] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 04:06:53] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 04:06:53] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 04:06:55] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 04:06:55] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 04:06:55] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 04:09:51] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 04:09:51] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 04:09:51] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 04:09:53] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 04:09:53] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 04:09:53] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 04:09:56] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 04:09:56] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 04:09:56] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 04:10:08] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 04:10:08] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 04:10:08] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 04:10:12] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 04:10:12] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 04:10:12] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 04:10:14] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 04:10:14] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 04:10:14] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 04:11:02] [126] F:\xampp7_4\htdocs\index.php LINE 1 :: Index for table '.\m3wvnpzzgrn\ktvs_users.MYI' is corrupt; try to repair it
+ update ktvs_users set tokens_available=tokens_available+0, logins_count=logins_count+1, last_login_date='2021-05-13 04:11:02', last_online_date='2021-05-13 04:11:02', avg_sess_duration=0, avg_sess_duration_count=0  where user_id='55'
+
+[2021-05-13 05:07:14] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 05:07:14] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 05:07:14] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 05:07:14] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 05:07:14] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 05:07:14] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 05:07:20] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 05:07:20] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 05:07:20] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 05:07:25] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 05:07:25] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 05:07:25] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 05:07:25] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 05:07:25] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 05:07:25] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 05:07:31] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY added_date desc LIMIT 1) desc LIMIT 0, 24' at line 1
+ SELECT ktvs_videos.video_id, title as title, description as description, dir as dir,  server_group_id, load_type_id, user_id, content_source_id, dvd_id, status_id, is_hd, is_private, access_level_id, is_locked, duration, file_formats, file_size, file_dimensions, file_url, pseudo_url, screen_amount, screen_main, screen_main_temp, poster_amount, poster_main, embed, delete_reason, (rating/rating_amount) as rating, rating_amount, video_viewed, video_viewed_player, video_viewed_unique, video_viewed_paid, comments_count, favourites_count, purchases_count, tokens_required, release_year, post_date as post_date, last_time_view_date, added_date, rs_completed, admin_flag_id, af_custom1, af_custom2, af_custom3, custom1, custom2, custom3, gallery_url from ktvs_videos where ktvs_videos.status_id=1 and ktvs_videos.relative_post_date<=10000 and ktvs_videos.post_date<='2021-05-13 05:07:31'  order by (select rating from ktvs_user_rating_history where object_id=ktvs_videos.video_id and user_id= ORDER BY added_date desc LIMIT 1) desc LIMIT 0, 24
+
+[2021-05-13 05:07:34] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 05:07:34] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 05:07:34] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 05:07:34] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 05:07:34] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 05:07:34] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 05:07:35] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 05:07:35] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 05:07:35] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 05:07:40] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 05:07:40] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 05:07:40] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 05:07:40] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 05:07:40] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 05:07:40] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 05:08:04] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 05:08:04] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 05:08:04] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 05:08:04] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 05:08:04] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 05:08:04] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 05:08:14] [126] F:\xampp7_4\htdocs\index.php LINE 1 :: Index for table '.\m3wvnpzzgrn\ktvs_users.MYI' is corrupt; try to repair it
+ update ktvs_users set tokens_available=tokens_available+0, logins_count=logins_count+1, last_login_date='2021-05-13 05:08:14', last_online_date='2021-05-13 05:08:14', avg_sess_duration=0, avg_sess_duration_count=0  where user_id='55'
+
+[2021-05-13 06:27:33] [1064] F:\xampp7_4\htdocs\member_profile_view.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(select sum(viewed) from ktvs_stats_videos where video_id=ktvs_videos.video_i...' at line 1
+ SELECT ktvs_videos.video_id, title as title, description as description, dir as dir,  server_group_id, load_type_id, ktvs_videos.user_id, content_source_id, dvd_id, status_id, is_hd, is_private, access_level_id, is_locked, duration, file_formats, file_size, file_dimensions, file_url, pseudo_url, screen_amount, screen_main, screen_main_temp, poster_amount, poster_main, embed, delete_reason, (rating/rating_amount) as rating, rating_amount, video_viewed, video_viewed_player, video_viewed_unique, video_viewed_paid, comments_count, favourites_count, purchases_count, tokens_required, release_year, post_date as post_date, last_time_view_date, ktvs_videos.added_date, rs_completed, admin_flag_id, af_custom1, af_custom2, af_custom3, custom1, custom2, custom3, gallery_url, ktvs_fav_videos.added_date as added2fav_date from ktvs_videos inner join ktvs_fav_videos on ktvs_videos.video_id=ktvs_fav_videos.video_id where ktvs_videos.status_id=1 and ktvs_videos.relative_post_date<=10000 and ktvs_videos.post_date<='2021-05-13 06:27:33' and ktvs_fav_videos.user_id=55 and ktvs_fav_videos.fav_type=0 and ktvs_fav_videos.playlist_id=0  (select sum(viewed) from ktvs_stats_videos where video_id=ktvs_videos.video_id and added_date>='2021-04-13' and added_date<='2021-05-13') desc LIMIT 0, 12
+
+[2021-05-13 06:27:39] [1064] F:\xampp7_4\htdocs\member_profile_view.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(select sum(viewed) from ktvs_stats_videos where video_id=ktvs_videos.video_i...' at line 1
+ SELECT ktvs_videos.video_id, title as title, description as description, dir as dir,  server_group_id, load_type_id, ktvs_videos.user_id, content_source_id, dvd_id, status_id, is_hd, is_private, access_level_id, is_locked, duration, file_formats, file_size, file_dimensions, file_url, pseudo_url, screen_amount, screen_main, screen_main_temp, poster_amount, poster_main, embed, delete_reason, (rating/rating_amount) as rating, rating_amount, video_viewed, video_viewed_player, video_viewed_unique, video_viewed_paid, comments_count, favourites_count, purchases_count, tokens_required, release_year, post_date as post_date, last_time_view_date, ktvs_videos.added_date, rs_completed, admin_flag_id, af_custom1, af_custom2, af_custom3, custom1, custom2, custom3, gallery_url, ktvs_fav_videos.added_date as added2fav_date from ktvs_videos inner join ktvs_fav_videos on ktvs_videos.video_id=ktvs_fav_videos.video_id where ktvs_videos.status_id=1 and ktvs_videos.relative_post_date<=10000 and ktvs_videos.post_date<='2021-05-13 06:27:39' and ktvs_fav_videos.user_id=55 and ktvs_fav_videos.fav_type=0 and ktvs_fav_videos.playlist_id=0  (select sum(viewed) from ktvs_stats_videos where video_id=ktvs_videos.video_id and added_date>='2021-05-07' and added_date<='2021-05-13') desc LIMIT 0, 12
+
+[2021-05-13 06:27:41] [1064] F:\xampp7_4\htdocs\member_profile_view.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(select sum(viewed) from ktvs_stats_videos where video_id=ktvs_videos.video_i...' at line 1
+ SELECT ktvs_videos.video_id, title as title, description as description, dir as dir,  server_group_id, load_type_id, ktvs_videos.user_id, content_source_id, dvd_id, status_id, is_hd, is_private, access_level_id, is_locked, duration, file_formats, file_size, file_dimensions, file_url, pseudo_url, screen_amount, screen_main, screen_main_temp, poster_amount, poster_main, embed, delete_reason, (rating/rating_amount) as rating, rating_amount, video_viewed, video_viewed_player, video_viewed_unique, video_viewed_paid, comments_count, favourites_count, purchases_count, tokens_required, release_year, post_date as post_date, last_time_view_date, ktvs_videos.added_date, rs_completed, admin_flag_id, af_custom1, af_custom2, af_custom3, custom1, custom2, custom3, gallery_url, ktvs_fav_videos.added_date as added2fav_date from ktvs_videos inner join ktvs_fav_videos on ktvs_videos.video_id=ktvs_fav_videos.video_id where ktvs_videos.status_id=1 and ktvs_videos.relative_post_date<=10000 and ktvs_videos.post_date<='2021-05-13 06:27:41' and ktvs_fav_videos.user_id=55 and ktvs_fav_videos.fav_type=0 and ktvs_fav_videos.playlist_id=0  (select sum(viewed) from ktvs_stats_videos where video_id=ktvs_videos.video_id and added_date>='2021-05-12' and added_date<='2021-05-13') desc LIMIT 0, 12
+
+[2021-05-13 06:27:46] [1064] F:\xampp7_4\htdocs\member_profile_view.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'rating/rating_amount desc, rating_amount desc LIMIT 0, 12' at line 1
+ SELECT ktvs_videos.video_id, title as title, description as description, dir as dir,  server_group_id, load_type_id, ktvs_videos.user_id, content_source_id, dvd_id, status_id, is_hd, is_private, access_level_id, is_locked, duration, file_formats, file_size, file_dimensions, file_url, pseudo_url, screen_amount, screen_main, screen_main_temp, poster_amount, poster_main, embed, delete_reason, (rating/rating_amount) as rating, rating_amount, video_viewed, video_viewed_player, video_viewed_unique, video_viewed_paid, comments_count, favourites_count, purchases_count, tokens_required, release_year, post_date as post_date, last_time_view_date, ktvs_videos.added_date, rs_completed, admin_flag_id, af_custom1, af_custom2, af_custom3, custom1, custom2, custom3, gallery_url, ktvs_fav_videos.added_date as added2fav_date from ktvs_videos inner join ktvs_fav_videos on ktvs_videos.video_id=ktvs_fav_videos.video_id where ktvs_videos.status_id=1 and ktvs_videos.relative_post_date<=10000 and ktvs_videos.post_date<='2021-05-13 06:27:46' and ktvs_fav_videos.user_id=55 and ktvs_fav_videos.fav_type=0 and ktvs_fav_videos.playlist_id=0  rating/rating_amount desc, rating_amount desc LIMIT 0, 12
+
+[2021-05-13 06:27:47] [1064] F:\xampp7_4\htdocs\member_profile_view.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(select rating from ktvs_user_rating_history where object_id=ktvs_videos.vide...' at line 1
+ SELECT ktvs_videos.video_id, title as title, description as description, dir as dir,  server_group_id, load_type_id, ktvs_videos.user_id, content_source_id, dvd_id, status_id, is_hd, is_private, access_level_id, is_locked, duration, file_formats, file_size, file_dimensions, file_url, pseudo_url, screen_amount, screen_main, screen_main_temp, poster_amount, poster_main, embed, delete_reason, (rating/rating_amount) as rating, rating_amount, video_viewed, video_viewed_player, video_viewed_unique, video_viewed_paid, comments_count, favourites_count, purchases_count, tokens_required, release_year, post_date as post_date, last_time_view_date, ktvs_videos.added_date, rs_completed, admin_flag_id, af_custom1, af_custom2, af_custom3, custom1, custom2, custom3, gallery_url, ktvs_fav_videos.added_date as added2fav_date from ktvs_videos inner join ktvs_fav_videos on ktvs_videos.video_id=ktvs_fav_videos.video_id where ktvs_videos.status_id=1 and ktvs_videos.relative_post_date<=10000 and ktvs_videos.post_date<='2021-05-13 06:27:47' and ktvs_fav_videos.user_id=55 and ktvs_fav_videos.fav_type=0 and ktvs_fav_videos.playlist_id=0  (select rating from ktvs_user_rating_history where object_id=ktvs_videos.video_id and user_id=55 ORDER BY added_date desc LIMIT 1) desc LIMIT 0, 12
+
+[2021-05-13 06:27:54] [1064] F:\xampp7_4\htdocs\member_profile_view.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(select sum(viewed) from ktvs_stats_videos where video_id=ktvs_videos.video_i...' at line 1
+ SELECT ktvs_videos.video_id, title as title, description as description, dir as dir,  server_group_id, load_type_id, ktvs_videos.user_id, content_source_id, dvd_id, status_id, is_hd, is_private, access_level_id, is_locked, duration, file_formats, file_size, file_dimensions, file_url, pseudo_url, screen_amount, screen_main, screen_main_temp, poster_amount, poster_main, embed, delete_reason, (rating/rating_amount) as rating, rating_amount, video_viewed, video_viewed_player, video_viewed_unique, video_viewed_paid, comments_count, favourites_count, purchases_count, tokens_required, release_year, post_date as post_date, last_time_view_date, ktvs_videos.added_date, rs_completed, admin_flag_id, af_custom1, af_custom2, af_custom3, custom1, custom2, custom3, gallery_url, ktvs_fav_videos.added_date as added2fav_date from ktvs_videos inner join ktvs_fav_videos on ktvs_videos.video_id=ktvs_fav_videos.video_id where ktvs_videos.status_id=1 and ktvs_videos.relative_post_date<=10000 and ktvs_videos.post_date<='2021-05-13 06:27:54' and ktvs_fav_videos.user_id=55 and ktvs_fav_videos.fav_type=0 and ktvs_fav_videos.playlist_id=0  and ktvs_videos.user_id in (1) (select sum(viewed) from ktvs_stats_videos where video_id=ktvs_videos.video_id and added_date>='2021-04-13' and added_date<='2021-05-13') desc LIMIT 0, 12
+
+[2021-05-13 06:28:00] [1064] F:\xampp7_4\htdocs\member_profile_view.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(select sum(viewed) from ktvs_stats_videos where video_id=ktvs_videos.video_i...' at line 1
+ SELECT ktvs_videos.video_id, title as title, description as description, dir as dir,  server_group_id, load_type_id, ktvs_videos.user_id, content_source_id, dvd_id, status_id, is_hd, is_private, access_level_id, is_locked, duration, file_formats, file_size, file_dimensions, file_url, pseudo_url, screen_amount, screen_main, screen_main_temp, poster_amount, poster_main, embed, delete_reason, (rating/rating_amount) as rating, rating_amount, video_viewed, video_viewed_player, video_viewed_unique, video_viewed_paid, comments_count, favourites_count, purchases_count, tokens_required, release_year, post_date as post_date, last_time_view_date, ktvs_videos.added_date, rs_completed, admin_flag_id, af_custom1, af_custom2, af_custom3, custom1, custom2, custom3, gallery_url, ktvs_fav_videos.added_date as added2fav_date from ktvs_videos inner join ktvs_fav_videos on ktvs_videos.video_id=ktvs_fav_videos.video_id where ktvs_videos.status_id=1 and ktvs_videos.relative_post_date<=10000 and ktvs_videos.post_date<='2021-05-13 06:28:00' and ktvs_fav_videos.user_id=55 and ktvs_fav_videos.fav_type=0 and ktvs_fav_videos.playlist_id=0  and ktvs_videos.user_id in (1) (select sum(viewed) from ktvs_stats_videos where video_id=ktvs_videos.video_id and added_date>='2021-05-12' and added_date<='2021-05-13') desc LIMIT 0, 12
+
+[2021-05-13 06:28:08] [1064] F:\xampp7_4\htdocs\member_profile_view.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(select sum(viewed) from ktvs_stats_videos where video_id=ktvs_videos.video_i...' at line 1
+ SELECT ktvs_videos.video_id, title as title, description as description, dir as dir,  server_group_id, load_type_id, ktvs_videos.user_id, content_source_id, dvd_id, status_id, is_hd, is_private, access_level_id, is_locked, duration, file_formats, file_size, file_dimensions, file_url, pseudo_url, screen_amount, screen_main, screen_main_temp, poster_amount, poster_main, embed, delete_reason, (rating/rating_amount) as rating, rating_amount, video_viewed, video_viewed_player, video_viewed_unique, video_viewed_paid, comments_count, favourites_count, purchases_count, tokens_required, release_year, post_date as post_date, last_time_view_date, ktvs_videos.added_date, rs_completed, admin_flag_id, af_custom1, af_custom2, af_custom3, custom1, custom2, custom3, gallery_url, ktvs_fav_videos.added_date as added2fav_date from ktvs_videos inner join ktvs_fav_videos on ktvs_videos.video_id=ktvs_fav_videos.video_id where ktvs_videos.status_id=1 and ktvs_videos.relative_post_date<=10000 and ktvs_videos.post_date<='2021-05-13 06:28:08' and ktvs_fav_videos.user_id=55 and ktvs_fav_videos.fav_type=0 and ktvs_fav_videos.playlist_id=0  and ktvs_videos.user_id in (55) (select sum(viewed) from ktvs_stats_videos where video_id=ktvs_videos.video_id and added_date>='2021-04-13' and added_date<='2021-05-13') desc LIMIT 0, 12
+
+[2021-05-13 06:36:04] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 06:36:04] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 06:36:04] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 06:36:04] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 06:36:04] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 06:36:04] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 06:39:34] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 06:39:34] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 06:39:34] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 06:39:34] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 06:39:34] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 06:39:34] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 06:42:56] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 06:42:56] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 06:42:56] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 06:42:56] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 06:42:56] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 06:42:56] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 06:57:53] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 06:57:53] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 06:57:53] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 06:58:05] [126] F:\xampp7_4\htdocs\index.php LINE 1 :: Index for table '.\m3wvnpzzgrn\ktvs_users.MYI' is corrupt; try to repair it
+ update ktvs_users set tokens_available=tokens_available+0, logins_count=logins_count+1, last_login_date='2021-05-13 06:58:05', last_online_date='2021-05-13 06:58:05', avg_sess_duration=0, avg_sess_duration_count=0  where user_id='55'
+
+[2021-05-13 07:46:59] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 07:46:59] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 07:46:59] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 07:46:59] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 07:46:59] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 07:46:59] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 07:47:01] [1064] F:\xampp7_4\htdocs\view_video.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 07:47:01] [1064] F:\xampp7_4\htdocs\view_video.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 07:47:07] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 07:47:07] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 07:47:07] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 07:47:11] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 07:47:11] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 07:47:16] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 07:47:16] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 07:47:16] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 07:47:18] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-13 07:47:18] [1064] F:\xampp7_4\htdocs\videos_list.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+

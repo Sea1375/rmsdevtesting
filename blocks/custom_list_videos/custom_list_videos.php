@@ -816,10 +816,88 @@ function custom_list_videosShow($block_config,$object_id)
 
 		}
 
+
+		//// favoriate video sort
+		$sort_by=trim(strtolower($_REQUEST['by']));
+
+		if ($sort_by) {
+			$metadata=custom_list_videosMetaData();
+			foreach ($metadata as $res)
+			{
+				if (strpos($res['type'],"SORTING")!==false)
+				{
+					preg_match("|SORTING\[(.*?)\]|is",$res['type'],$temp);
+					$sorting_available=explode(",",$temp[1]);
+					break;
+				}
+			}
+			$sorting_available[]="rand()";
+	
+			if ($sort_by=='') {$sort_by=trim(strtolower($block_config['sort_by']));}
+			if (strpos($sort_by," asc")!==false) {$direction="asc";} else {$direction="desc";}
+			$sort_by_clear=str_replace(" desc","",str_replace(" asc","",$sort_by));
+	
+			if ($sort_by_clear=='' || !in_array($sort_by_clear,$sorting_available)) {$sort_by_clear="";}
+			//if ($sort_by_clear=='') {$sort_by_clear="rating_today";}
+	
+			$storage[$object_id]['sort_by']=$sort_by_clear;
+			$smarty->assign("sort_by",$sort_by_clear);
+	
+			$rotator_params=@unserialize(@file_get_contents("$config[project_path]/admin/data/system/rotator.dat"));
+	
+			
+			if ($internal_query_enabled==1)
+			{
+				if ($sort_by_clear=='rating_today')
+				{
+					$date_from=date("Y-m-d",mktime(0,0,0,date("m"),date("d")-1,date("Y")));
+					$date_to=date("Y-m-d");
+					$sort_by="(select avg(rating/rating_amount) * 100000 + rating_amount from $config[tables_prefix]stats_videos where video_id=$config[tables_prefix]videos.video_id and added_date>='$date_from' and added_date<='$date_to') desc";
+				} elseif ($sort_by_clear=='rating_week') {
+					$date_from=date("Y-m-d",mktime(0,0,0,date("m"),date("d")-6,date("Y")));
+					$date_to=date("Y-m-d");
+					$sort_by="(select avg(rating/rating_amount) * 100000 + rating_amount from $config[tables_prefix]stats_videos where video_id=$config[tables_prefix]videos.video_id and added_date>='$date_from' and added_date<='$date_to') desc";
+				} elseif ($sort_by_clear=='rating_month') {
+					$date_from=date("Y-m-d",mktime(0,0,0,date("m"),date("d")-30,date("Y")));
+					$date_to=date("Y-m-d");
+					$sort_by="(select avg(rating/rating_amount) * 100000 + rating_amount from $config[tables_prefix]stats_videos where video_id=$config[tables_prefix]videos.video_id and added_date>='$date_from' and added_date<='$date_to') desc";
+				} elseif ($sort_by_clear=='rating') {
+					$sort_by="rating/rating_amount desc, rating_amount desc";
+				} else if ($sort_by_clear == 'your_rating') {
+					$sort_by="(select rating from $config[tables_prefix]user_rating_history where object_id=$config[tables_prefix]videos.video_id and user_id=$_SESSION[user_id] ORDER BY added_date desc LIMIT 1) desc";
+					// var_dump($sort_by); die;
+				} elseif ($sort_by_clear=='video_viewed_today' || $sort_by_clear=='viewed_today') {
+					$date_from=date("Y-m-d",mktime(0,0,0,date("m"),date("d")-1,date("Y")));
+					$date_to=date("Y-m-d");
+					$sort_by="(select sum(viewed) from $config[tables_prefix]stats_videos where video_id=$config[tables_prefix]videos.video_id and added_date>='$date_from' and added_date<='$date_to') desc";
+				} elseif ($sort_by_clear=='video_viewed_week' || $sort_by_clear=='viewed_week') {
+					$date_from=date("Y-m-d",mktime(0,0,0,date("m"),date("d")-6,date("Y")));
+					$date_to=date("Y-m-d");
+					$sort_by="(select sum(viewed) from $config[tables_prefix]stats_videos where video_id=$config[tables_prefix]videos.video_id and added_date>='$date_from' and added_date<='$date_to') desc";
+				} elseif ($sort_by_clear=='video_viewed_month' || $sort_by_clear=='viewed_month') {
+					$date_from=date("Y-m-d",mktime(0,0,0,date("m"),date("d")-30,date("Y")));
+					$date_to=date("Y-m-d");
+					$sort_by="(select sum(viewed) from $config[tables_prefix]stats_videos where video_id=$config[tables_prefix]videos.video_id and added_date>='$date_from' and added_date<='$date_to') desc";
+				} elseif ($sort_by_clear=='video_viewed' || $sort_by_clear=='viewed') {
+					$sort_by="video_viewed desc";
+				} 
+			}
+			///
+		}
+
+		
+
 		$total_count=mr2number(sql("select count(*) from $config[tables_prefix]videos inner join $config[tables_prefix]fav_videos on $config[tables_prefix]videos.video_id=$config[tables_prefix]fav_videos.video_id where $database_selectors[where_videos] and $config[tables_prefix]fav_videos.user_id=$user_id and $config[tables_prefix]fav_videos.fav_type=$fav_type and $config[tables_prefix]fav_videos.playlist_id=$playlist_id $where"));
 		if ($config['is_pagination_3.0']=="true") {if (($from>0 && ($from>=$total_count || $total_count==0)) || $from<0) {return 'status_404';}} else {if ($from>$total_count || $from<0) {$from=0;}}
 		$videos_selector=str_replace("user_id","$config[tables_prefix]videos.user_id",str_replace("added_date","$config[tables_prefix]videos.added_date",$database_selectors['videos']));
-		$data=mr2array(sql("SELECT $videos_selector, $config[tables_prefix]fav_videos.added_date as added2fav_date from $config[tables_prefix]videos inner join $config[tables_prefix]fav_videos on $config[tables_prefix]videos.video_id=$config[tables_prefix]fav_videos.video_id where $database_selectors[where_videos] and $config[tables_prefix]fav_videos.user_id=$user_id and $config[tables_prefix]fav_videos.fav_type=$fav_type and $config[tables_prefix]fav_videos.playlist_id=$playlist_id $where order by $config[tables_prefix]fav_videos.playlist_sort_id asc, $config[tables_prefix]fav_videos.added_date desc LIMIT $from, $block_config[items_per_page]"));
+		if ($sort_by) {
+			$sql = "SELECT $videos_selector, $config[tables_prefix]fav_videos.added_date as added2fav_date from $config[tables_prefix]videos inner join $config[tables_prefix]fav_videos on $config[tables_prefix]videos.video_id=$config[tables_prefix]fav_videos.video_id where $database_selectors[where_videos] and $config[tables_prefix]fav_videos.user_id=$user_id and $config[tables_prefix]fav_videos.fav_type=$fav_type and $config[tables_prefix]fav_videos.playlist_id=$playlist_id $where order by ".$sort_by." LIMIT $from, $block_config[items_per_page]";
+			//var_dump($sql); die;
+			$data=mr2array(sql("SELECT $videos_selector, $config[tables_prefix]fav_videos.added_date as added2fav_date from $config[tables_prefix]videos inner join $config[tables_prefix]fav_videos on $config[tables_prefix]videos.video_id=$config[tables_prefix]fav_videos.video_id where $database_selectors[where_videos] and $config[tables_prefix]fav_videos.user_id=$user_id and $config[tables_prefix]fav_videos.fav_type=$fav_type and $config[tables_prefix]fav_videos.playlist_id=$playlist_id $where order by ".$sort_by." LIMIT $from, $block_config[items_per_page]"));
+		} else {
+			$data=mr2array(sql("SELECT $videos_selector, $config[tables_prefix]fav_videos.added_date as added2fav_date from $config[tables_prefix]videos inner join $config[tables_prefix]fav_videos on $config[tables_prefix]videos.video_id=$config[tables_prefix]fav_videos.video_id where $database_selectors[where_videos] and $config[tables_prefix]fav_videos.user_id=$user_id and $config[tables_prefix]fav_videos.fav_type=$fav_type and $config[tables_prefix]fav_videos.playlist_id=$playlist_id $where order by $config[tables_prefix]fav_videos.playlist_sort_id asc, $config[tables_prefix]fav_videos.added_date desc LIMIT $from, $block_config[items_per_page]"));
+		}
+		
 
 
 		$data_country=mr2array_list(sql("select country_id from $config[tables_prefix]users where user_id in (select DISTINCT user_id from $config[tables_prefix]videos where video_id in (select video_id from $config[tables_prefix]fav_videos where fav_type=$fav_type and user_id=$user_id))"));
@@ -2468,6 +2546,17 @@ function custom_list_videosShow($block_config,$object_id)
 		}
 	}
 
+	if ($_REQUEST['countryId'])
+	{
+		$user_country=mr2array_list(sql("select user_id from $config[tables_prefix]users where country_id=$_REQUEST[countryId]"));
+		$user_country_ids_str=implode(",",$user_country);
+		$smarty->assign("countryId",$_REQUEST['countryId']);
+	}
+
+	$data_country=mr2array_list(sql("select country_id from $config[tables_prefix]users where user_id in (select DISTINCT user_id from $config[tables_prefix]videos)"));
+	$country_ids_str=implode(",",$data_country);
+	$smarty->assign("data_country",$data_country);
+
 	$metadata=custom_list_videosMetaData();
 	foreach ($metadata as $res)
 	{
@@ -2481,9 +2570,13 @@ function custom_list_videosShow($block_config,$object_id)
 	$sorting_available[]="rand()";
 
 	$sort_by=trim(strtolower($_REQUEST[$block_config['var_sort_by']]));
+
+	
+
 	if ($sort_by=='') {$sort_by=trim(strtolower($block_config['sort_by']));}
 	if (strpos($sort_by," asc")!==false) {$direction="asc";} else {$direction="desc";}
 	$sort_by_clear=str_replace(" desc","",str_replace(" asc","",$sort_by));
+
 	if ($sort_by_clear=='' || !in_array($sort_by_clear,$sorting_available)) {$sort_by_clear="";}
 	if ($sort_by_clear=='') {$sort_by_clear="post_date";}
 
@@ -2492,6 +2585,7 @@ function custom_list_videosShow($block_config,$object_id)
 
 	$rotator_params=@unserialize(@file_get_contents("$config[project_path]/admin/data/system/rotator.dat"));
 
+	
 	if ($internal_query_enabled==1)
 	{
 		if ($sort_by_clear=='title')
@@ -2516,6 +2610,9 @@ function custom_list_videosShow($block_config,$object_id)
 			$sort_by="(select avg(rating/rating_amount) * 100000 + rating_amount from $config[tables_prefix]stats_videos where video_id=$config[tables_prefix]videos.video_id and added_date>='$date_from' and added_date<='$date_to') desc";
 		} elseif ($sort_by_clear=='rating') {
 			$sort_by="rating/rating_amount desc, rating_amount desc";
+		} else if ($sort_by_clear == 'your_rating') {
+			$sort_by="(select rating from $config[tables_prefix]user_rating_history where object_id=$config[tables_prefix]videos.video_id and user_id=$_SESSION[user_id] ORDER BY added_date desc LIMIT 1) desc";
+			// var_dump($sort_by); die;
 		} elseif ($sort_by_clear=='video_viewed_today' || $sort_by_clear=='viewed_today') {
 			$date_from=date("Y-m-d",mktime(0,0,0,date("m"),date("d")-1,date("Y")));
 			$date_to=date("Y-m-d");
@@ -3289,7 +3386,7 @@ function custom_list_videosMetaData()
 		array("name"=>"var_items_per_page", "group"=>"pagination", "type"=>"STRING", "is_required"=>0, "default_value"=>"items_per_page"),
 
 		// sorting
-		array("name"=>"sort_by",     "group"=>"sorting", "type"=>"SORTING[video_id,title,dir,duration,release_year,post_date,post_date_and_popularity,post_date_and_rating,post_date_and_duration,last_time_view_date,last_time_view_date_and_popularity,last_time_view_date_and_rating,last_time_view_date_and_duration,rating,rating_today,rating_week,rating_month,video_viewed,video_viewed_today,video_viewed_week,video_viewed_month,most_favourited,most_commented,most_purchased,ctr,custom1,custom2,custom3,dvd_sort_id,pseudo_rand]", "is_required"=>1, "default_value"=>"post_date"),
+		array("name"=>"sort_by",     "group"=>"sorting", "type"=>"SORTING[video_id,title,dir,duration,release_year,post_date,post_date_and_popularity,post_date_and_rating,post_date_and_duration,last_time_view_date,last_time_view_date_and_popularity,last_time_view_date_and_rating,last_time_view_date_and_duration,rating,rating_today,rating_week,rating_month,video_viewed,video_viewed_today,video_viewed_week,video_viewed_month,most_favourited,most_commented,most_purchased,ctr,custom1,custom2,custom3,dvd_sort_id,pseudo_rand,your_rating]", "is_required"=>1, "default_value"=>"post_date"),
 		array("name"=>"var_sort_by", "group"=>"sorting", "type"=>"STRING", "is_required"=>0, "default_value"=>"sort_by"),
 
 		// static filters

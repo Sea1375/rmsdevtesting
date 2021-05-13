@@ -23,29 +23,35 @@
 								<a href="{{$base_url}}" class="btn">{{$lang.videos.list_sorting.relevance}}</a>
 							{{/if}}
 
-							<form class="dropdown__block" action="" method="GET">
-									{{foreach from=$smarty.get item="item" key="key"}}
-										{{if $key != 'countryId' && $key != 'category'}}
-											<input type='hidden' name="{{$key}}" value="{{$item}}">
-										{{/if}}
-									{{/foreach}}
-									<select id="select_country" class="btn" name="countryId">
-											<option value="">Country</option>
-											{{foreach from=$smarty.const.list_available_countries item="item" key="key"}}
-													<option value="{{$key}}" {{if $smarty.get.countryId==$key}}selected{{/if}}>{{$item}}</option>
+							<div class="dropdown__block align-right">
+								<button class="btn" data-action="drop" data-drop-id="country_drop_{{$block_uid}}">
+									{{if $countryId}}
+										{{$list_countries.name[$countryId]}}<img src="/static/images/flags/{{$list_countries.code[$countryId]|upper}}.png"/>
+									{{else}}
+										Country
+									{{/if}}
+								</button>
+								<div class="dropdown__block__menu" id="country_drop_{{$block_uid}}">
+									<nav class="wide">
+										<ul class="drop-inner">
+											{{if $countryId}}
+												<li>
+													<a href="{{$base_url}}">Country</a>
+												</li>
+											{{/if}}
+											{{foreach from=$data_country item="item" key="key"}}
+												{{if $countryId!=$item}}
+													<li>
+														<a href="{{$base_url}}?countryId={{$item}}">{{$list_countries.name[$item]}}<img src="/static/images/flags/{{$list_countries.code[$item]|upper}}.png"/></a>
+													</li>
+												{{/if}}
 											{{/foreach}}
-									</select>
-							</form>
+										</ul>
+									</nav>
+								</div>
+							</div>
 
-							<script type="text/javascript">
-									document.getElementById('select_country').addEventListener('change', applyFilter)
-									function applyFilter(event) {
-											var target = event.target
-											var form = target.form
-											form.submit();
-									}
-							</script>
-
+							
 							{{foreach from=$lang.videos.sortings item="item"}}
 								{{if $sort_by!=$item || $sort_by=='rating' || $sort_by=='video_viewed'}}
 									{{if $item=='rating' && count($lang.videos.sortings_top_rated)>0}}
@@ -83,16 +89,18 @@
 											</div>
 										</div>
 									{{else}}
-										<a href="{{$base_url}}?by={{$item}}" class="btn js-filters">{{$lang.videos.list_sorting[$item]}}</a>
+										{{if $item=='your_rating' && $smarty.session.user_id>0}}
+											<a href="{{$base_url}}?by={{$item}}" class="btn js-filters">{{$lang.videos.list_sorting[$item]}}</a>
+										{{elseif $item != 'your_rating'}}
+											<a href="{{$base_url}}?by={{$item}}" class="btn js-filters">{{$lang.videos.list_sorting[$item]}}</a>
+										{{/if}}
 									{{/if}}
 								{{/if}}
 							{{/foreach}}
 						</div>
 					{{/if}}
 				{{elseif $mode_favourites=='1'}}
-
 					<div class="buttons pull-right">
-
 						<div class="dropdown__block align-right">
 							<button class="btn" data-action="drop" data-drop-id="country_drop_{{$block_uid}}">
 								{{if $countryId}}
@@ -120,6 +128,49 @@
 								</nav>
 							</div>
 						</div>
+						{{foreach from=$lang.videos.sortings item="item"}}
+							{{if $sort_by!=$item || $sort_by=='rating' || $sort_by=='video_viewed'}}
+								{{if $item=='rating' && count($lang.videos.sortings_top_rated)>0}}
+									<div class="dropdown__block">
+										<button class="btn" data-action="drop" data-drop-id="rating_sort_drop_{{$block_uid}}">{{$lang.videos.list_sorting[$item]}}</button>
+										<div class="dropdown__block__menu" id="rating_sort_drop_{{$block_uid}}">
+											<nav>
+												<ul class="drop-inner">
+													{{foreach from=$lang.videos.sortings_top_rated item="item2"}}
+														{{if $sort_by!=$item2}}
+															<li>
+																<a class="js-filters" href="{{$lang.urls.memberzone_my_fav_videos}}?by={{$item2}}">{{$lang.videos.list_sorting_period[$item2]}}</a>
+															</li>
+														{{/if}}
+													{{/foreach}}
+												</ul>
+											</nav>
+										</div>
+									</div>
+								{{elseif $item=='video_viewed' && count($lang.videos.sortings_most_popular)>0}}
+									<div class="dropdown__block">
+										<button class="btn" data-action="drop" data-drop-id="views_sort_drop_{{$block_uid}}">{{$lang.videos.list_sorting[$item]}}</button>
+										<div class="dropdown__block__menu" id="views_sort_drop_{{$block_uid}}">
+											<nav>
+												<ul class="drop-inner">
+													{{foreach from=$lang.videos.sortings_most_popular item="item2"}}
+														{{if $sort_by!=$item2}}
+															<li>
+																<a class="js-filters" href="{{$lang.urls.memberzone_my_fav_videos}}?by={{$item2}}">{{$lang.videos.list_sorting_period[$item2]}}</a>
+															</li>
+														{{/if}}
+													{{/foreach}}
+												</ul>
+											</nav>
+										</div>
+									</div>
+								{{else}}
+									{{if $item=='your_rating' && $smarty.session.user_id>0}}
+										<a href="{{$lang.urls.memberzone_my_fav_videos}}?by={{$item}}" class="btn js-filters">{{$lang.videos.list_sorting[$item]}}</a>
+									{{/if}}
+								{{/if}}
+							{{/if}}
+						{{/foreach}}
 						{{foreach item="item" from=$lang.videos.predefined_favourites}}
 							{{if $fav_type!=$item}}
 								<a href="{{$lang.urls.memberzone_my_fav_videos}}?fav_type={{$item}}" class="btn js-filters">{{$lang.videos.list_switch_favourites[$item]}} ({{$favourites_summary[$item].amount|default:"0"}})</a>
@@ -165,23 +216,33 @@
 								<div class="thumb-spot">
 									{{assign var="video_rating" value="`$item.rating/5*100`"}}
 									{{if $video_rating>100}}{{assign var="video_rating" value="100"}}{{/if}}
-									<div class="thumb-spot__rating rotated red"><span>
-										{{if $item.rating =='N/A' || $item.rating == '10'}}
-											{{$item.rating}}
-										{{else}}
-											{{$item.rating|string_format:"%.1f"}}
-										{{/if}}
-									</span></div>
-									<div class="thumb-spot__rating rotated">
-										<span>
-											{{if $item.user_rating =='N/A' || $item.user_rating == '10'}}
-												{{$item.user_rating}}
-											{{else}}
-												{{$item.user_rating|string_format:"%.1f"}}
-											{{/if}}
-										</span>
+									<div class="thumb-spot__rating__wrapper">
+										<div class="thumb-spot__rating rotated red">
+											<span>
+												{{if $item.rating =='N/A' || $item.rating == '10'}}
+													{{$item.rating}}
+												{{else}}
+													{{$item.rating|string_format:"%.1f"}}
+												{{/if}}
+											</span>
+											
+										</div>
+									
+										<image src="/static/images/user-group.png">
 									</div>
-
+									<div class="thumb-spot__rating__wrapper">
+										<div class="thumb-spot__rating rotated">
+											<span>
+												{{if $item.user_rating =='N/A' || $item.user_rating == '10'}}
+													{{$item.user_rating}}
+												{{else}}
+													{{$item.user_rating|string_format:"%.1f"}}
+												{{/if}}
+											</span>
+											
+										</div>
+										<image src="/static/images/single-user.png">
+									</div>
 									<div class="thumb-spot__text">
 										<h5 class="thumb-spot__title">
 											{{if $lang.videos.truncate_title_to>0}}

@@ -292,10 +292,12 @@
 					{{$data.user_rating|string_format:"%.1f"}}
 				{{/if}}
 			</div>
+			<image src="/static/images/single-user.png">
           </div>
           <div class="item">
             <span class="text">Overall</span>
             <div class="o_rate">{{$data.rating|string_format:"%.1f"}}</div>
+			<image src="/static/images/user-group.png">
           </div>
         </div>
         <div class="col">

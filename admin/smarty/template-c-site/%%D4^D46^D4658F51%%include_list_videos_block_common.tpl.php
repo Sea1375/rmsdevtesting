@@ -1,7 +1,7 @@
-<?php /* Smarty version 2.6.31, created on 2021-05-12 20:56:49
+<?php /* Smarty version 2.6.31, created on 2021-05-13 07:46:15
          compiled from include_list_videos_block_common.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('modifier', 'escape_ss', 'include_list_videos_block_common.tpl', 3, false),array('modifier', 'default', 'include_list_videos_block_common.tpl', 5, false),array('modifier', 'mb_ucfirst', 'include_list_videos_block_common.tpl', 5, false),array('modifier', 'replace', 'include_list_videos_block_common.tpl', 5, false),array('modifier', 'rawurlencode', 'include_list_videos_block_common.tpl', 15, false),array('modifier', 'upper', 'include_list_videos_block_common.tpl', 99, false),array('modifier', 'string_format', 'include_list_videos_block_common.tpl', 172, false),array('modifier', 'truncate', 'include_list_videos_block_common.tpl', 188, false),array('modifier', 'date_format', 'include_list_videos_block_common.tpl', 203, false),array('modifier', 'number_format', 'include_list_videos_block_common.tpl', 204, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('modifier', 'escape_ss', 'include_list_videos_block_common.tpl', 3, false),array('modifier', 'default', 'include_list_videos_block_common.tpl', 5, false),array('modifier', 'mb_ucfirst', 'include_list_videos_block_common.tpl', 5, false),array('modifier', 'replace', 'include_list_videos_block_common.tpl', 5, false),array('modifier', 'rawurlencode', 'include_list_videos_block_common.tpl', 15, false),array('modifier', 'upper', 'include_list_videos_block_common.tpl', 29, false),array('modifier', 'string_format', 'include_list_videos_block_common.tpl', 225, false),array('modifier', 'truncate', 'include_list_videos_block_common.tpl', 249, false),array('modifier', 'date_format', 'include_list_videos_block_common.tpl', 264, false),array('modifier', 'number_format', 'include_list_videos_block_common.tpl', 265, false),)), $this); ?>
 <div class="thumbs">
 	<div class="container">
 		<?php if (((is_array($_tmp=$this->_tpl_vars['list_videos_hide_headline'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)) != 'true'): ?>
@@ -33,37 +33,46 @@ smarty_core_load_plugins(array('plugins' => array(array('modifier', 'escape_ss',
 </a>
 							<?php endif; ?>
 
-							<form class="dropdown__block" action="" method="GET">
-									<?php $_from = ((is_array($_tmp=$_GET)) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
-    foreach ($_from as $this->_tpl_vars['key'] => $this->_tpl_vars['item']):
-?>
-										<?php if (((is_array($_tmp=$this->_tpl_vars['key'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)) != 'countryId' && ((is_array($_tmp=$this->_tpl_vars['key'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)) != 'category'): ?>
-											<input type='hidden' name="<?php echo ((is_array($_tmp=$this->_tpl_vars['key'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); ?>
-" value="<?php echo ((is_array($_tmp=$this->_tpl_vars['item'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); ?>
+							<div class="dropdown__block align-right">
+								<button class="btn" data-action="drop" data-drop-id="country_drop_<?php echo ((is_array($_tmp=$this->_tpl_vars['block_uid'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); ?>
 ">
-										<?php endif; ?>
-									<?php endforeach; endif; unset($_from); ?>
-									<select id="select_country" class="btn" name="countryId">
-											<option value="">Country</option>
-											<?php $_from = ((is_array($_tmp=@list_available_countries)) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
+									<?php if (((is_array($_tmp=$this->_tpl_vars['countryId'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp))): ?>
+										<?php echo ((is_array($_tmp=$this->_tpl_vars['list_countries']['name'][$this->_tpl_vars['countryId']])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); ?>
+<img src="/static/images/flags/<?php echo ((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['list_countries']['code'][$this->_tpl_vars['countryId']])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)))) ? $this->_run_mod_handler('upper', true, $_tmp) : smarty_modifier_upper($_tmp)); ?>
+.png"/>
+									<?php else: ?>
+										Country
+									<?php endif; ?>
+								</button>
+								<div class="dropdown__block__menu" id="country_drop_<?php echo ((is_array($_tmp=$this->_tpl_vars['block_uid'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); ?>
+">
+									<nav class="wide">
+										<ul class="drop-inner">
+											<?php if (((is_array($_tmp=$this->_tpl_vars['countryId'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp))): ?>
+												<li>
+													<a href="<?php echo ((is_array($_tmp=$this->_tpl_vars['base_url'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); ?>
+">Country</a>
+												</li>
+											<?php endif; ?>
+											<?php $_from = ((is_array($_tmp=$this->_tpl_vars['data_country'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
     foreach ($_from as $this->_tpl_vars['key'] => $this->_tpl_vars['item']):
 ?>
-													<option value="<?php echo ((is_array($_tmp=$this->_tpl_vars['key'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); ?>
-" <?php if (((is_array($_tmp=$_GET['countryId'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)) == ((is_array($_tmp=$this->_tpl_vars['key'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp))): ?>selected<?php endif; ?>><?php echo ((is_array($_tmp=$this->_tpl_vars['item'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); ?>
-</option>
+												<?php if (((is_array($_tmp=$this->_tpl_vars['countryId'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)) != ((is_array($_tmp=$this->_tpl_vars['item'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp))): ?>
+													<li>
+														<a href="<?php echo ((is_array($_tmp=$this->_tpl_vars['base_url'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); ?>
+?countryId=<?php echo ((is_array($_tmp=$this->_tpl_vars['item'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); ?>
+"><?php echo ((is_array($_tmp=$this->_tpl_vars['list_countries']['name'][$this->_tpl_vars['item']])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); ?>
+<img src="/static/images/flags/<?php echo ((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['list_countries']['code'][$this->_tpl_vars['item']])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)))) ? $this->_run_mod_handler('upper', true, $_tmp) : smarty_modifier_upper($_tmp)); ?>
+.png"/></a>
+													</li>
+												<?php endif; ?>
 											<?php endforeach; endif; unset($_from); ?>
-									</select>
-							</form>
+										</ul>
+									</nav>
+								</div>
+							</div>
 
-							<script type="text/javascript">
-									document.getElementById('select_country').addEventListener('change', applyFilter)
-									function applyFilter(event) {
-											var target = event.target
-											var form = target.form
-											form.submit();
-									}
-							</script>
-
+							
 							<?php $_from = ((is_array($_tmp=$this->_tpl_vars['lang']['videos']['sortings'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
     foreach ($_from as $this->_tpl_vars['item']):
 ?>
@@ -119,19 +128,24 @@ smarty_core_load_plugins(array('plugins' => array(array('modifier', 'escape_ss',
 											</div>
 										</div>
 									<?php else: ?>
-										<a href="<?php echo ((is_array($_tmp=$this->_tpl_vars['base_url'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); ?>
+										<?php if (((is_array($_tmp=$this->_tpl_vars['item'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)) == 'your_rating' && ((is_array($_tmp=$_SESSION['user_id'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)) > 0): ?>
+											<a href="<?php echo ((is_array($_tmp=$this->_tpl_vars['base_url'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); ?>
 ?by=<?php echo ((is_array($_tmp=$this->_tpl_vars['item'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); ?>
 " class="btn js-filters"><?php echo ((is_array($_tmp=$this->_tpl_vars['lang']['videos']['list_sorting'][$this->_tpl_vars['item']])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); ?>
 </a>
+										<?php elseif (((is_array($_tmp=$this->_tpl_vars['item'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)) != 'your_rating'): ?>
+											<a href="<?php echo ((is_array($_tmp=$this->_tpl_vars['base_url'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); ?>
+?by=<?php echo ((is_array($_tmp=$this->_tpl_vars['item'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); ?>
+" class="btn js-filters"><?php echo ((is_array($_tmp=$this->_tpl_vars['lang']['videos']['list_sorting'][$this->_tpl_vars['item']])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); ?>
+</a>
+										<?php endif; ?>
 									<?php endif; ?>
 								<?php endif; ?>
 							<?php endforeach; endif; unset($_from); ?>
 						</div>
 					<?php endif; ?>
 				<?php elseif (((is_array($_tmp=$this->_tpl_vars['mode_favourites'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)) == '1'): ?>
-
 					<div class="buttons pull-right">
-
 						<div class="dropdown__block align-right">
 							<button class="btn" data-action="drop" data-drop-id="country_drop_<?php echo ((is_array($_tmp=$this->_tpl_vars['block_uid'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); ?>
 ">
@@ -170,6 +184,70 @@ smarty_core_load_plugins(array('plugins' => array(array('modifier', 'escape_ss',
 								</nav>
 							</div>
 						</div>
+						<?php $_from = ((is_array($_tmp=$this->_tpl_vars['lang']['videos']['sortings'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
+    foreach ($_from as $this->_tpl_vars['item']):
+?>
+							<?php if (((is_array($_tmp=$this->_tpl_vars['sort_by'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)) != ((is_array($_tmp=$this->_tpl_vars['item'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)) || ((is_array($_tmp=$this->_tpl_vars['sort_by'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)) == 'rating' || ((is_array($_tmp=$this->_tpl_vars['sort_by'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)) == 'video_viewed'): ?>
+								<?php if (((is_array($_tmp=$this->_tpl_vars['item'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)) == 'rating' && count ( ((is_array($_tmp=$this->_tpl_vars['lang']['videos']['sortings_top_rated'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)) ) > 0): ?>
+									<div class="dropdown__block">
+										<button class="btn" data-action="drop" data-drop-id="rating_sort_drop_<?php echo ((is_array($_tmp=$this->_tpl_vars['block_uid'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); ?>
+"><?php echo ((is_array($_tmp=$this->_tpl_vars['lang']['videos']['list_sorting'][$this->_tpl_vars['item']])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); ?>
+</button>
+										<div class="dropdown__block__menu" id="rating_sort_drop_<?php echo ((is_array($_tmp=$this->_tpl_vars['block_uid'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); ?>
+">
+											<nav>
+												<ul class="drop-inner">
+													<?php $_from = ((is_array($_tmp=$this->_tpl_vars['lang']['videos']['sortings_top_rated'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
+    foreach ($_from as $this->_tpl_vars['item2']):
+?>
+														<?php if (((is_array($_tmp=$this->_tpl_vars['sort_by'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)) != ((is_array($_tmp=$this->_tpl_vars['item2'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp))): ?>
+															<li>
+																<a class="js-filters" href="<?php echo ((is_array($_tmp=$this->_tpl_vars['lang']['urls']['memberzone_my_fav_videos'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); ?>
+?by=<?php echo ((is_array($_tmp=$this->_tpl_vars['item2'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); ?>
+"><?php echo ((is_array($_tmp=$this->_tpl_vars['lang']['videos']['list_sorting_period'][$this->_tpl_vars['item2']])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); ?>
+</a>
+															</li>
+														<?php endif; ?>
+													<?php endforeach; endif; unset($_from); ?>
+												</ul>
+											</nav>
+										</div>
+									</div>
+								<?php elseif (((is_array($_tmp=$this->_tpl_vars['item'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)) == 'video_viewed' && count ( ((is_array($_tmp=$this->_tpl_vars['lang']['videos']['sortings_most_popular'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)) ) > 0): ?>
+									<div class="dropdown__block">
+										<button class="btn" data-action="drop" data-drop-id="views_sort_drop_<?php echo ((is_array($_tmp=$this->_tpl_vars['block_uid'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); ?>
+"><?php echo ((is_array($_tmp=$this->_tpl_vars['lang']['videos']['list_sorting'][$this->_tpl_vars['item']])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); ?>
+</button>
+										<div class="dropdown__block__menu" id="views_sort_drop_<?php echo ((is_array($_tmp=$this->_tpl_vars['block_uid'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); ?>
+">
+											<nav>
+												<ul class="drop-inner">
+													<?php $_from = ((is_array($_tmp=$this->_tpl_vars['lang']['videos']['sortings_most_popular'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
+    foreach ($_from as $this->_tpl_vars['item2']):
+?>
+														<?php if (((is_array($_tmp=$this->_tpl_vars['sort_by'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)) != ((is_array($_tmp=$this->_tpl_vars['item2'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp))): ?>
+															<li>
+																<a class="js-filters" href="<?php echo ((is_array($_tmp=$this->_tpl_vars['lang']['urls']['memberzone_my_fav_videos'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); ?>
+?by=<?php echo ((is_array($_tmp=$this->_tpl_vars['item2'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); ?>
+"><?php echo ((is_array($_tmp=$this->_tpl_vars['lang']['videos']['list_sorting_period'][$this->_tpl_vars['item2']])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); ?>
+</a>
+															</li>
+														<?php endif; ?>
+													<?php endforeach; endif; unset($_from); ?>
+												</ul>
+											</nav>
+										</div>
+									</div>
+								<?php else: ?>
+									<?php if (((is_array($_tmp=$this->_tpl_vars['item'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)) == 'your_rating' && ((is_array($_tmp=$_SESSION['user_id'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)) > 0): ?>
+										<a href="<?php echo ((is_array($_tmp=$this->_tpl_vars['lang']['urls']['memberzone_my_fav_videos'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); ?>
+?by=<?php echo ((is_array($_tmp=$this->_tpl_vars['item'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); ?>
+" class="btn js-filters"><?php echo ((is_array($_tmp=$this->_tpl_vars['lang']['videos']['list_sorting'][$this->_tpl_vars['item']])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); ?>
+</a>
+									<?php endif; ?>
+								<?php endif; ?>
+							<?php endif; ?>
+						<?php endforeach; endif; unset($_from); ?>
 						<?php $_from = ((is_array($_tmp=$this->_tpl_vars['lang']['videos']['predefined_favourites'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
     foreach ($_from as $this->_tpl_vars['item']):
 ?>
@@ -253,27 +331,37 @@ if ($this->_foreach['videos_list']['total'] > 0):
 								<div class="thumb-spot">
 									<?php $this->assign('video_rating', ($this->_tpl_vars['item']['rating']/5*100)); ?>
 									<?php if (((is_array($_tmp=$this->_tpl_vars['video_rating'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)) > 100): ?><?php $this->assign('video_rating', '100'); ?><?php endif; ?>
-									<div class="thumb-spot__rating rotated red"><span>
-										<?php if (((is_array($_tmp=$this->_tpl_vars['item']['rating'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)) == 'N/A' || ((is_array($_tmp=$this->_tpl_vars['item']['rating'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)) == '10'): ?>
-											<?php echo ((is_array($_tmp=$this->_tpl_vars['item']['rating'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); ?>
+									<div class="thumb-spot__rating__wrapper">
+										<div class="thumb-spot__rating rotated red">
+											<span>
+												<?php if (((is_array($_tmp=$this->_tpl_vars['item']['rating'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)) == 'N/A' || ((is_array($_tmp=$this->_tpl_vars['item']['rating'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)) == '10'): ?>
+													<?php echo ((is_array($_tmp=$this->_tpl_vars['item']['rating'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); ?>
 
-										<?php else: ?>
-											<?php echo ((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['item']['rating'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)))) ? $this->_run_mod_handler('string_format', true, $_tmp, "%.1f") : smarty_modifier_string_format($_tmp, "%.1f")); ?>
+												<?php else: ?>
+													<?php echo ((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['item']['rating'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)))) ? $this->_run_mod_handler('string_format', true, $_tmp, "%.1f") : smarty_modifier_string_format($_tmp, "%.1f")); ?>
 
-										<?php endif; ?>
-									</span></div>
-									<div class="thumb-spot__rating rotated">
-										<span>
-											<?php if (((is_array($_tmp=$this->_tpl_vars['item']['user_rating'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)) == 'N/A' || ((is_array($_tmp=$this->_tpl_vars['item']['user_rating'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)) == '10'): ?>
-												<?php echo ((is_array($_tmp=$this->_tpl_vars['item']['user_rating'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); ?>
-
-											<?php else: ?>
-												<?php echo ((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['item']['user_rating'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)))) ? $this->_run_mod_handler('string_format', true, $_tmp, "%.1f") : smarty_modifier_string_format($_tmp, "%.1f")); ?>
-
-											<?php endif; ?>
-										</span>
+												<?php endif; ?>
+											</span>
+											
+										</div>
+									
+										<image src="/static/images/user-group.png">
 									</div>
+									<div class="thumb-spot__rating__wrapper">
+										<div class="thumb-spot__rating rotated">
+											<span>
+												<?php if (((is_array($_tmp=$this->_tpl_vars['item']['user_rating'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)) == 'N/A' || ((is_array($_tmp=$this->_tpl_vars['item']['user_rating'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)) == '10'): ?>
+													<?php echo ((is_array($_tmp=$this->_tpl_vars['item']['user_rating'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); ?>
 
+												<?php else: ?>
+													<?php echo ((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['item']['user_rating'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)))) ? $this->_run_mod_handler('string_format', true, $_tmp, "%.1f") : smarty_modifier_string_format($_tmp, "%.1f")); ?>
+
+												<?php endif; ?>
+											</span>
+											
+										</div>
+										<image src="/static/images/single-user.png">
+									</div>
 									<div class="thumb-spot__text">
 										<h5 class="thumb-spot__title">
 											<?php if (((is_array($_tmp=$this->_tpl_vars['lang']['videos']['truncate_title_to'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)) > 0): ?>

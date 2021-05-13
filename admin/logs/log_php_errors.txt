@@ -385,3 +385,34 @@ Stack trace:
 #4 F:\xampp7_4\htdocs\videos_list.php(1): require_once('F:\\xampp7_4\\htd...')
 #5 {main}
   thrown in F:\xampp7_4\htdocs\admin\include\process_page.php on line 1438
+[13-May-2021 04:07:07 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function custom_list_videosGetHash() in F:\xampp7_4\htdocs\admin\include\process_page.php:1438
+Stack trace:
+#0 F:\xampp7_4\htdocs\admin\smarty\internals\core.run_insert_handler.php(51): insert_getBlock(Array, Object(mysmarty_site))
+#1 F:\xampp7_4\htdocs\admin\smarty\template-c-site\%%BC^BC5^BC5CCD64%%videos_list.tpl.php(6): smarty_core_run_insert_handler(Array, Object(mysmarty_site))
+#2 F:\xampp7_4\htdocs\admin\smarty\Smarty.class.php(1271): include('F:\\xampp7_4\\htd...')
+#3 F:\xampp7_4\htdocs\admin\include\process_page.php(1323): Smarty->fetch('videos_list.tpl')
+#4 F:\xampp7_4\htdocs\videos_list.php(1): require_once('F:\\xampp7_4\\htd...')
+#5 {main}
+  thrown in F:\xampp7_4\htdocs\admin\include\process_page.php on line 1438
+[13-May-2021 04:11:51 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function custom_list_videosGetHash() in F:\xampp7_4\htdocs\admin\include\process_page.php:1438
+Stack trace:
+#0 F:\xampp7_4\htdocs\admin\smarty\internals\core.run_insert_handler.php(51): insert_getBlock(Array, Object(mysmarty_site))
+#1 F:\xampp7_4\htdocs\admin\smarty\template-c-site\%%B3^B35^B35BB22D%%member_profile_view.tpl.php(12): smarty_core_run_insert_handler(Array, Object(mysmarty_site))
+#2 F:\xampp7_4\htdocs\admin\smarty\Smarty.class.php(1271): include('F:\\xampp7_4\\htd...')
+#3 F:\xampp7_4\htdocs\admin\include\process_page.php(1323): Smarty->fetch('member_profile_...')
+#4 F:\xampp7_4\htdocs\member_profile_view.php(1): require_once('F:\\xampp7_4\\htd...')
+#5 {main}
+  thrown in F:\xampp7_4\htdocs\admin\include\process_page.php on line 1438
+[13-May-2021 05:04:32 America/New_York] PHP Fatal error:  Smarty error: [in include_list_videos_block_common.tpl line 86]: syntax error: unidentified token '['user_id']' (Smarty_Compiler.class.php, line 1410) in F:\xampp7_4\htdocs\admin\smarty\Smarty.class.php on line 1101
+[13-May-2021 05:04:53 America/New_York] PHP Fatal error:  Smarty error: [in include_list_videos_block_common.tpl line 86]: syntax error: unidentified token '['user_id']' (Smarty_Compiler.class.php, line 1410) in F:\xampp7_4\htdocs\admin\smarty\Smarty.class.php on line 1101
+[13-May-2021 05:04:54 America/New_York] PHP Fatal error:  Smarty error: [in include_list_videos_block_common.tpl line 86]: syntax error: unidentified token '['user_id']' (Smarty_Compiler.class.php, line 1410) in F:\xampp7_4\htdocs\admin\smarty\Smarty.class.php on line 1101
+[13-May-2021 05:05:06 America/New_York] PHP Fatal error:  Smarty error: [in include_list_videos_block_common.tpl line 86]: syntax error: unidentified token '['user_id']' (Smarty_Compiler.class.php, line 1410) in F:\xampp7_4\htdocs\admin\smarty\Smarty.class.php on line 1101
+[13-May-2021 06:19:28 America/New_York] PHP Parse error:  syntax error, unexpected '}' in F:\xampp7_4\htdocs\blocks\custom_list_videos\custom_list_videos.php on line 888
+[13-May-2021 06:19:51 America/New_York] PHP Parse error:  syntax error, unexpected '}' in F:\xampp7_4\htdocs\blocks\custom_list_videos\custom_list_videos.php on line 888
+[13-May-2021 06:20:07 America/New_York] PHP Parse error:  syntax error, unexpected '}' in F:\xampp7_4\htdocs\blocks\custom_list_videos\custom_list_videos.php on line 890
+[13-May-2021 06:20:11 America/New_York] PHP Parse error:  syntax error, unexpected '}' in F:\xampp7_4\htdocs\blocks\custom_list_videos\custom_list_videos.php on line 890
+[13-May-2021 06:20:25 America/New_York] PHP Parse error:  syntax error, unexpected '}' in F:\xampp7_4\htdocs\blocks\custom_list_videos\custom_list_videos.php on line 890
+[13-May-2021 06:20:30 America/New_York] PHP Parse error:  syntax error, unexpected '}' in F:\xampp7_4\htdocs\blocks\custom_list_videos\custom_list_videos.php on line 890
+[13-May-2021 06:20:40 America/New_York] PHP Parse error:  syntax error, unexpected '}' in F:\xampp7_4\htdocs\blocks\custom_list_videos\custom_list_videos.php on line 890
+[13-May-2021 06:20:43 America/New_York] PHP Parse error:  syntax error, unexpected '}' in F:\xampp7_4\htdocs\blocks\custom_list_videos\custom_list_videos.php on line 890
+[13-May-2021 07:07:57 America/New_York] PHP Fatal error:  Smarty error: [in include_list_videos_block_common.tpl line 43]: syntax error: unrecognized tag: $list_countries.name[] (Smarty_Compiler.class.php, line 441) in F:\xampp7_4\htdocs\admin\smarty\Smarty.class.php on line 1101

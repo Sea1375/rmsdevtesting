@@ -1,7 +1,7 @@
-<?php /* Smarty version 2.6.31, created on 2021-05-12 20:57:41
+<?php /* Smarty version 2.6.31, created on 2021-05-13 07:47:01
          compiled from blocks/view_video/custom_video_view_video_view.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('modifier', 'escape_ss', 'blocks/view_video/custom_video_view_video_view.tpl', 2, false),array('modifier', 'replace', 'blocks/view_video/custom_video_view_video_view.tpl', 11, false),array('modifier', 'traffic_format', 'blocks/view_video/custom_video_view_video_view.tpl', 107, false),array('modifier', 'upper', 'blocks/view_video/custom_video_view_video_view.tpl', 128, false),array('modifier', 'number_format', 'blocks/view_video/custom_video_view_video_view.tpl', 139, false),array('modifier', 'date_format', 'blocks/view_video/custom_video_view_video_view.tpl', 143, false),array('modifier', 'country', 'blocks/view_video/custom_video_view_video_view.tpl', 148, false),array('modifier', 'string_format', 'blocks/view_video/custom_video_view_video_view.tpl', 292, false),array('modifier', 'default', 'blocks/view_video/custom_video_view_video_view.tpl', 448, false),array('modifier', 'geomsize', 'blocks/view_video/custom_video_view_video_view.tpl', 460, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('modifier', 'escape_ss', 'blocks/view_video/custom_video_view_video_view.tpl', 2, false),array('modifier', 'replace', 'blocks/view_video/custom_video_view_video_view.tpl', 11, false),array('modifier', 'traffic_format', 'blocks/view_video/custom_video_view_video_view.tpl', 107, false),array('modifier', 'upper', 'blocks/view_video/custom_video_view_video_view.tpl', 128, false),array('modifier', 'number_format', 'blocks/view_video/custom_video_view_video_view.tpl', 139, false),array('modifier', 'date_format', 'blocks/view_video/custom_video_view_video_view.tpl', 143, false),array('modifier', 'country', 'blocks/view_video/custom_video_view_video_view.tpl', 148, false),array('modifier', 'string_format', 'blocks/view_video/custom_video_view_video_view.tpl', 292, false),array('modifier', 'default', 'blocks/view_video/custom_video_view_video_view.tpl', 450, false),array('modifier', 'geomsize', 'blocks/view_video/custom_video_view_video_view.tpl', 462, false),)), $this); ?>
 <div class="container">
 	<h1 class="title"><?php echo ((is_array($_tmp=$this->_tpl_vars['data']['title'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); ?>
 </h1>
@@ -330,11 +330,13 @@ unset($_smarty_tpl_vars);
 
 				<?php endif; ?>
 			</div>
+			<image src="/static/images/single-user.png">
           </div>
           <div class="item">
             <span class="text">Overall</span>
             <div class="o_rate"><?php echo ((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['data']['rating'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)))) ? $this->_run_mod_handler('string_format', true, $_tmp, "%.1f") : smarty_modifier_string_format($_tmp, "%.1f")); ?>
 </div>
+			<image src="/static/images/user-group.png">
           </div>
         </div>
         <div class="col">
