@@ -437,7 +437,7 @@ section {
 
 @media (min-width: 850px) {
     .info-bar.columns .column:first-child {
-        min-width: 750px;
+        min-width: 850px;
     }
 }
 
