@@ -1,7 +1,7 @@
-<?php /* Smarty version 2.6.31, created on 2021-05-13 07:46:15
+<?php /* Smarty version 2.6.31, created on 2021-05-15 16:48:00
          compiled from include_list_videos_block_common.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('modifier', 'escape_ss', 'include_list_videos_block_common.tpl', 3, false),array('modifier', 'default', 'include_list_videos_block_common.tpl', 5, false),array('modifier', 'mb_ucfirst', 'include_list_videos_block_common.tpl', 5, false),array('modifier', 'replace', 'include_list_videos_block_common.tpl', 5, false),array('modifier', 'rawurlencode', 'include_list_videos_block_common.tpl', 15, false),array('modifier', 'upper', 'include_list_videos_block_common.tpl', 29, false),array('modifier', 'string_format', 'include_list_videos_block_common.tpl', 225, false),array('modifier', 'truncate', 'include_list_videos_block_common.tpl', 249, false),array('modifier', 'date_format', 'include_list_videos_block_common.tpl', 264, false),array('modifier', 'number_format', 'include_list_videos_block_common.tpl', 265, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('modifier', 'escape_ss', 'include_list_videos_block_common.tpl', 3, false),array('modifier', 'default', 'include_list_videos_block_common.tpl', 5, false),array('modifier', 'mb_ucfirst', 'include_list_videos_block_common.tpl', 5, false),array('modifier', 'replace', 'include_list_videos_block_common.tpl', 5, false),array('modifier', 'rawurlencode', 'include_list_videos_block_common.tpl', 15, false),array('modifier', 'upper', 'include_list_videos_block_common.tpl', 29, false),array('modifier', 'string_format', 'include_list_videos_block_common.tpl', 227, false),array('modifier', 'truncate', 'include_list_videos_block_common.tpl', 251, false),array('modifier', 'date_format', 'include_list_videos_block_common.tpl', 266, false),array('modifier', 'number_format', 'include_list_videos_block_common.tpl', 267, false),)), $this); ?>
 <div class="thumbs">
 	<div class="container">
 		<?php if (((is_array($_tmp=$this->_tpl_vars['list_videos_hide_headline'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)) != 'true'): ?>
@@ -334,9 +334,11 @@ if ($this->_foreach['videos_list']['total'] > 0):
 									<div class="thumb-spot__rating__wrapper">
 										<div class="thumb-spot__rating rotated red">
 											<span>
-												<?php if (((is_array($_tmp=$this->_tpl_vars['item']['rating'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)) == 'N/A' || ((is_array($_tmp=$this->_tpl_vars['item']['rating'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)) == '10'): ?>
+												<?php if (((is_array($_tmp=$this->_tpl_vars['item']['rating'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)) == 'N/A'): ?>
 													<?php echo ((is_array($_tmp=$this->_tpl_vars['item']['rating'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); ?>
 
+												<?php elseif (((is_array($_tmp=$this->_tpl_vars['item']['rating'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)) == '10'): ?>
+													10
 												<?php else: ?>
 													<?php echo ((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['item']['rating'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)))) ? $this->_run_mod_handler('string_format', true, $_tmp, "%.1f") : smarty_modifier_string_format($_tmp, "%.1f")); ?>
 

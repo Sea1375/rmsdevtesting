@@ -416,3 +416,8 @@ Stack trace:
 [13-May-2021 06:20:40 America/New_York] PHP Parse error:  syntax error, unexpected '}' in F:\xampp7_4\htdocs\blocks\custom_list_videos\custom_list_videos.php on line 890
 [13-May-2021 06:20:43 America/New_York] PHP Parse error:  syntax error, unexpected '}' in F:\xampp7_4\htdocs\blocks\custom_list_videos\custom_list_videos.php on line 890
 [13-May-2021 07:07:57 America/New_York] PHP Fatal error:  Smarty error: [in include_list_videos_block_common.tpl line 43]: syntax error: unrecognized tag: $list_countries.name[] (Smarty_Compiler.class.php, line 441) in F:\xampp7_4\htdocs\admin\smarty\Smarty.class.php on line 1101
+[15-May-2021 11:22:35 America/New_York] PHP Parse error:  syntax error, unexpected ')' in F:\xampp7_4\htdocs\blocks\custom_video_view\custom_video_view.php on line 878
+[15-May-2021 11:22:50 America/New_York] PHP Parse error:  syntax error, unexpected ')' in F:\xampp7_4\htdocs\blocks\custom_video_view\custom_video_view.php on line 878
+[15-May-2021 11:22:51 America/New_York] PHP Parse error:  syntax error, unexpected ')' in F:\xampp7_4\htdocs\blocks\custom_video_view\custom_video_view.php on line 878
+[15-May-2021 11:23:15 America/New_York] PHP Parse error:  syntax error, unexpected ')' in F:\xampp7_4\htdocs\blocks\custom_video_view\custom_video_view.php on line 878
+[15-May-2021 16:47:52 America/New_York] PHP Fatal error:  Smarty error: [in include_list_videos_block_common.tpl line 224]: syntax error: unrecognized tag: {elseif $item.rating == '10' (Smarty_Compiler.class.php, line 441) in F:\xampp7_4\htdocs\admin\smarty\Smarty.class.php on line 1101

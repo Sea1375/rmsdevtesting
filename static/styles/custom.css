@@ -728,10 +728,19 @@ section {
 }
 
 .range-wrapper-inner .btn__vote {
+    width: 195px;
     margin-right: 0;
     line-height: 60px;
     margin: 0;
     margin-left: -0px;
+    background: none;
+    border: none;
+    background-image: url(../images/rate-button-default-desktop.png);
+    background-size: cover;
+}
+
+.range-wrapper-inner .btn__vote:hover {
+    background-image: url(../images/rate-button-hover-desktop.png);
 }
 
 @media (max-width: 850px) {
@@ -745,11 +754,14 @@ section {
         width: 70%;
         margin-left: auto!important;
         display: block;
-        height: 50px;
-        line-height: 50px;
+        height: 40px;
         line-height: 30px!important;
-        margin-bottom: 10px;
         margin-right: auto!important;
+        background-image: url(../images/rate-button-mobile.png);
+        background-repeat: round;
+    }
+    .range-wrapper-inner .btn__vote:hover {
+        background-image: url(../images/rate-button-mobile.png);
     }
 }
 

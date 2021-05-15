@@ -98,6 +98,9 @@
 					{{if $data.user.dvds_count > 0}}
 						<li>
 							<a href="{{$lang.urls.videos|replace:"%DIR%":$data.user.dvds.dir}}" class="media-data__list-value username">{{$data.username}}</a>
+							{{if $data.user.country_code}}
+								<span class="country"><img src="/static/images/flags/{{$data.user.country_code|upper}}.png"/></span>
+							{{/if}}
 						</li>
 						<li>
 							{{if $lang.enable_subscriptions=='true' && $lang.enable_memberzone=='true'}}
@@ -232,11 +235,11 @@
 					{{/if}}
 					{{if $is_limit_over==1 || $data.can_watch==0}}
 						<a href="#like" class="btn__vote btn__like disabled btn btn--color btn-rate" title="{{$lang.videos.video_details_rate_not_allowed}}">
-							Rate
+							
 						</a>
 					{{else}}
 						<a class="btn__vote btn__like btn btn--color btn-rate" title="{{$lang.videos.video_details_rate_like}}" {{if $can_rate==1}}href="#like" data-video-id="{{$data.video_id}}" data-vote="5"{{else}}href="{{if $smarty.session.status_id>1}}{{$lang.urls.upgrade_required}}{{else}}{{$lang.urls.login_required}}{{/if}}" data-action="popup"{{/if}}>
-							Rate
+							
 						</a>
 					{{/if}}
 					</div>
@@ -296,7 +299,16 @@
           </div>
           <div class="item">
             <span class="text">Overall</span>
-            <div class="o_rate">{{$data.rating|string_format:"%.1f"}}</div>
+            <div class="o_rate">
+			{{* {{$data.rating|string_format:"%.1f"}} *}}
+			{{if $data.rating =='N/A'}}
+				{{$data.rating}}
+			{{elseif $data.rating == '10'}}
+				10
+			{{else}}
+				{{$data.rating|string_format:"%.1f"}}
+			{{/if}}
+			</div>
 			<image src="/static/images/user-group.png">
           </div>
         </div>

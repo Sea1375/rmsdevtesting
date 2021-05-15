@@ -123,8 +123,10 @@
 									<div class="thumb-spot__rating__wrapper">
 										<div class="thumb-spot__rating rotated red">
 											<span>
-												{{if $item.rating =='N/A' || $item.rating == '10'}}
+												{{if $item.rating =='N/A'}}
 													{{$item.rating}}
+												{{elseif $item.rating == '10'}}
+														10
 												{{else}}
 													{{$item.rating|string_format:"%.1f"}}
 												{{/if}}
