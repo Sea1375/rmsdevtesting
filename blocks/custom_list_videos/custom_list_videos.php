@@ -892,7 +892,7 @@ function custom_list_videosShow($block_config,$object_id)
 		$videos_selector=str_replace("user_id","$config[tables_prefix]videos.user_id",str_replace("added_date","$config[tables_prefix]videos.added_date",$database_selectors['videos']));
 		if ($sort_by) {
 			$sql = "SELECT $videos_selector, $config[tables_prefix]fav_videos.added_date as added2fav_date from $config[tables_prefix]videos inner join $config[tables_prefix]fav_videos on $config[tables_prefix]videos.video_id=$config[tables_prefix]fav_videos.video_id where $database_selectors[where_videos] and $config[tables_prefix]fav_videos.user_id=$user_id and $config[tables_prefix]fav_videos.fav_type=$fav_type and $config[tables_prefix]fav_videos.playlist_id=$playlist_id $where order by ".$sort_by." LIMIT $from, $block_config[items_per_page]";
-			//var_dump($sql); die;
+			// var_dump($sql); die;
 			$data=mr2array(sql("SELECT $videos_selector, $config[tables_prefix]fav_videos.added_date as added2fav_date from $config[tables_prefix]videos inner join $config[tables_prefix]fav_videos on $config[tables_prefix]videos.video_id=$config[tables_prefix]fav_videos.video_id where $database_selectors[where_videos] and $config[tables_prefix]fav_videos.user_id=$user_id and $config[tables_prefix]fav_videos.fav_type=$fav_type and $config[tables_prefix]fav_videos.playlist_id=$playlist_id $where order by ".$sort_by." LIMIT $from, $block_config[items_per_page]"));
 		} else {
 			$data=mr2array(sql("SELECT $videos_selector, $config[tables_prefix]fav_videos.added_date as added2fav_date from $config[tables_prefix]videos inner join $config[tables_prefix]fav_videos on $config[tables_prefix]videos.video_id=$config[tables_prefix]fav_videos.video_id where $database_selectors[where_videos] and $config[tables_prefix]fav_videos.user_id=$user_id and $config[tables_prefix]fav_videos.fav_type=$fav_type and $config[tables_prefix]fav_videos.playlist_id=$playlist_id $where order by $config[tables_prefix]fav_videos.playlist_sort_id asc, $config[tables_prefix]fav_videos.added_date desc LIMIT $from, $block_config[items_per_page]"));
@@ -918,7 +918,7 @@ function custom_list_videosShow($block_config,$object_id)
 			$screen_url_base=load_balance_screenshots_url();
 			$data[$k]['screen_url']=$screen_url_base.'/'.get_dir_by_id($data[$k]['video_id']).'/'.$data[$k]['video_id'];
 
-			$result_rating=sql_pr("select rating from $config[tables_prefix]user_rating_history where user_id=$_SESSION[user_id] and type=1 and object_id=?",$data[$k]['video_id']);
+			$result_rating=sql_pr("select rating from $config[tables_prefix]user_rating_history where user_id=$_SESSION[user_id] and type=1 and object_id=? order by added_date desc limit 1",$data[$k]['video_id']);
 			if (mr2rows($result_rating)==0) {
 				$data[$k]['user_rating']="N/A";
 			} else {

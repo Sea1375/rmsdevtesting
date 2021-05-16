@@ -126,7 +126,7 @@
 						</li>
 					{{else}}
 						<li>
-							<span class="media-data__list-value username">{{$data.username}}</span>
+						<a href="{{$lang.urls.videos}}" class="media-data__list-value username">{{$data.username}}</a>
 							{{if $data.user.country_code}}
 								<span class="country"><img src="/static/images/flags/{{$data.user.country_code|upper}}.png"/></span>
 							{{/if}}

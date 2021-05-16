@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.31, created on 2021-05-15 16:59:49
+<?php /* Smarty version 2.6.31, created on 2021-05-16 02:42:03
          compiled from blocks/view_video/custom_video_view_video_view.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'escape_ss', 'blocks/view_video/custom_video_view_video_view.tpl', 2, false),array('modifier', 'replace', 'blocks/view_video/custom_video_view_video_view.tpl', 11, false),array('modifier', 'upper', 'blocks/view_video/custom_video_view_video_view.tpl', 102, false),array('modifier', 'traffic_format', 'blocks/view_video/custom_video_view_video_view.tpl', 110, false),array('modifier', 'number_format', 'blocks/view_video/custom_video_view_video_view.tpl', 142, false),array('modifier', 'date_format', 'blocks/view_video/custom_video_view_video_view.tpl', 146, false),array('modifier', 'country', 'blocks/view_video/custom_video_view_video_view.tpl', 151, false),array('modifier', 'string_format', 'blocks/view_video/custom_video_view_video_view.tpl', 295, false),array('modifier', 'default', 'blocks/view_video/custom_video_view_video_view.tpl', 462, false),array('modifier', 'geomsize', 'blocks/view_video/custom_video_view_video_view.tpl', 474, false),)), $this); ?>
@@ -182,8 +182,9 @@ unset($_smarty_tpl_vars);
 						</li>
 					<?php else: ?>
 						<li>
-							<span class="media-data__list-value username"><?php echo ((is_array($_tmp=$this->_tpl_vars['data']['username'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); ?>
-</span>
+						<a href="<?php echo ((is_array($_tmp=$this->_tpl_vars['lang']['urls']['videos'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); ?>
+" class="media-data__list-value username"><?php echo ((is_array($_tmp=$this->_tpl_vars['data']['username'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); ?>
+</a>
 							<?php if (((is_array($_tmp=$this->_tpl_vars['data']['user']['country_code'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp))): ?>
 								<span class="country"><img src="/static/images/flags/<?php echo ((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['data']['user']['country_code'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)))) ? $this->_run_mod_handler('upper', true, $_tmp) : smarty_modifier_upper($_tmp)); ?>
 .png"/></span>

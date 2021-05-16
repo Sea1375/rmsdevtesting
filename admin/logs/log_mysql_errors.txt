@@ -17188,3 +17188,6 @@
 [2021-05-15 11:19:59] [1054] F:\xampp7_4\htdocs\view_video.php LINE 1 :: Unknown column 'rating' in 'field list'
  select rating from ktvs_rating_history where video_id=27 and ip=0 order by added_date desc limit 1
 
+[2021-05-16 02:30:05] [126] F:\xampp7_4\htdocs\view_video.php LINE 1 :: Index for table '.\m3wvnpzzgrn\ktvs_videos.MYI' is corrupt; try to repair it
+ update ktvs_videos set rating_amount=(case when rating=0 then 1 else rating_amount+1 end), rating=rating+9-0 where video_id=25
+
