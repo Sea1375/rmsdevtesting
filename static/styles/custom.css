@@ -717,7 +717,7 @@ section {
 }
 
 .range-inner .tooltip {
-    top: 0%;
+    top: 20%;
 }
 
 .range-wrapper-inner {
@@ -762,6 +762,25 @@ section {
     }
     .range-wrapper-inner .btn__vote:hover {
         background-image: url(../images/rate-button-mobile.png);
+    }
+    .range-inner {
+        padding-left: 10px;
+    }
+    .rating-item {
+        margin: 4px 0px 4px 0px;
+        width: 23px;
+    }
+    .rating-item .rating-text {
+        font-size: 13px;
+        font-weight: bold;
+    }
+    .rating-item .circle {
+        width: 20px;
+        height: 20px;
+        padding: 4px;
+    }
+    .rating-item .circle .circle-inner {
+        vertical-align: super;
     }
 }
 

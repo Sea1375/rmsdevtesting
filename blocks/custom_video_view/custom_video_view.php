@@ -876,7 +876,7 @@ function custom_video_viewAsync($block_config)
 			if ($rating<0){$rating=0;}
 
 			$previous_rating = mr2number(sql_pr("select rating from $config[tables_prefix]user_rating_history where object_id=? and user_id=? order by added_date desc limit 1",$video_id,$_SESSION['user_id']));
-			// var_dump($previous_rating); die;
+			//var_dump($previous_rating); die;
 			if ($previous_rating > 0)     /// already rated
 			{
 				//async_return_request_status(array(array('error_code'=>'ip_already_voted','error_field_code'=>'error_1','block'=>'video_view')));
@@ -884,6 +884,11 @@ function custom_video_viewAsync($block_config)
 				sql_pr("insert into $config[tables_prefix]rating_history set video_id=?, ip=?, added_date=?",$video_id,ip2int($_SERVER['REMOTE_ADDR']),date("Y-m-d H:i:s"));
 				sql_pr("insert into $config[tables_prefix]user_rating_history set object_id=?, rating=$rating, user_id=?, type=1, added_date=?",$video_id,intval($_SESSION['user_id']),date("Y-m-d H:i:s"));
 				sql("update $config[tables_prefix]videos set rating=rating+$rating-$previous_rating where video_id=$video_id");
+
+				$result_data=mr2array_single(sql_pr("select rating/rating_amount as rating, rating_amount from $config[tables_prefix]videos where video_id=$video_id"));
+				$result_data['rating']=floatval($result_data['rating']);
+				$result_data['rating_amount']=intval($result_data['rating_amount']);
+				async_return_request_status(null,null,$result_data);
 			} else {
 				$now_date=date("Y-m-d");
 				sql_pr("insert into $config[tables_prefix]rating_history set video_id=?, ip=?, added_date=?",$video_id,ip2int($_SERVER['REMOTE_ADDR']),date("Y-m-d H:i:s"));
