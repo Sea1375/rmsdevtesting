@@ -2065,6 +2065,8 @@ function custom_list_videosShow($block_config,$object_id)
 		}
 	}
 
+
+
 	if (isset($block_config['var_search']) && $_REQUEST[$block_config['var_search']]<>'')
 	{
 		$q=trim(process_blocked_words(trim($_REQUEST[$block_config['var_search']]),false));
@@ -2440,6 +2442,8 @@ function custom_list_videosShow($block_config,$object_id)
 		}
 	}
 
+
+
 	$external_search_result=array();
 	$external_search_result_count=0;
 	$external_search_index_from=0;
@@ -2546,11 +2550,16 @@ function custom_list_videosShow($block_config,$object_id)
 		}
 	}
 
+
 	if ($_REQUEST['countryId'])
 	{
 		$user_country=mr2array_list(sql("select user_id from $config[tables_prefix]users where country_id=$_REQUEST[countryId]"));
 		$user_country_ids_str=implode(",",$user_country);
 		$smarty->assign("countryId",$_REQUEST['countryId']);
+	}
+
+	if ($_REQUEST['userId']) {
+		$where_user = ' and user_id='.$_REQUEST['userId'];
 	}
 
 	$data_country=mr2array_list(sql("select country_id from $config[tables_prefix]users where user_id in (select DISTINCT user_id from $config[tables_prefix]videos)"));
@@ -2584,6 +2593,7 @@ function custom_list_videosShow($block_config,$object_id)
 	$smarty->assign("sort_by",$sort_by_clear);
 
 	$rotator_params=@unserialize(@file_get_contents("$config[project_path]/admin/data/system/rotator.dat"));
+
 
 	
 	if ($internal_query_enabled==1)
@@ -2656,6 +2666,7 @@ function custom_list_videosShow($block_config,$object_id)
 			if ($sort_by_clear=='most_commented') {$sort_by="comments_count $direction";} else
 			if ($sort_by_clear=='most_purchased') {$sort_by="purchases_count $direction";}
 		}
+		
 
 		$from_clause="$config[tables_prefix]videos";
 		for ($i=1;$i<=count($join_tables);$i++)
@@ -2664,6 +2675,8 @@ function custom_list_videosShow($block_config,$object_id)
 			$from_clause.=" inner join ($join_table) table$i on table$i.video_id=$config[tables_prefix]videos.video_id";
 		}
 		$where_clause="$database_selectors[where_videos]";
+
+
 		if (isset($block_config['mode_futures']))
 		{
 			$where_clause="$database_selectors[where_videos_future]";
@@ -2710,8 +2723,13 @@ function custom_list_videosShow($block_config,$object_id)
 			$smarty->assign("sort_by",'relevance');
 		}
 
+
+
+
+
 		if (isset($block_config['var_from']))
 		{
+
 			$total_count=mr2number(sql("select count(*) from $from_clause where $where_clause $where"));
 			if ($sort_by_clear=='pseudo_rand')
 			{
@@ -2731,7 +2749,7 @@ function custom_list_videosShow($block_config,$object_id)
 			}
 			if ($config['is_pagination_3.0']=="true") {if (($from>0 && ($from>=$total_count || $total_count==0)) || $from<0) {return 'status_404';}} else {if ($from>$total_count || $from<0) {$from=0;}}
 
-			$data=mr2array(sql("SELECT $database_selectors[videos] from $from_clause where $where_clause $where $sort_by LIMIT $from, $block_config[items_per_page]"));
+			$data=mr2array(sql("SELECT $database_selectors[videos] from $from_clause where $where_clause $where $where_user $sort_by LIMIT $from, $block_config[items_per_page]"));
 
 			if ($external_search_enabled>0 && $external_search_result_count>0)
 			{

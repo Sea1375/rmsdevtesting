@@ -97,7 +97,8 @@
 				<ul class="media-data__list">
 					{{if $data.user.dvds_count > 0}}
 						<li>
-							<a href="{{$lang.urls.videos|replace:"%DIR%":$data.user.dvds.dir}}" class="media-data__list-value username">{{$data.username}}</a>
+							{{* <a href="{{$lang.urls.videos|replace:"%DIR%":$data.user.dvds.dir}}" class="media-data__list-value username">{{$data.username}}</a> *}}
+							<a href="{{$lang.urls.videos}}?userId={{$data.user.user_id}}" class="media-data__list-value username">{{$data.username}}</a>
 							{{if $data.user.country_code}}
 								<span class="country"><img src="/static/images/flags/{{$data.user.country_code|upper}}.png"/></span>
 							{{/if}}
@@ -126,7 +127,7 @@
 						</li>
 					{{else}}
 						<li>
-						<a href="{{$lang.urls.videos}}" class="media-data__list-value username">{{$data.username}}</a>
+						<a href="{{$lang.urls.videos}}?userId={{$data.user.user_id}}" class="media-data__list-value username">{{$data.username}}</a>
 							{{if $data.user.country_code}}
 								<span class="country"><img src="/static/images/flags/{{$data.user.country_code|upper}}.png"/></span>
 							{{/if}}
