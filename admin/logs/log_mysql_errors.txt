@@ -17623,3 +17623,66 @@
 [2021-05-17 11:17:32] [126] F:\xampp7_4\htdocs\index.php LINE 1 :: Index for table '.\m3wvnpzzgrn\ktvs_users.MYI' is corrupt; try to repair it
  update ktvs_users set tokens_available=tokens_available+0, logins_count=logins_count+1, last_login_date='2021-05-17 11:17:32', last_online_date='2021-05-17 11:17:32', avg_sess_duration=0, avg_sess_duration_count=0  where user_id='55'
 
+[2021-05-18 12:08:51] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-18 12:08:51] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-18 12:08:51] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-18 12:08:51] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-18 12:08:51] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-18 12:08:51] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-18 12:10:48] [126] F:\xampp7_4\htdocs\index.php LINE 1 :: Index for table '.\m3wvnpzzgrn\ktvs_users.MYI' is corrupt; try to repair it
+ update ktvs_users set tokens_available=tokens_available+0, logins_count=logins_count+1, last_login_date='2021-05-18 12:10:48', last_online_date='2021-05-18 12:10:48', avg_sess_duration=0, avg_sess_duration_count=0  where user_id='55'
+
+[2021-05-18 12:13:28] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-18 12:13:28] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-18 12:13:28] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-18 12:13:28] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-18 12:13:28] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-18 12:13:28] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-18 13:04:31] [126] F:\xampp7_4\htdocs\index.php LINE 1 :: Index for table '.\m3wvnpzzgrn\ktvs_users.MYI' is corrupt; try to repair it
+ update ktvs_users set tokens_available=tokens_available+0, logins_count=logins_count+1, last_login_date='2021-05-18 13:04:31', last_online_date='2021-05-18 13:04:31', avg_sess_duration=0, avg_sess_duration_count=0  where user_id='55'
+
+[2021-05-18 13:09:18] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-18 13:09:18] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-18 13:09:18] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-18 13:09:18] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='25' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-18 13:09:18] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='26' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-18 13:09:18] [1064] F:\xampp7_4\htdocs\index.php LINE 1 :: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1' at line 1
+ select rating from ktvs_user_rating_history where user_id= and type=1 and object_id='27' ORDER BY added_date DESC LIMIT 1
+
+[2021-05-18 13:09:36] [126] F:\xampp7_4\htdocs\index.php LINE 1 :: Index for table '.\m3wvnpzzgrn\ktvs_users.MYI' is corrupt; try to repair it
+ update ktvs_users set tokens_available=tokens_available+0, logins_count=logins_count+1, last_login_date='2021-05-18 13:09:36', last_online_date='2021-05-18 13:09:36', avg_sess_duration=0, avg_sess_duration_count=0  where user_id='55'
+

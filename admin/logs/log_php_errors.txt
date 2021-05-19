@@ -421,3 +421,26 @@ Stack trace:
 [15-May-2021 11:22:51 America/New_York] PHP Parse error:  syntax error, unexpected ')' in F:\xampp7_4\htdocs\blocks\custom_video_view\custom_video_view.php on line 878
 [15-May-2021 11:23:15 America/New_York] PHP Parse error:  syntax error, unexpected ')' in F:\xampp7_4\htdocs\blocks\custom_video_view\custom_video_view.php on line 878
 [15-May-2021 16:47:52 America/New_York] PHP Fatal error:  Smarty error: [in include_list_videos_block_common.tpl line 224]: syntax error: unrecognized tag: {elseif $item.rating == '10' (Smarty_Compiler.class.php, line 441) in F:\xampp7_4\htdocs\admin\smarty\Smarty.class.php on line 1101
+[18-May-2021 13:07:57 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function custom_list_videosGetHash() in F:\xampp7_4\htdocs\admin\include\process_page.php:1438
+Stack trace:
+#0 F:\xampp7_4\htdocs\admin\smarty\internals\core.run_insert_handler.php(51): insert_getBlock(Array, Object(mysmarty_site))
+#1 F:\xampp7_4\htdocs\admin\smarty\template-c-site\%%57^573^5735FC20%%content_list.tpl.php(6): smarty_core_run_insert_handler(Array, Object(mysmarty_site))
+#2 F:\xampp7_4\htdocs\admin\smarty\Smarty.class.php(1271): include('F:\\xampp7_4\\htd...')
+#3 F:\xampp7_4\htdocs\admin\include\process_page.php(1323): Smarty->fetch('content_list.tp...')
+#4 F:\xampp7_4\htdocs\content_list.php(1): require_once('F:\\xampp7_4\\htd...')
+#5 {main}
+  thrown in F:\xampp7_4\htdocs\admin\include\process_page.php on line 1438
+[18-May-2021 13:44:37 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function dvd_editGetHash() in F:\xampp7_4\htdocs\admin\include\process_page.php:1438
+Stack trace:
+#0 F:\xampp7_4\htdocs\admin\include\process_page.php(1383): insert_getBlock(Array)
+#1 F:\xampp7_4\htdocs\admin\include\process_page.php(314): insert_getGlobal(Array)
+#2 F:\xampp7_4\htdocs\index.php(1): require_once('F:\\xampp7_4\\htd...')
+#3 {main}
+  thrown in F:\xampp7_4\htdocs\admin\include\process_page.php on line 1438
+[18-May-2021 13:44:52 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function dvd_editGetHash() in F:\xampp7_4\htdocs\admin\include\process_page.php:1438
+Stack trace:
+#0 F:\xampp7_4\htdocs\admin\include\process_page.php(1383): insert_getBlock(Array)
+#1 F:\xampp7_4\htdocs\admin\include\process_page.php(314): insert_getGlobal(Array)
+#2 F:\xampp7_4\htdocs\index.php(1): require_once('F:\\xampp7_4\\htd...')
+#3 {main}
+  thrown in F:\xampp7_4\htdocs\admin\include\process_page.php on line 1438

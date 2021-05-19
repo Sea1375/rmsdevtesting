@@ -350,6 +350,19 @@ function video_editShow($block_config,$object_id)
 					$dvd_id=intval($_POST['dvd_id']);
 				}
 
+				if ($dvd_id == 0) {
+					//// create new channel for user
+					$dvds = mr2array_single(sql_pr("select dvd_id from $config[tables_prefix]dvds where user_id=? limit 1", $user_id));
+					if ($dvds && $dvds['dvd_id']) {
+						$dvd_id = $dvds['dvd_id'];
+					} else {
+						$dvd_id=sql_insert("insert into $config[tables_prefix]dvds set user_id=?, is_video_upload_allowed=?, is_review_needed=1, status_id=1, title=?, dir=?, description=?, tokens_required=0, rating=0, rating_amount=1, added_date=?",
+						$user_id,1,"new channel","new-channel","",date("Y-m-d H:i:s"));
+					}
+					
+				}
+
+
 				$item_id=sql_insert("insert into $config[tables_prefix]videos set is_review_needed=$is_review_needed, user_id=?, content_source_id=?, dvd_id=?, is_private=?, title=?, dir=?, description=?, status_id=3, load_type_id=1, duration=?, rating=?, rating_amount=1, ip=?, screen_main=1, added_date=?, post_date=added_date, last_time_view_date=added_date",
 						$user_id,intval($_POST['content_source_id']),$dvd_id,intval($_POST['is_private']),trim($_POST['title']),trim($_POST['dir']),trim($_POST['description']),$duration,$rating,ip2int($_SERVER['REMOTE_ADDR']),$now_date);
 
@@ -1385,6 +1398,7 @@ function video_editAsync($block_config)
 				$duration = get_video_duration("$config[temporary_path]/$_REQUEST[filename].tmp");
 				if ($duration < 1)
 				{
+
 					$errors_async[] = array('error_field_name' => $upload_field_name, 'error_code' => 'invalid_format', 'error_details' => array(str_replace(',', ', ', $config['video_allowed_ext'])), 'block' => 'video_edit');
 				} else
 				{
