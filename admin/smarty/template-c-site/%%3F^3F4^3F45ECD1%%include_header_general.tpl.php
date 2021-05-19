@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.31, created on 2021-05-07 07:03:29
+<?php /* Smarty version 2.6.31, created on 2021-05-19 06:58:42
          compiled from include_header_general.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'escape_ss', 'include_header_general.tpl', 2, false),array('modifier', 'default', 'include_header_general.tpl', 2, false),array('modifier', 'mb_ucfirst', 'include_header_general.tpl', 5, false),array('modifier', 'trim', 'include_header_general.tpl', 7, false),array('modifier', 'replace', 'include_header_general.tpl', 7, false),array('modifier', 'truncate', 'include_header_general.tpl', 129, false),)), $this); ?>
@@ -314,12 +314,7 @@ smarty_core_load_plugins(array('plugins' => array(array('modifier', 'escape_ss',
 ">My Channel</a> 
 										</li>
 									<?php else: ?>
-										<li class="main-menu__drop__item">
-											<a href="<?php echo ((is_array($_tmp=$this->_tpl_vars['lang']['urls']['memberzone_create_channel'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); ?>
-" data-action="popup"><?php echo ((is_array($_tmp=$this->_tpl_vars['lang']['channels']['list_action_create_channel'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); ?>
-</a> 
-										</li>
-									<?php endif; ?>
+																			<?php endif; ?>
 
 									<li class="main-menu__drop__item"><a href="<?php echo ((is_array($_tmp=$this->_tpl_vars['lang']['urls']['logout'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); ?>
 "><?php echo ((is_array($_tmp=$this->_tpl_vars['lang']['header']['primary_menu_logout'])) ? $this->_run_mod_handler('escape_ss', true, $_tmp) : smarty_modifier_escape_ss($_tmp)); ?>

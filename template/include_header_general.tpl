@@ -214,9 +214,9 @@
 											<a href="{{$lang.urls.videos_by_channel|replace:"%DIR%":$config.dvds.dir}}">My Channel</a> 
 										</li>
 									{{else}}
-										<li class="main-menu__drop__item">
+										{{* <li class="main-menu__drop__item">
 											<a href="{{$lang.urls.memberzone_create_channel}}" data-action="popup">{{$lang.channels.list_action_create_channel}}</a> 
-										</li>
+										</li> *}}
 									{{/if}}
 
 									<li class="main-menu__drop__item"><a href="{{$lang.urls.logout}}">{{$lang.header.primary_menu_logout}}</a></li>
