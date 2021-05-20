@@ -357,7 +357,7 @@ function video_editShow($block_config,$object_id)
 						$dvd_id = $dvds['dvd_id'];
 					} else {
 						$dvd_id=sql_insert("insert into $config[tables_prefix]dvds set user_id=?, is_video_upload_allowed=?, is_review_needed=1, status_id=1, title=?, dir=?, description=?, tokens_required=0, rating=0, rating_amount=1, added_date=?",
-						$user_id,1,"new channel","new-channel","",date("Y-m-d H:i:s"));
+						$user_id,1,"new channel","new-channel-".$user_id,"",date("Y-m-d H:i:s"));
 					}
 					
 				}
