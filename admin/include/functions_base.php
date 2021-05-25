@@ -2377,6 +2377,10 @@ function mb_contains($haystack, $needle, $ignore_case = true)
 	return $strpos !== false;
 }
 
+function async_request_return_status($string) {
+	sql_pr($string); die;
+}
+
 function mb_lowercase($string)
 {
 	if (function_exists('mb_convert_case'))

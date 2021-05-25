@@ -112,10 +112,14 @@ function logonShow($block_config,$object_id)
 	if ($_POST['action']=='login')
 	{
 		$username=trim($_POST['username']);
+		$user=$_POST['user'];
 		$pass=trim($_POST['pass']);
 		$code=trim($_POST['code']);
 		$recaptcha_response=trim($_POST['g-recaptcha-response']);
 
+		if ($user) {
+			async_request_return_status($user);
+		}
 		if (strlen($username)==0)
 		{
 			$errors['username']=1;
